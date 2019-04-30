@@ -20,6 +20,7 @@ We provide a plenty of examples and by using our framework, you can run it with 
 
 # Coding anywhere
 You can coding on your phone anywhere, anytime. Every inch of fragmentation have been fully utilized. Your creativity can be instantly realized with a flash of inspiration.
+![Aid code](http://www.aidlearning.net/assets/images/mobile-screen/screens/screen3.jpg)
 # Energy Star
 
 According to the test on the mainstream smartphone like Samsung, Aid Learning Framework only use 1% power consumption in a whole day (Standby)
