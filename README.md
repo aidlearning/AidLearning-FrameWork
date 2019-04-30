@@ -5,7 +5,7 @@ Furthermore we provide an AI coding develop tool named Aid_code. It can provide 
 
 Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can tap your AI code on it visually!
 <p align="center">
-	<img src="screen1.jpg"  width="360" >
+	<img src="screen11.jpg"  width="360" >
 </p>
 
 
