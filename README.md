@@ -4,7 +4,7 @@ Aid Learning FrameWork is a Linux system running on Android phone for AI program
 Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming experience by using Python from zero on our framework!
 
 Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can tap your AI code on it visually!
-![screenshot1](http://www.aidlearning.net/assets/images/mobile-screen/screens/screen1.jpg)
+![screenshot1](screen1.jpg)
 
 # Powerful
 Caffe, Tensorflow, Mxnet, ncnn, Keras...Almost include all the AI framework , you don't need to config the AI framework complexly. All build in one !
@@ -20,7 +20,7 @@ We provide a plenty of examples and by using our framework, you can run it with 
 
 # Coding anywhere
 You can coding on your phone anywhere, anytime. Every inch of fragmentation have been fully utilized. Your creativity can be instantly realized with a flash of inspiration.
-![Aid code](http://www.aidlearning.net/assets/images/mobile-screen/screens/screen3.jpg)
+![Aid code](screen3.jpg)
 # Energy Star
 
 According to the test on the mainstream smartphone like Samsung, Aid Learning Framework only use 1% power consumption in a whole day (Standby)
