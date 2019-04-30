@@ -20,7 +20,7 @@ Caffe, Tensorflow, Mxnet, ncnn, Keras...Almost include all the AI framework , yo
 # Graphical User Interface
 We fixed Graphical User Interface for the Linux on Andorid(It has been pruned by andorid!), so you can use the GUI just like on the pc. For instance, You can use opencv to open and view camera!
 <p align="center">
-	<img src="screen5.jpg"  width="360" >
+	<img src="Screen5.jpg"  width="360" >
 </p>
 # Real-Time
 Real linux running on the busybox and not virtul environment like VirtulBox. So it is faster and almost real-time
