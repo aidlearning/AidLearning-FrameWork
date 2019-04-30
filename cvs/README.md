@@ -1,5 +1,5 @@
 We create a cvs class to show the gui instead of cv2 class of opencv.
-how to use：
+# how to use：
 1. from cv import *
 use this ,actually you import cv2,cvs and other function initcv(),startcv
 2. we use the cvs.VideoCapture() instead the cv2.VideoCapture() if you want to open the camera
