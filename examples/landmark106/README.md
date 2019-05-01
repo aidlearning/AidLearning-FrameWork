@@ -79,3 +79,6 @@ InnerProduct     conv6_3                          1 1 prelu11_sep conv6_3 0=212 
 BatchNorm        bn6_3                            1 1 conv6_3 bn6_3 0=212
 
 
+# Download the framework and install
+the example of landmark is inside the AidLearning Framework.
+[!Download now](http://www.aidlearning.net)
