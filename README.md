@@ -44,12 +44,12 @@ You can coding on your phone anywhere, anytime. Every inch of fragmentation have
 According to the test on the mainstream smartphone like Samsung, Aid Learning Framework only use 1% power consumption in a whole day (Standby)
 
 # Examples Inside:
-Facencnn(mobiefacenet ncnn) 15fps in mobile phone
-Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
-handpose (tensorflow ) 5fps  in mobile phone
-body posenet for single person(converted from google ) 10fps  in mobile phone
-body posenet for multi-person(converted from google ) 7fps  in mobile phone
-Stylized picture(GAN ) 3fps in mobile phone
+<p>Facencnn(mobiefacenet ncnn) 15fps in mobile phone
+<p>Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
+<p>handpose (tensorflow ) 5fps  in mobile phone
+<p>body posenet for single person(converted from google ) 10fps  in mobile phone
+<p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
+<p>Stylized picture(GAN ) 3fps in mobile phone
 
 
 # Download the framework and install
