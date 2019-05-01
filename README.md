@@ -50,7 +50,7 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <p>body posenet for single person(converted from google ) 10fps  in mobile phone
 <p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
 <p>Stylized picture(GAN ) 3fps in mobile phone
-
+.....
 
 # Download the framework and install
 [!Download now](http://www.aidlearning.net)
