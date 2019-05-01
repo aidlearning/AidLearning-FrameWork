@@ -6,7 +6,7 @@ Furthermore we provide an AI coding develop tool named Aid_code. It can provide 
 Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can tap your AI code on it visually!
 
 # Face landmark (106 keypoints)
-Fast
+Fast:already converted to ncnn,so it is fast and multi-threads.
 15 fps running on the mobile with NO tracking!  
 
 # Network:
