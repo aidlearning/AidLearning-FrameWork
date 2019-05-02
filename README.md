@@ -52,5 +52,5 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <p>Stylized picture(GAN ) 3fps in mobile phone
 .....
 
-# Download the framework and install
+# Download the framework and install（totally free,but need register!）
 [!Download now](http://www.aidlearning.net)
