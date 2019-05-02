@@ -51,11 +51,10 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
 <p>Stylized picture(GAN ) 3fps in mobile phone
 .....
-#Need to occupy mobile phone Size
+
+# Need to occupy mobile phone Size
 The entry app program（apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
 is 350M and 350M examples of AI codes using python. all is about 700M size.
 
-#Size
-#Size
 # Download the framework and install（totally free,but need register!）
 [!Download now](http://www.aidlearning.net)
