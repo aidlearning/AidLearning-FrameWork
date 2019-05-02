@@ -77,7 +77,7 @@ BatchNorm        bn11_sep                         1 1 conv11_sep bn11_sep 0=256
 PReLU            prelu11_sep                      1 1 bn11_sep prelu11_sep 0=256
 InnerProduct     conv6_3                          1 1 prelu11_sep conv6_3 0=212 1=1 2=54272
 BatchNorm        bn6_3                            1 1 conv6_3 bn6_3 0=212
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://youtu.be/clv68la-Of8)
+[![Watch the video](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/examples/landmark106/aidlandmark.png)](https://youtu.be/clv68la-Of8)
 
 
 # Download the framework and install (free!)
