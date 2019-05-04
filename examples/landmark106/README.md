@@ -9,7 +9,9 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 <p align="center">
 	<img src="../../Screen_11.jpg"  width="360" >
 </p>
+
 # Face landmark (106 keypoints) Inside!
+
 Fast:already converted to ncnn,so it is fast and multi-threads.
 15 fps running on the mobile with NO tracking!  
 
@@ -81,6 +83,7 @@ BatchNorm        bn11_sep                         1 1 conv11_sep bn11_sep 0=256
 PReLU            prelu11_sep                      1 1 bn11_sep prelu11_sep 0=256
 InnerProduct     conv6_3                          1 1 prelu11_sep conv6_3 0=212 1=1 2=54272
 BatchNorm        bn6_3                            1 1 conv6_3 bn6_3 0=212
+
 [![Watch the video](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/examples/landmark106/aidlandmark.png)](https://youtu.be/clv68la-Of8)
 
 
