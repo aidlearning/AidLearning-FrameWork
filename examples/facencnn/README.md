@@ -16,11 +16,8 @@ Fast:already converted to ncnn,so it is fast and multi-threads.
 10 fps running on the mobile with NO tracking!  
 
 # Network:
-Mobilefacenet_v2
-
-
-[![Watch the video](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/examples/landmark106/aidlandmark.png)](https://youtu.be/clv68la-Of8)
-
+Mobilefacenet_v2:(https://github.com/qidiso/mobilefacenet-V2)
+reached 99.733 in the cfp-ff、 the 99.68+ in lfw,96.71+ in agedb30.
 
 # Download the framework and install (free!)
 the example of landmark is inside the AidLearning Framework.
