@@ -56,6 +56,9 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 The entry app program（apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
 is 350M and 350M examples of AI codes using python. all is about 700M size.
 
+# How to work?
+You just need download the  aidlux.apk[ aidlux.apk](aidlinux-0505.apk),and install it,it only 7M size.
+
 # Download the framework and install（totally free,but need register!）
 [!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux-0505.apk)(have ad)
 <p>
