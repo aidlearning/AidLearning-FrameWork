@@ -89,4 +89,4 @@ BatchNorm        bn6_3                            1 1 conv6_3 bn6_3 0=212
 
 # Download the framework and install (free!)
 the example of landmark is inside the AidLearning Framework.
-[!Download now](http://www.aidlearning.net)
+[!Download now](http://www.aidlearning.net/downloads/aidlux-0505.apk)
