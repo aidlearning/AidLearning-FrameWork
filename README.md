@@ -59,6 +59,9 @@ is 350M and 350M examples of AI codes using python. all is about 700M size.
 # How to work?
 You just need download the  aidlux.apk[ aidlux.apk](aidlinux-0505.apk),and install it,it only 7M size.
 
+# Youtobe show
+[youtobe](https://youtu.be/bkvNXgCi3_c)
+
 # Totally free
 you can download the The entry app from the other way:
 <p>
