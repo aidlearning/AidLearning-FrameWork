@@ -64,7 +64,9 @@ You just need download the  aidlux.apk[ aidlux.apk](aidlinux-0505.apk),and insta
 # Totally free
 you can download the The entry app from the other way:
 <p>
-[!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux-0505.apk)(have ad)
+[!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux-0510.apk)
+</p>
+(have ad)
 <p>
 [!Download aidlux.apk from website](http://www.aidlearning.net)
 <p>(no ad,free totally)
