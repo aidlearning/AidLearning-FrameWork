@@ -58,6 +58,13 @@ is 350M and 350M examples of AI codes using python. all is about 700M size.
 # How to work?
 You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/downloads/aidlux-0510.apk),and install it,it only 7M size.
 
+# ssh(use the pc to connect to Aidlearning and control it using the pc's terminal)
+Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. for example:http://192.168.1.6:8910/upload
+
+
+# Editing code by pc 
+  you can open the url:mobilephone'sip:8900/ in the pc to Editing codes files(python files storing in the AidLearnig ) in the pc when the mobile phone and the pc in the same network group.
+
 # Youtobe show
 [![Watch the video](aidlearning.png)](https://youtu.be/bkvNXgCi3_c)
 
