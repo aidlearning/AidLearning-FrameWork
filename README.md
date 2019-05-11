@@ -56,7 +56,7 @@ The entry app program（apk） is only 7M，when you install the apk ,the apk wi
 is 350M and 350M examples of AI codes using python. all is about 700M size.
 
 # How to work?
-You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/downloads/aidlux-0510.apk),and install it,it only 7M size.
+You just need download the aidlux.apk[ aidlux.apk](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/aidlux0510.apk),and install it,it only 7M size.
 
 # SSH (use the pc to connect to Aidlearning and control it using the pc's terminal)
 Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. for example:http://192.168.1.6:8910/upload
@@ -71,7 +71,7 @@ Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. fo
 # Totally free
 you can download the The entry app from the other way:
 <p>
-[!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux0510.apk)
+[!Download aidlux.apk directly](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/aidlux0510.apk)
 </p>
 (have ad)
 <p>
