@@ -71,7 +71,7 @@ Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. fo
 # Totally free
 you can download the The entry app from the other way:
 <p>
-[!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux-0510.apk)
+[!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux0510.apk)
 </p>
 (have ad)
 <p>
