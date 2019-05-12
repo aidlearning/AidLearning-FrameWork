@@ -12,8 +12,8 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 
 # Fastpose (posenet[google]) Inside!
 it is a completely examples: it include person posenet ;include gui.
-Fast:already converted to ncnn,so it is fast and multi-threads.
-10 fps running on the mobile with NO tracking!  
+Fast:already converted to tensorflow's pb ,so it is fast and multi-threads.
+10 fps running on the mobile with NO tracking with single person 
 
 # Network:
 mobilenet
