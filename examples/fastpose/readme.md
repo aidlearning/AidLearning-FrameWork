@@ -10,7 +10,7 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 	<img src="../../Screen_11.jpg"  width="360" >
 </p>
 
-# Fastpose (mtcnn+algin+id) Inside!
+# Fastpose (posenet[google]) Inside!
 it is a completely examples: it include person posenet ;include gui.
 Fast:already converted to ncnn,so it is fast and multi-threads.
 10 fps running on the mobile with NO tracking!  
