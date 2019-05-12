@@ -14,9 +14,10 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 it is a completely examples: it include person posenet ;include gui.
 Fast:already converted to tensorflow's pb ,so it is fast and multi-threads.
 10 fps running on the mobile with NO tracking with single person 
-
+![screen](result.png)
 # Network:
-mobilenet
+mobilenet https://github.com/jscriptcoder/tfjs-posenet
+we convert the model from the tfjs to pb
 
 # Download the framework and install (free!)
 the example of landmark is inside the AidLearning Framework.
