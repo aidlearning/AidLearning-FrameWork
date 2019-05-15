@@ -23,7 +23,7 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 ### Support most common deep learning frameworks
 ### 支持大部分常用的深度学习框架
 <p align="center">
-	<img src="images/screen4.jpg"  width="360" >
+	<img src="screen4.jpg"  width="360" >
 </p>
 
 * [Caffe](https://github.com/BVLC/caffe)
@@ -33,12 +33,6 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 * [ncnn](https://github.com/Tencent/ncnn)
 
 ---
-
-# Powerful
-Caffe, Tensorflow, Mxnet, ncnn, Keras...Almost include all the AI framework , you don't need to config the AI framework complexly. All build in one !
-<p align="center">
-	<img src="screen4.jpg"  width="360" >
-</p>
 
 
 # Graphical User Interface
