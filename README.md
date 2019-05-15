@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/Yoline777/AidLearning/blob/master/license.md) 
 
-Aidlearning is a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, Aidlearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet, ncnn, Keras are perfectly supported.
+Aid Learning FrameWork is a Linux system with GUI running on Android phone for AI programming without root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, Aidlearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet, ncnn, Keras are perfectly supported.
 
 Aidlearning是一个手机可用的Python编程框架。将带GUI的Linux系统移植到手机上，开发者可以高效、方便地进行Python编程。除了一些Linux环境下可用的功能，Aidlearning还加入了GUI(用户图形界面)和深度学习框架，现阶段已经完美支持Caffe, Tensorflow, Mxnet, ncnn, Keras
 ![screen](Screenshot_10.jpg)
