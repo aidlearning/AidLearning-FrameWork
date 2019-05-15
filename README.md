@@ -6,7 +6,7 @@ Aid Learning FrameWork is a Linux system with GUI running on Android phone for A
 
 Aidlearning是一个手机可用的Python编程框架。将带GUI的Linux系统移植到手机上，开发者可以高效、方便地进行Python编程。除了一些Linux环境下可用的功能，Aidlearning还加入了GUI(用户图形界面)和深度学习框架，现阶段已经完美支持Caffe, Tensorflow, Mxnet, ncnn, Keras
 <p align="center">
-<img src="Screenshot_10.jpg"  width="640" >
+<img src="Screenshot_10.jpg"  width="800" >
 
 </p>
 	
@@ -80,9 +80,10 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
 <p>Stylized picture(GAN ) 3fps in mobile phone
 .....
-
+<p align="center">
 <img src="screen21.jpg" align = "left" width="360" >
 <img src="screen22.jpg" align = "right" width="360" >
+</p>
 
 # Need to occupy mobile phone Size
 The entry app program（apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
