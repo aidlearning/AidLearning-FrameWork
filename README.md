@@ -8,7 +8,7 @@ Aidlearning是一个手机可用的Python编程框架。将带GUI的Linux系统�
 ![screen](Screenshot_10.jpg)
 
 <p>
-<img src="Screen_10.jpg"  width="360" >
+<img src="Screenshot_10.jpg"  width="640" >
 <img src="Screen_11.jpg"  width="360" >
 </p>
 	
