@@ -85,6 +85,9 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <img src="screen22.jpg" align = "right" width="360" >
 </p>
 
+<p>
+</p>
+
 
 # Need to occupy mobile phone Size
 The entry app program（apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
