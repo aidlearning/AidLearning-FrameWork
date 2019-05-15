@@ -72,23 +72,6 @@ You can coding on your phone anywhere, anytime. Every inch of fragmentation have
 
 According to the test on the mainstream smartphone like Samsung, Aid Learning Framework only use 1% power consumption in a whole day (Standby)
 
-# Examples Inside:
-<p>Facencnn(mobiefacenet ncnn) 15fps in mobile phone
-<p>Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
-<p>handpose (tensorflow ) 5fps  in mobile phone
-<p>body posenet for single person(converted from google ) 10fps  in mobile phone
-<p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
-<p>Stylized picture(GAN ) 3fps in mobile phone
-.....
-<p align="center">
-<img src="screen21.jpg" align = "left" width="360" >
-<img src="screen22.jpg" align = "right" width="360" >
-</p>
-
-<p>
-</p>
-
-
 # Need to occupy mobile phone Size
 The entry app program（apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
 is 350M and 350M examples of AI codes using python. all is about 700M size.
@@ -111,3 +94,17 @@ you can download the The entry app from the other way:
 <p>
 [!Download aidlux.apk from website](http://www.aidlearning.net)
 <p>(no ad,free totally)
+
+# Examples Inside:
+<p>Facencnn(mobiefacenet ncnn) 15fps in mobile phone
+<p>Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
+<p>handpose (tensorflow ) 5fps  in mobile phone
+<p>body posenet for single person(converted from google ) 10fps  in mobile phone
+<p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
+<p>Stylized picture(GAN ) 3fps in mobile phone
+.....
+<p align="center">
+<img src="screen21.jpg" align = "left" width="360" >
+<img src="screen22.jpg" align = "right" width="360" >
+</p>
+
