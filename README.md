@@ -85,6 +85,7 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <img src="screen22.jpg" align = "right" width="360" >
 </p>
 
+
 # Need to occupy mobile phone Size
 The entry app program（apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
 is 350M and 350M examples of AI codes using python. all is about 700M size.
