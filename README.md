@@ -42,6 +42,9 @@ You just need download the aidlux.apk, and install it, it only 7M size.
 
 PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with ***ssh-keygen*** in your PC. Then copy the public half of the key pair to your mobile. For instance, Copy ***/Users/yourname/.ssh/id_rsa.pub*** to your mobile's ***~/.ssh*** and rename it to ***authorized_keys***. Now, you can connenct to your mobile by command ***ssh USER@IP***
 
+A easy method was released:
+Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. for example:http://192.168.1.6:8910/upload
+
 ---
 
 # Graphical User Interface
@@ -82,10 +85,6 @@ is 350M and 350M examples of AI codes using python. all is about 700M size.
 
 # How to work?
 You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/downloads/aidlux-05-10.apk),and install it,it only 7M size.
-
-# SSH (use the pc to connect to Aidlearning and control it using the pc's terminal)
-Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. for example:http://192.168.1.6:8910/upload
-
 
 # Editing code by pc 
   you can open the url:mobilephone'sip:8900/ in the pc to Editing codes files(python files storing in the AidLearnig ) in the pc when the mobile phone and the pc in the same network group.
