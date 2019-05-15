@@ -54,7 +54,8 @@ We fixed Graphical User Interface for the Linux on Andorid(It has been pruned by
 <p align="center">
 	<img src="Screen5.jpg"  width="800" >
 </p>
-# Real-Time
+
+# Fast,Real-Time
 Real linux running on the busybox and not virtul environment like VirtulBox. So it is faster and almost real-time
 
 # Easy to use
