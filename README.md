@@ -52,7 +52,7 @@ Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. fo
 # Graphical User Interface
 We fixed Graphical User Interface for the Linux on Andorid(It has been pruned by andorid!), so you can use the GUI just like on the pc. For instance, You can use opencv to open and view camera!
 <p align="center">
-	<img src="Screen5.jpg"  width="360" >
+	<img src="Screen5.jpg"  width="800" >
 </p>
 # Real-Time
 Real linux running on the busybox and not virtul environment like VirtulBox. So it is faster and almost real-time
@@ -60,13 +60,13 @@ Real linux running on the busybox and not virtul environment like VirtulBox. So 
 # Easy to use
 We provide a plenty of examples and by using our framework, you can run it with a tap, and then get a visual log to show the informations or errors.
 <p align="center">
-	<img src="screen2.jpg"  width="360" >
+	<img src="screen2.jpg"  width="800" >
 </p>
 
 # Coding anywhere
 You can coding on your phone anywhere, anytime. Every inch of fragmentation have been fully utilized. Your creativity can be instantly realized with a flash of inspiration.
 <p align="center">
-	<img src="screen3.jpg"  width="360" >
+	<img src="screen3.jpg"  width="800" >
 </p>
 # Energy Star
 
