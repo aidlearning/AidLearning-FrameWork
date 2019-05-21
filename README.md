@@ -82,6 +82,9 @@ You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/do
 
 # Editing code by pc 
   you can open the url:mobilephone'sip:8900/ in the pc to Editing codes files(python files storing in the AidLearnig ) in the pc when the mobile phone and the pc in the same network group.
+<p align="center">
+	<img src="17693261-84fa9afe825f5b72.jpg"  width="800" >
+</p>
 
 # Youtobe show
 [![Watch the video](aidlearning.png)](https://youtu.be/bkvNXgCi3_c)
