@@ -22,6 +22,14 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 
 ---
 
+# New version will be coming in the next week:
+* Add python3 supported
+* caffe、mxnet 1.5 gluoncv 0.3 tensorflow :1.13.1 keras 2.2.4 pytorch:0.5
+   for python3
+* more gui customize....
+* more examples.....
+welcome talk about....see [issues](https://github.com/aidlearning/AidLearning-FrameWork/issues/10)
+
 ### Support most common deep learning frameworks
 ### 支持大部分常用的深度学习框架
 <p align="center">
