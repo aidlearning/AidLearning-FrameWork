@@ -109,7 +109,7 @@ you can download the The entry app from the other way:
 <p>Stylized picture(GAN ) 3fps in mobile phone
 .....
 <p align="center">
-<img src="screen21.jpg" align = "left" width="400" >
+<img src="screen21.jpg" align = "center" width="400" >
 </p>
 
 # New version will be coming in the next week:
