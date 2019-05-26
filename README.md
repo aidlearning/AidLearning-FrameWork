@@ -6,7 +6,7 @@ Aid Learning FrameWork is a Linux system with GUI running on Android phone for A
 
 Aidlearning是一个手机可用的Python编程框架。将带GUI的Linux系统移植到手机上，开发者可以高效、方便地进行Python编程。除了一些Linux环境下可用的功能，Aidlearning还加入了GUI(用户图形界面)和深度学习框架，现阶段已经完美支持Caffe, Tensorflow, Mxnet, ncnn, Keras
 <p align="center">
-<img src="Screenshot_10.jpg"  width="400">
+<img src="Screenshot_10.jpg"  width="600">
 
 </p>
 	
@@ -17,7 +17,7 @@ Furthermore we provide an AI coding develop tool named Aid_code. It can provide 
 Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can write your AI code on it visually!
 
 <p align="center">
-	<img src="Screen_11.jpg"  width="800" >
+	<img src="Screen_11.jpg"  width="400" >
 </p>
 
 ---
@@ -53,7 +53,7 @@ Just open the url:mobilephone'sip:8910/upload in the pc to upload ssh's file. fo
 # Graphical User Interface
 We fixed Graphical User Interface for the Linux on Andorid(It has been pruned by andorid!), so you can use the GUI just like on the pc. For instance, You can use opencv to open and view camera!
 <p align="center">
-	<img src="Screen5.jpg"  width="800" >
+	<img src="Screen5.jpg"  width="400" >
 </p>
 
 # Fast,Real-Time
@@ -109,7 +109,7 @@ you can download the The entry app from the other way:
 <p>Stylized picture(GAN ) 3fps in mobile phone
 .....
 <p align="center">
-<img src="screen21.jpg" align = "left" width="400" >
+<img src="screen21.jpg" align = "left" width="800" >
 </p>
 
 # New version will be coming in the next week:
