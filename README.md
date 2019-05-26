@@ -6,7 +6,7 @@ Aid Learning FrameWork is a Linux system with GUI running on Android phone for A
 
 Aidlearning是一个手机可用的Python编程框架。将带GUI的Linux系统移植到手机上，开发者可以高效、方便地进行Python编程。除了一些Linux环境下可用的功能，Aidlearning还加入了GUI(用户图形界面)和深度学习框架，现阶段已经完美支持Caffe, Tensorflow, Mxnet, ncnn, Keras
 <p align="center">
-<img src="Screenshot_10.jpg"  >
+<img src="Screenshot_10.jpg"  width="400">
 
 </p>
 	
@@ -26,7 +26,7 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 ### Support most common deep learning frameworks
 ### 支持大部分常用的深度学习框架
 <p align="center">
-	<img src="screen4.jpg"  width="800" >
+	<img src="screen4.jpg"  width="400" >
 </p>
 
 * [Caffe](https://github.com/BVLC/caffe)
@@ -62,13 +62,13 @@ Real linux running on the busybox and not virtul environment like VirtulBox. So 
 # Easy to use
 We provide a plenty of examples and by using our framework, you can run it with a tap, and then get a visual log to show the informations or errors.
 <p align="center">
-	<img src="screen2.jpg"  width="800" >
+	<img src="screen2.jpg"  width="400" >
 </p>
 
 # Coding anywhere
 You can coding on your phone anywhere, anytime. Every inch of fragmentation have been fully utilized. Your creativity can be instantly realized with a flash of inspiration.
 <p align="center">
-	<img src="screen3.jpg"  width="800" >
+	<img src="screen3.jpg"  width="400" >
 </p>
 # Energy Star
 
@@ -84,7 +84,7 @@ You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/do
 # Editing code by pc 
   you can open the url:mobilephone'sip:8900/ in the pc to Editing codes files(python files storing in the AidLearnig ) in the pc when the mobile phone and the pc in the same network group.
 <p align="center">
-	<img src="17693261-84fa9afe825f5b72.jpg"  width="800" >
+	<img src="17693261-84fa9afe825f5b72.jpg"  width="400" >
 </p>
 
 # Youtobe show
@@ -109,7 +109,7 @@ you can download the The entry app from the other way:
 <p>Stylized picture(GAN ) 3fps in mobile phone
 .....
 <p align="center">
-<img src="screen21.jpg" align = "left" width="800" >
+<img src="screen21.jpg" align = "left" width="400" >
 </p>
 
 # New version will be coming in the next week:
