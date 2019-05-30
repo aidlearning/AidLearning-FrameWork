@@ -8,7 +8,7 @@ AidLearning FrameWork is a Linux system with GUI running on Android phone for AI
 AidLearning is a Linux system running on the Android with GUI, AI and  Python support . <a href="http://www.aidlearning.net" >The AidLearning </a> project which have the <b>Linux+Anroid+AI 3IN1</b> environments Developed and Maintained by  students from [CAS University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
 <hr>
 Built with simplicity in mind, <b>Aid Learning</b> 
-    supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully.<br>
+    supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully.<br><br>
 
 Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming IDE by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC.
 
@@ -31,10 +31,10 @@ Now you have a complete linux with GUI running on Android (Real linux running on
     
 - Now You can use **apt (apt-get)** to install new packages to improve your Linux Environment... <br>
 - Some BUGs have been solved, such as:
-    <br>After startup, press the home key to return to the app and then enter the app. Instead of returning to the GUI, the problem is returning to the terminal.<br>
+    <br>Press the home key to return home and then enter the app: Instead of returning to the GUI, the problem is returning to the terminal.<br>
     Reducing dependence on network traffic.<br>
 - Adding new buttons for running Python 3 and python 2 online for **Aid_code IDE** <br>
-- Add the ***AI example center***, put some examples on the website, the new examples can be downloaded from the website in the future, in order to prevent the distribution of installation packages too large.<br>
+- Add the ***AI Example Center***, put some examples on the website, the new examples can be downloaded from the website in the future, in order to prevent the distribution of installation packages too large.<br>
 - Modified accounts that do not activate the mailbox can be logged in **directly**, but there are prompts to activate the interface after login...
  <br>  <br>
 <br>
