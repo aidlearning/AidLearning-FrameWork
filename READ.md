@@ -58,11 +58,11 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <br><br>
 
 <div id="dependencies"></div>
-<h3><b><u>Dependencies</u></b></h3>All you need is an Android devices (phone ,tablet or arm board)  that supports the CPU of ***Arm64(aarch64)***. The Android version requires more than 6.0. If you think the parameters are not clear enough, I would like to say that most of the mainstream mobile phones support it, such as Samsung, Huawei, MI, OPPO, VIVO, etc.In addition, the requirement of storage space is a little big. It is suggested that there should be 4G free storage space.
+<h3><b><u>Dependencies</u></b></h3>All you need is an Android devices (phone ,tablet or arm board)  that supports the CPU of Arm64(aarch64). The Android version requires more than 6.0. If you think the parameters are not clear enough, I would like to say that most of the mainstream mobile phones support it, such as Samsung, Huawei, MI, OPPO, VIVO, etc.In addition, the requirement of storage space is a little big. It is suggested that there should be 4G free storage space.
 
 
 <div id="installation"></div>
- <h3><b><u>Installation</u></b></h3> To install AidLearing, Simply download an app (apk file) and install it on your mobile phone at http://www.aidlearning.net/downloads/aidlux-05-31.apk 
+ <h3><b><u>Installation</u></b></h3> To install AidLearing, Simply download an app (apk file) and install it on your mobile phone at http://www.aidlearning.net/downloads/aidlux-05-31.apk <br>
  The  app （apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
 is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a WiFi environment.
 <br><br>
@@ -72,17 +72,17 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
 
 ---
 
+* [Caffe]https://github.com/BVLC/caffe(https://github.com/BVLC/caffe)
+* [Tensorflow]https://github.com/tensorflow/tensorflow(https://github.com/tensorflow/tensorflow)
+* [Mxnet]https://github.com/apache/incubator-mxnet(https://github.com/apache/incubator-mxnet)
+* [Keras]https://github.com/keras-team/keras(https://github.com/keras-team/keras)
+* [ncnn]https://github.com/Tencent/ncnn(https://github.com/Tencent/ncnn)
+* [pytorch]https://github.com/pytorch/pytorch(https://github.com/pytorch/pytorch)
+* [opencv]https://github.com/opencv/opencv(https://github.com/opencv/opencv)
+
 <p align="center">
 	<img src="screen4.jpg"  width="400" >
 </p>
-
-* [Caffe](https://github.com/BVLC/caffe)
-* [Tensorflow](https://github.com/tensorflow/tensorflow)
-* [Mxnet](https://github.com/apache/incubator-mxnet)
-* [Keras](https://github.com/keras-team/keras)
-* [ncnn](https://github.com/Tencent/ncnn)
-* [pytorch](https://github.com/pytorch/pytorch)
-* [opencv](https://github.com/opencv/opencv)
 
 ---
 
