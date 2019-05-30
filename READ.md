@@ -8,7 +8,7 @@ AidLearning FrameWork is a Linux system with GUI running on Android phone for AI
 AidLearning is a Linux system running on the Android with GUI, AI and  Python support . <a href="http://www.aidlearning.net" >The AidLearning </a> project which have the <b>Linux+Anroid+AI 3IN1</b> environments Developed and Maintained by  students from [CAS University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
 <hr>
 Built with simplicity in mind, <b>Aid Learning</b> 
-    supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully.
+    supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully.<br>
 
 Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming IDE by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC.
 
@@ -29,8 +29,10 @@ Now you have a complete linux with GUI running on Android (Real linux running on
     cvs. setCamX (350,480)<br>
     cvs. setInfoX (320,60)<br>
     
-- Support for video object detection on video live stream from device camera, connected camera and IP camera <br>
-- Support for **YOLOv3** and **TinyYOLOv3** for all object detection and video object detection tasks.
+- Now You can use **apt (apt-get)** to install new packages to improve your Linux Environment... <br>
+- Some BUGs have been solved, such as:
+    <br>After startup, press the home key to return to the app and then enter the app. Instead of returning to the GUI, the problem is returning to the terminal.<br>
+    Reducing dependence on network traffic.<br>
 - Video object detection for all input types (video file and camera) now allows defining custom functions to execute after each frame, each second and each minute of the video is detected and processed. Also include option to specify custom function at once video is fully detected and processed <br>
 - For each custom function specified, **ImageAI** returns the **frame**/**seconds**/**minute**/**full video analysis** of the detections that include the objects' details ( **name** , **percentage** **probability**, **box_points**), number of instance of each unique object detected (counts) and overall average count of the number of instance of each unique object detected in the case of **second** / **minute** / **full video analysis**<br>
 - Options to return detected frame at every frame, second or minute processed as a **Numpy array**.
