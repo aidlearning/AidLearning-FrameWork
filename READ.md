@@ -42,7 +42,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <h3><b><u>TABLE OF CONTENTS</u></b></h3>
 <a href="#dependencies" >&#9635 Dependencies</a><br>
 <a href="#installation" >&#9635 Installation</a><br>
-<a href="#prediction" >&#9635 Image Prediction</a><br>
+<a href="#Support" >&#9635 Support AI framework</a><br>
 <a href="#detection" >&#9635 Object Detection</a><br>
 <a href="#videodetection" >&#9635 Video Object Detection, Tracking & Analysis</a><br>
 <a href="#customtraining" >&#9635 Custom Model Training</a><br>
@@ -63,65 +63,29 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 
 <div id="installation"></div>
  <h3><b><u>Installation</u></b></h3> To install AidLearing, Simply download an app (apk file) and install it on your mobile phone at http://www.aidlearning.net/downloads/aidlux-05-31.apk 
- The  app （apk） is only **7M**，when you install the apk ,the apk will download the depdence of the framework
-is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a **WiFi** environment.
+ The  app （apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
+is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a WiFi environment.
 <br><br>
 
-<div id="prediction"></div>
-<h3><b><u>Image Prediction</u></b></h3>
-<p><img src="images/1.jpg" style="width: 400px; height: auto;" /> 
-    <pre>convertible : 52.459555864334106
-sports_car : 37.61284649372101
-pickup : 3.1751200556755066
-car_wheel : 1.817505806684494
-minivan : 1.7487050965428352</pre>
+<div id="Support"></div>
+<h3><b><u>AI Framework</u></b></h3>
+
+---
+
+<p align="center">
+	<img src="screen4.jpg"  width="400" >
 </p>
 
-<b>ImageAI</b> provides 4 different algorithms and model types to perform image prediction, trained on the ImageNet-1000 dataset.
-The 4 algorithms provided for image prediction include <b>SqueezeNet</b>, <b>ResNet</b>, <b>InceptionV3</b> and <b>DenseNet</b>. 
+* [Caffe](https://github.com/BVLC/caffe)
+* [Tensorflow](https://github.com/tensorflow/tensorflow)
+* [Mxnet](https://github.com/apache/incubator-mxnet)
+* [Keras](https://github.com/keras-team/keras)
+* [ncnn](https://github.com/Tencent/ncnn)
+* [pytorch](https://github.com/pytorch/pytorch)
+* [opencv](https://github.com/opencv/opencv)
 
-Click the link below to see the full sample codes, explanations and best practices guide.
+---
 
-<a href="imageai/Prediction/" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide </button></a>
-
-<br>
-
-<br>
-
-
-<div id="detection"></div>
-<h3><b><u>Object Detection</u></b></h3>
-<div style="width: 600px;" >
-          <b><p><i>Input Image</i></p></b></br>
-          <img src="images/image2.jpg" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
-          <b><p><i>Output Image</i></p></b>
-          <img src="images/image2new.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
-    </div> <br>
-<pre>
-
-person : 91.946941614151
---------------------------------
-person : 73.61021637916565
---------------------------------
-laptop : 90.24320840835571
---------------------------------
-laptop : 73.6881673336029
---------------------------------
-laptop : 95.16398310661316
---------------------------------
-person : 87.10319399833679
---------------------------------
-
-</pre>
-<b>ImageAI</b> provides very convenient and powerful methods
- to perform object detection on images and extract each object from the image. The object detection class provides support for RetinaNet, YOLOv3 and TinyYOLOv3, with options to adjust for state of the art performance or real time processing.
-
-Click the link below to see the full sample codes, explanations and best practices guide.
-
-
-<a href="imageai/Detection/" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide</button></a>
-
-<br><br>
 
 
 
