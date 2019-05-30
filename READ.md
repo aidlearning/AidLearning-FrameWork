@@ -33,9 +33,9 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 - Some BUGs have been solved, such as:
     <br>After startup, press the home key to return to the app and then enter the app. Instead of returning to the GUI, the problem is returning to the terminal.<br>
     Reducing dependence on network traffic.<br>
-- Video object detection for all input types (video file and camera) now allows defining custom functions to execute after each frame, each second and each minute of the video is detected and processed. Also include option to specify custom function at once video is fully detected and processed <br>
-- For each custom function specified, **ImageAI** returns the **frame**/**seconds**/**minute**/**full video analysis** of the detections that include the objects' details ( **name** , **percentage** **probability**, **box_points**), number of instance of each unique object detected (counts) and overall average count of the number of instance of each unique object detected in the case of **second** / **minute** / **full video analysis**<br>
-- Options to return detected frame at every frame, second or minute processed as a **Numpy array**.
+- Adding new buttons for running Python 3 and python 2 online for **Aid_code IDE** <br>
+- Add the ***AI example center***, put some examples on the website, the new examples can be downloaded from the website in the future, in order to prevent the distribution of installation packages too large.<br>
+- Modified accounts that do not activate the mailbox can be logged in **directly**, but there are prompts to activate the interface after login...
  <br>  <br>
 <br>
 
