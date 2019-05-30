@@ -43,8 +43,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#dependencies" >&#9635 Dependencies</a><br>
 <a href="#installation" >&#9635 Installation</a><br>
 <a href="#Support" >&#9635 Support AI framework</a><br>
-<a href="#detection" >&#9635 Object Detection</a><br>
-<a href="#videodetection" >&#9635 Video Object Detection, Tracking & Analysis</a><br>
+<a href="#GUI" >&#9635 GUI Customize</a><br>
 <a href="#customtraining" >&#9635 Custom Model Training</a><br>
 <a href="#customprediction" >&#9635 Custom Image Prediction</a><br>
 <a href="#documentation" >&#9635 Documentation</a><br>
@@ -62,7 +61,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 
 
 <div id="installation"></div>
- <h3><b><u>Installation</u></b></h3> To install AidLearing, Simply download an app (apk file) and install it on your mobile phone at http://www.aidlearning.net/downloads/aidlux-05-31.apk <br>
+ <h3><b><u>Installation</u></b></h3> To install AidLearing, Simply download an app (apk file) and install it on your mobile device. download at http://www.aidlearning.net/downloads/aidlux-05-31.apk <br>
  The  app （apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
 is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a WiFi environment.
 <br><br>
@@ -93,18 +92,18 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
 
 
 
-<div id="videodetection"></div>
-<h3><b><u>Video Object Detection and Tracking</u></b></h3>
+<div id="GUI"></div>
+<h3><b><u>GUI Customize</u></b></h3>
 
 <p><div style="width: 600px;" >
-          <p><i><b>Video Object Detection & Analysis</b></i></p>
-<p><i>Below is a snapshot of a video with objects detected.</i></p>
-          <img src="images/video1.jpg" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
-          <p><i><b>Video Custom Object Detection (Object Tracking)</b></i></p>
-            <p><i>Below is a snapshot of a video with only person, bicycle and motorcyle detected.</i></p>
-          <img src="images/video2.jpg" style="width: 500px; height: auto; margin-left: 50px; " /><br>
-          <p><i><b>Video Analysis Visualization </b></i></p>
-            <p><i>Below is a visualization of video analysis returned by **ImageAI** into a 'per_second' function.</i></p>
+          <p><i><b>Now you can easily customize your GUI with Python code！</b></i></p>
+<p><i>    
+   cvs. setTitle ("Face Recognize")<br>
+    cvs. setInput_dict (usr_dict)<br>
+    cvs. setSubmitName ("Register your FaceID")<br>
+    cvs. setCamX (350,480)<br>
+    cvs. setInfoX (320,60)<br>
+</i></p>
           <img src="images/video_analysis_visualization.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
     </div> <br>
 
