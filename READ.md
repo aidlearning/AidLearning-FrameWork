@@ -1,11 +1,10 @@
 # AidLearnig <br>
-Aid Learning FrameWork is a Linux system with GUI running on Android phone for AI programming without root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, Aidlearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet, ncnn, Keras are perfectly supported.. <br><br>
+Aid Learning FrameWork is a Linux system with GUI running on Android phone for AI programming without root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, Aidlearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet,Gluoncv, ncnn, Keras,Pytorch are perfectly supported.. <br><br>
 
 <img src="logo.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
 
-An <b>AI Commons</b> project <a href="https://aicommons.science" >https://aicommons.science </a>
-Developed and Maintained by [Moses Olafenwa](https://twitter.com/OlafenwaMoses) and [John Olafenwa](https://twitter.com/johnolafenwa), brothers, creators of [TorchFusion](https://github.com/johnolafenwa/TorchFusion)
-and Authors of [Introduction to Deep Computer Vision](https://john.aicommons.science/deepvision)
+An <b>Linux+Anroid+AI 3IN1</b> project <a href="http://www.aidlearning.tech" >http://aidlearning.tech </a>
+Developed and Maintained by students from [CAS](http://english.cas.cn) and [yale](https://www.yale.edu).
 <hr>
 
 Built with simplicity in mind, <b>ImageAI</b> 
