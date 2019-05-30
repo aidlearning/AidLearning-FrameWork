@@ -1,8 +1,8 @@
 # AidLearnig <br>
 AidLearning FrameWork is a Linux system with GUI running on Android phone for AI programming without root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, AidLearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet,Gluoncv, ncnn, Keras,Pytorch are perfectly supported.. <br><br>
-
-<img src="logo.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
-
+<p align=center>
+<img src="logo.png"  /> 
+</p>
 The AidLearning environments of <b>Linux+Anroid+AI 3IN1</b> project <a href="http://www.aidlearning.net" >AidLearning.net </a>
 Developed and Maintained by  students from [CAS University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
 <hr>
