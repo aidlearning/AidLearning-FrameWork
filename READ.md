@@ -104,7 +104,7 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
     cvs. setCamX (350,480)<br>
     cvs. setInfoX (320,60)<br>
 </i></p>
-          <img src="images/video_analysis_visualization.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
+          <img src="gui.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
     </div> <br>
 
 <b>ImageAI</b> provides very convenient and powerful methods
