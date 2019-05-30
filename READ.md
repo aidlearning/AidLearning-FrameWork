@@ -68,17 +68,17 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
 <br><br>
 
 <div id="Support"></div>
-<h3><b><u>AI Framework</u></b></h3>
+<h3><b><u>Support AI Framework</u></b></h3>
 
 ---
 
-* [Caffe]https://github.com/BVLC/caffe(https://github.com/BVLC/caffe)
-* [Tensorflow]https://github.com/tensorflow/tensorflow(https://github.com/tensorflow/tensorflow)
-* [Mxnet]https://github.com/apache/incubator-mxnet(https://github.com/apache/incubator-mxnet)
-* [Keras]https://github.com/keras-team/keras(https://github.com/keras-team/keras)
-* [ncnn]https://github.com/Tencent/ncnn(https://github.com/Tencent/ncnn)
-* [pytorch]https://github.com/pytorch/pytorch(https://github.com/pytorch/pytorch)
-* [opencv]https://github.com/opencv/opencv(https://github.com/opencv/opencv)
+* [Caffe]https://github.com/BVLC/caffe
+* [Tensorflow]https://github.com/tensorflow/tensorflow
+* [Mxnet]https://github.com/apache/incubator-mxnet
+* [Keras]https://github.com/keras-team/keras
+* [ncnn]https://github.com/Tencent/ncnn
+* [pytorch]https://github.com/pytorch/pytorch
+* [opencv]https://github.com/opencv/opencv
 
 <p align="center">
 	<img src="screen4.jpg"  width="400" >
