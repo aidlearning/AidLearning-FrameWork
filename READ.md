@@ -4,18 +4,17 @@ AidLearning FrameWork is a Linux system with GUI running on Android phone for AI
 
 <img src="logo.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
 
-AidLearning is a Linux system running on the Android with GUI, AI and  Python support . The AidLearning project which have the <b>Linux+Anroid+AI 3IN1</b> environments  <a href="http://www.aidlearning.net" >AidLearning.net </a>
-Developed and Maintained by  students from [CAS University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
+AidLearning is a Linux system running on the Android with GUI, AI and  Python support . <a href="http://www.aidlearning.net" >The AidLearning </a> project which have the <b>Linux+Anroid+AI 3IN1</b> environments Developed and Maintained by  students from [CAS University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
 <hr>
 Built with simplicity in mind, <b>Aid Learning</b> 
     supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully.
 
-    Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming experience by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC.
+Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming experience by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC.
 
-    Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can write your AI code on it visually using the Python!
+Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can write your AI code on it visually using the Python!
 <br> <br>
 
-<b>New Release : ImageAI 2.0.2</b>
+<b>New Release : AidLearning 0.70</b>
 <br> What's new:
 <br>
 - Option to state image size during custom image prediction model trainings <br>
