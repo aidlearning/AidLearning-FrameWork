@@ -41,7 +41,7 @@ Now you have a complete linux with a GUI running on Android (Real linux running 
 ### 使用方法
 
 You just need download the aidlux.apk, and install it, it only 7M size.
-* http://www.aidlearning.net/downloads/aidlux-05-10.apk
+* http://16787372.s21d-16.faiusrd.com/74/ABUIABBKGAAgjsq95wUomtPHuwQ.apk
 
 PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with ***ssh-keygen*** in your PC. Then copy the public half of the key pair to your mobile. For instance, Copy ***/Users/yourname/.ssh/id_rsa.pub*** to your mobile's ***~/.ssh*** and rename it to ***authorized_keys***. Now, you can connenct to your mobile by command ***ssh USER@IP***
 
@@ -94,7 +94,7 @@ You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/do
 # Totally free
 you can download the The entry app from the other way:
 <p>
-[!Download aidlux.apk directly](http://www.aidlearning.net/downloads/aidlux-05-10.apk)
+[!Download aidlux.apk directly](http://16787372.s21d-16.faiusrd.com/74/ABUIABBKGAAgjsq95wUomtPHuwQ.apk)
 </p>
 (have ad)
 <p>
