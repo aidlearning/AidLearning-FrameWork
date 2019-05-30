@@ -22,11 +22,13 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 - Caffe/MXNET/Gluoncv/Tensorflow/ Keras/Pytorch/Opencv4
    for Python3 and Python2  are perfectly supported  <br>
 - With the new CVS package, you can easily customize your interface with Python code:
-    cvs. setTitle ("Face Recognize")
-    cvs. setInput_dict (usr_dict)
-    cvs. setSubmitName ("Register your FaceID")
-    cvs. setCamX (350,480)
-    cvs. setInfoX (320,60)
+    
+    cvs. setTitle ("Face Recognize")<br>
+    cvs. setInput_dict (usr_dict)<br>
+    cvs. setSubmitName ("Register your FaceID")<br>
+    cvs. setCamX (350,480)<br>
+    cvs. setInfoX (320,60)<br>
+    
 - Support for video object detection on video live stream from device camera, connected camera and IP camera <br>
 - Support for **YOLOv3** and **TinyYOLOv3** for all object detection and video object detection tasks.
 - Video object detection for all input types (video file and camera) now allows defining custom functions to execute after each frame, each second and each minute of the video is detected and processed. Also include option to specify custom function at once video is fully detected and processed <br>
