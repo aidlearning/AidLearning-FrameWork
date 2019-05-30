@@ -10,7 +10,7 @@ AidLearning is a Linux system running on the Android with GUI, AI and  Python su
 Built with simplicity in mind, <b>Aid Learning</b> 
     supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully.
 
-Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming experience by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC.
+Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming IDE by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC.
 
 Now you have a complete linux with GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can write your AI code on it visually using the Python!
 <br> <br>
@@ -18,8 +18,9 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <b>New Release : AidLearning 0.70</b>
 <br> What's new:
 <br>
-- Option to state image size during custom image prediction model trainings <br>
-- Object Detection and Video Object detection now returns bounding box coordinates **('box points')** (x1,y1,x2, y2) for each object detected in addition to object's 'name' and 'percentage probability' <br>
+- Full support for Python 3 and python 2, as well as PIP3 and PIP2 install <br>
+- Caffe/MXNET/Gluoncv/Tensorflow/ Keras/Pytorch/Opencv4
+   for Python3 and Python2  are perfectly supported  <br>
 - Options to hide 'percentage probability' and/or object 'name' from being shown in detected image or video
 - Support for video object detection on video live stream from device camera, connected camera and IP camera <br>
 - Support for **YOLOv3** and **TinyYOLOv3** for all object detection and video object detection tasks.
