@@ -1,21 +1,20 @@
 # AidLearnig <br>
 
-AidLearning FrameWork is a Linux system with GUI running on Android phone for AI programming without root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, AidLearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet,Gluoncv, ncnn, Keras,Pytorch are perfectly supported.. <br><br>
+AidLearning FrameWork is a Linux system with GUI running on Android phone for AI programming without needing root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, AidLearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet,Gluoncv, ncnn, Keras,Pytorch are perfectly supported.. <br><br>
 
 <img src="logo.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
 
-The AidLearning environments of <b>Linux+Anroid+AI 3IN1</b> project <a href="http://www.aidlearning.net" >AidLearning.net </a>
+AidLearning is a Linux system running on the Android with GUI, AI and  Python support . The AidLearning project which have the <b>Linux+Anroid+AI 3IN1</b> environments  <a href="http://www.aidlearning.net" >AidLearning.net </a>
 Developed and Maintained by  students from [CAS University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
 <hr>
+Built with simplicity in mind, <b>Aid Learning</b> 
+    supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2, powerfully.
 
-Built with simplicity in mind, <b>ImageAI</b> 
-    supports a list of state-of-the-art Machine Learning algorithms for image prediction, custom image prediction, object detection, video detection, video object tracking
-    and image predictions trainings. <b>ImageAI</b> currently supports image prediction and training using 4 different Machine Learning algorithms 
-    trained on the ImageNet-1000 dataset. <b>ImageAI</b> also supports object detection, video detection and object tracking  using RetinaNet, YOLOv3 and TinyYOLOv3 trained on COCO dataset. <br>
-                                   Eventually, <b>ImageAI</b> will provide support for a wider
-    and more specialized aspects of Computer Vision including and not limited to image 
-    recognition in special environments and special fields.
+Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming experience by using Python from zero on our framework!
 
+It means that when it is installed, your Android phone owned a Linux system with GUI which can run AI program in it.
+
+Now you have a complete linux with a GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can write your AI code on it visually!
 <br> <br>
 
 <b>New Release : ImageAI 2.0.2</b>
