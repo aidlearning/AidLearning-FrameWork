@@ -91,6 +91,7 @@ You just need download the aidlux.apk[ aidlux.apk](http://www.aidlearning.net/do
 <p align="center">
 [![Watch the video](aidlearning.png)](https://youtu.be/bkvNXgCi3_c)
 </p>
+
 # Totally free
 you can download the The entry app from the other way:
 <p>
