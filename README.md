@@ -193,7 +193,7 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 	<img src="Screen_11.jpg"  width="400" >
 </p>
 <p align="center">
-	<img src="Screen_10.jpg"  width="600" >
+	<img src="Screenshot_10.jpg"  width="600" >
 </p>
 
 <div id="Examples"></div>
