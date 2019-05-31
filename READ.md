@@ -45,7 +45,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#Support" >&#9635 Support AI framework</a><br>
 <a href="#GUI" >&#9635 GUI Customize</a><br>
 <a href="#ssh" >&#9635 SSH (connect to pc)</a><br>
-<a href="#customprediction" >&#9635 Custom Image Prediction</a><br>
+<a href="#Feature" >&#9635 Main Features</a><br>
 <a href="#documentation" >&#9635 Documentation</a><br>
 <a href="#sample" >&#9635 Projects Built on ImageAI</a><br>
 <a href="#recommendation" >&#9635 AI Practice Recommendations</a><br>
@@ -150,34 +150,32 @@ Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://19
 
 
 
-<div id="customprediction"></div>
-<h3><b><u>Custom Image Prediction </u></b></h3>
+<div id="Feature"></div>
+<h3><b><u>Main Features: </u></b></h3>
 
-<p>
-<p><i>Prediction from a sample model trained on IdenProf, for predicting professionals</i></p>
-      <img src="images/4.jpg" style="width: 400px; height: auto;" />
-    <pre>mechanic : 76.82620286941528
-chef : 10.106072574853897
-waiter : 4.036874696612358
-police : 2.6663416996598244
-pilot : 2.239348366856575</pre>
-
-
+# Graphical User Interface
+We fixed Graphical User Interface for the Linux on Andorid(It has been pruned by andorid!), so you can use the GUI just like on the pc. For instance, You can use opencv to open and view camera!
+<p align="center">
+	<img src="Screen5.jpg"  width="400" >
 </p>
 
-<b>ImageAI</b> provides classes and methods for you to run image prediction your own custom objects using your own model trained with <b>ImageAI</b> Model Training class.
-You can use your custom models trained with SqueezeNet, ResNet50, InceptionV3 and DenseNet and the JSON file containing the mapping of the custom object names.
-Click the link below to see the guide to sample training codes, explanations, and best practices guide.
-<br>
+# Fast,Real-Time
+Real linux running on the busybox and not virtul environment like VirtulBox. So it is faster and almost real-time
 
+# Easy to use
+We provide a plenty of examples and by using our framework, you can run it with a tap, and then get a visual log to show the informations or errors.
+<p align="center">
+	<img src="screen2.jpg"  width="400" >
+</p>
 
-<a href="imageai/Prediction/CUSTOMPREDICTION.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorials & Documentation </button></a>
+# Coding anywhere
+You can coding on your phone anywhere, anytime. Every inch of fragmentation have been fully utilized. Your creativity can be instantly realized with a flash of inspiration.
+<p align="center">
+	<img src="screen3.jpg"  width="400" >
+</p>
+# Energy Star
 
-
-
-
-
-
+According to the test on the mainstream smartphone like Samsung, Aid Learning Framework only use 1% power consumption in a whole day (Standby)
 
 <br><br>
 <div id="documentation"></div>
