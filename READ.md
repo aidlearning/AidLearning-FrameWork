@@ -48,7 +48,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#Feature" >&#9635 Main Features</a><br>
 <a href="#documentation" >&#9635 Documentation</a><br>
 <a href="#sample" >&#9635 Projects Built on ImageAI</a><br>
-<a href="#recommendation" >&#9635 AI Practice Recommendations</a><br>
+<a href="#Examples" >&#9635 Examples Inside</a><br>
 <a href="#contact" >&#9635 Contact Developers</a><br>
 <a href="#contributors" >&#9635 Contributors</a><br>
 <a href="#ref" >&#9635 References</a><br>
@@ -217,15 +217,19 @@ FOR UBUNTU <br>
 
  <br> <br>
 
-<div id="recommendation"></div>
- <h3><b><u>AI Practice Recommendations</u></b></h3>
+<div id="Examples "></div>
+ <h3><b><u>Examples Inside:</u></b></h3>
 
- For anyone interested in building AI systems and using them for business, economic,  social and research purposes, it is critical that the person knows the likely positive, negative and unprecedented impacts the use of such technologies will have. They must also be aware of approaches and practices recommended by experienced industry experts to ensure every use of AI brings overall benefit to mankind. We therefore recommend to everyone that wishes to use ImageAI and other AI tools and resources to read Microsoft's January 2018 publication on AI titled "The Future Computed : Artificial Intelligence and its role in society ".
-Kindly follow the link below to download the publication.
- <br><br>
-<a href="https://blogs.microsoft.com/blog/2018/01/17/future-computed-artificial-intelligence-role-society/" >https://blogs.microsoft.com/blog/2018/01/17/future-computed-artificial-intelligence-role-society/</a>
- <br> <br>
-
+<p>Facencnn(mobiefacenet ncnn) 15fps in mobile phone
+<p>Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
+<p>handpose (tensorflow ) 5fps  in mobile phone
+<p>body posenet for single person(converted from google ) 10fps  in mobile phone
+<p>body posenet for multi-person(converted from google ) 7fps  in mobile phone
+<p>Stylized picture(GAN ) 3fps in mobile phone
+.....
+<p align="center">
+<img src="screen21.jpg" align = "center" width="200" >
+</p>
 
 
 
