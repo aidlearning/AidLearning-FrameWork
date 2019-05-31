@@ -196,16 +196,6 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 	<img src="Screen_10.jpg"  width="600" >
 </p>
 
-<div id="sample"></div>
-<h3><b><u>Sample Applications</u></b></h3> As a demonstration of  what you can do with ImageAI, we have 
- built a complete AI powered Photo gallery for Windows called <b>IntelliP</b> ,  using <b>ImageAI</b> and UI framework <b>Kivy</b>. Follow this 
- <a href="https://github.com/OlafenwaMoses/IntelliP"  > link </a> to download page of the application and its source code. <br> <br>
-
- We also welcome submissions of applications and systems built by you and powered by ImageAI for listings here. Should you want your ImageAI powered 
-  developments listed here, you can reach to us via our <a href="#contact" >Contacts</a> below.
-
- <br> <br>
-
 <div id="Examples "></div>
  <h3><b><u>Examples Inside:</u></b></h3>
 
