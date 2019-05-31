@@ -115,12 +115,12 @@ cvs. setInfoX (320,60) # setting the width,height of the info area<br>
 cvs. infoshow ("this is info show") # show info in the info area<br>
 </p>
 In particular, input area, we greatly simplify the operation process, you only need to specify a dict, AidLeaning will automatically generate a form for you to interact with users, such as you need to register a face, you can do this:
-
-usr_dict={'username': '', 'type': 'add_person'}# define the input list
-cvs.setInput_dict(usr_dict)# setting for gui
-cvs.setSubmitName("Register your FaceID")#setting the name of submit button
+<br><br>
+usr_dict={'username': '', 'type': 'add_person'}# define the input list<br><br>
+cvs.setInput_dict(usr_dict)# setting for gui<br><br>
+cvs.setSubmitName("Register your FaceID")#setting the name of submit button<br><br>
 so ,aidlearning will produce this gui:
-<img src="submit.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
+<img src="input.png" style="width: 500px; height: auto; margin-left: 50px; " />
 
 
 
