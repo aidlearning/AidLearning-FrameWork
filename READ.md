@@ -242,9 +242,10 @@ We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his in
  <div id="ref"></div>
  <h3><b><u>References</u></b></h3>
 
- 1. mobilefacenet in mxnet <br>
- <a href="https://github.com/qidiso/mobilefacenet-V2" >https://github.com/qidiso/mobilefacenet-V2</a> <br><br>
-
- 2. Broad Institute of MIT and Harvard, Keras package for deep residual networks <br>
- <a href="https://github.com/broadinstitute/keras-resnet" >https://github.com/broadinstitute/keras-resnet</a> <br><br>
-
+VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. Source, Open Issues, and All (including closed) issues.
+iTerm 2: OS X terminal application. Source, Issues and Documentation (which includes iTerm2 proprietary escape codes).
+Konsole: KDE terminal application. Source, in particular tests, Bugs and Wishes.
+hterm: JavaScript terminal implementation from Chromium. Source, including tests, and Google group.
+xterm: The grandfather of terminal emulators. Source.
+Connectbot: Android SSH client. Source
+Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. Source.
