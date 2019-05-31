@@ -62,7 +62,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 
 <div id="installation"></div>
  <h3><b><u>Installation</u></b></h3> To install AidLearing, Simply download an app (apk file) and install it on your mobile device. download at http://www.aidlearning.net/downloads/aidlux-05-31.apk <br>
- The  app （apk） is only 7M，when you install the apk ,the apk will download the depdence of the framework
+ The  app （apk） is only 8M，when you install the apk ,the apk will download the depdence of the framework
 is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a WiFi environment.
 <br><br>
 
