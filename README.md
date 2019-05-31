@@ -184,7 +184,7 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 <p align="center">
 [![Watch the video]aidlearning.png](https://youtu.be/bkvNXgCi3_c)
 </p>
-[![Watch the video](aidlearning.png)](https://youtu.be/bkvNXgCi3_c)
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://youtu.be/bkvNXgCi3_c)
 <br> <br>
 
 <div id="ScreenShot"></div>
