@@ -107,13 +107,14 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
           <img src="gui.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
     </div> <br>
 
-<b>ImageAI</b> provides very convenient and powerful methods
- to perform object detection in videos and track specific object(s). The video object detection class provided only supports
- the current state-of-the-art RetinaNet, but with options to adjust for state of the art performance or real time processing.
-Click the link to see the full videos, sample codes, explanations and best practices guide.
-
-
+<b>AidLearnig</b> 
+<p>
+As shown in the figure above, we divide an app into four areas: Title area, camera area, input area, info show area. An app display can consist of one or more areas.You can use Python (cvs class) statements to manipulate the Title, size and layout of these areas.
+for examples： in the info area ,you can do this:<br>
+cvs. setInfoX (320,60) # setting the width,height of the info area<br>
+cvs. infoshow ("this is info show") # show info in the info area<br>
 </p>
+
 
 
 <a href="imageai/Detection/VIDEO.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide </button></a>
