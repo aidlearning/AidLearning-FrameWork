@@ -136,10 +136,11 @@ so ,aidlearning will produce this gui:
 <h3><b><u>SSH (connect to PC) </u></b></h3>
 
 <p><br>
-    <div style="width: 600px;" >
-            <p><i>A sample from the IdenProf Dataset used to train a Model for predicting professionals.</i></p>
-          <img src="images/idenprof.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
-    </div> <br>
+PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with ***ssh-keygen*** in your PC.  For instance, upload the file of id_rsa and id_rsa.pub.
+
+Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://192.168.1.6:8910/upload) in the pc to upload ssh's file(id_rsa and id_rsa.pub). 
+
+<img src="ssh.png" width=300px />
 
 
 </p>
