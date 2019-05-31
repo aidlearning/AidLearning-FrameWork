@@ -222,8 +222,9 @@ We provide an AI coding develop tool named Aid_code. It can provide you a visual
 Of course, you can use Aid_code on the web to edit your code online. For example, you can use web coding with Aid_code on PC. You just need to open the web address: IP of your mobile phone:8900/, when your PC and mobile phone are in the same LAN.
 You can open it on a PC, for example:<br><br>
 Http://192.168.1.8:8900/, if your phone's IP is 192.168.1.8, you can check your phone's IP by commanding ifconfig (run ifconfig under terminal)
-
-
+<p>
+	<img src="web.png" width="500" >
+<p>
  <br><br>
 
 <div id="contact"></div>
