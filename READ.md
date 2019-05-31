@@ -132,14 +132,13 @@ Click the link to see the full videos, sample codes, explanations and best pract
 
 </p>
 
-<b>ImageAI</b> provides classes and methods for you to train a new model that can be used to perform prediction on your own custom objects.
-You can train your custom models using SqueezeNet, ResNet50, InceptionV3 and DenseNet in  <b> 5 </b> lines of code.
-Click the link below to see the guide to preparing training images, sample training codes, explanations and best practices.
-<br>
-
-
-<a href="imageai/Prediction/CUSTOMTRAINING.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorials & Documentation </button></a>
-
+<b>AidLearnig</b> 
+<p>
+As shown in the figure above, we divide an app into four areas: Title area, camera area, input area, info show area. An app display can consist of one or more areas.You can use Python (cvs class) statements to manipulate the Title, size and layout of these areas.
+for examples： in the info area ,you can do this:<br>
+cvs. setInfoX (320,60) # setting the width,height of the info area<br>
+cvs. infoshow ("this is info show") # show info in the info area<br>
+</p>
 
 
 <br><br>
