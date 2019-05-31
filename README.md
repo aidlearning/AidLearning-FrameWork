@@ -181,7 +181,7 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 
 <div id="youtobe"></div>
 <h3><b><u>Youtobe show </u></b></h3>
-<p align="center">
+<p >
 [Watch the video](https://youtu.be/bkvNXgCi3_c)
 </p>
 
