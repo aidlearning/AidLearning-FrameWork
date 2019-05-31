@@ -46,7 +46,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#GUI" >&#9635 GUI Customize</a><br>
 <a href="#ssh" >&#9635 SSH (connect to pc)</a><br>
 <a href="#Feature" >&#9635 Main Features</a><br>
-<a href="#documentation" >&#9635 Documentation</a><br>
+<a href="#youtobe" >&#9635 Youtobe show</a><br>
 <a href="#sample" >&#9635 Projects Built on ImageAI</a><br>
 <a href="#Examples" >&#9635 Examples Inside</a><br>
 <a href="#contact" >&#9635 Contact Developers</a><br>
@@ -178,14 +178,12 @@ You can coding on your phone anywhere, anytime. Every inch of fragmentation have
 According to the test on the mainstream smartphone like Samsung, Aid Learning Framework only use 1% power consumption in a whole day (Standby)
 
 <br><br>
-<div id="documentation"></div>
-<h3><b><u>Documentation </u></b></h3>
 
-We have provided full documentation for all <b>ImageAI</b> classes and functions in 2 major languages. Find links below: <br>
-
-<b> >> Documentation - English Version  [https://imageai.readthedocs.io](https://imageai.readthedocs.io)</b> <br>
-<b> >> Documentation - Chinese Version  [https://imageai-cn.readthedocs.io](https://imageai-cn.readthedocs.io)</b> <br>
-<b> >> Documentation - French Version  [https://imageai-fr.readthedocs.io](https://imageai-fr.readthedocs.io)</b>
+<div id="youtobe"></div>
+<h3><b><u>Youtobe show </u></b></h3>
+<p align="center">
+[![Watch the video](aidlearning.png)](https://youtu.be/bkvNXgCi3_c)
+</p>
 
 <br> <br>
 
