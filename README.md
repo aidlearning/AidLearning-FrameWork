@@ -156,7 +156,7 @@ Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://19
 # Graphical User Interface
 We fixed Graphical User Interface for the Linux on Andorid(It has been pruned by andorid!), so you can use the GUI just like on the pc. For instance, You can use opencv to open and view camera!
 <p align="center">
-	<img src="up.png"  width="400" >
+	<img src="up.png"  width="200" >
 </p>
 
 # Fast,Real-Time
