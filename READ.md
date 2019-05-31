@@ -44,7 +44,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#installation" >&#9635 Installation</a><br>
 <a href="#Support" >&#9635 Support AI framework</a><br>
 <a href="#GUI" >&#9635 GUI Customize</a><br>
-<a href="#customtraining" >&#9635 Custom Model Training</a><br>
+<a href="#ssh" >&#9635 SSH (connect to pc)</a><br>
 <a href="#customprediction" >&#9635 Custom Image Prediction</a><br>
 <a href="#documentation" >&#9635 Documentation</a><br>
 <a href="#sample" >&#9635 Projects Built on ImageAI</a><br>
@@ -132,8 +132,8 @@ so ,aidlearning will produce this gui:
 
 <br>
 
-<div id="customtraining"></div>
-<h3><b><u>Custom Model Training </u></b></h3>
+<div id="ssh"></div>
+<h3><b><u>SSH (connect to PC) </u></b></h3>
 
 <p><br>
     <div style="width: 600px;" >
@@ -144,24 +144,7 @@ so ,aidlearning will produce this gui:
 
 </p>
 
-<b>AidLearnig</b> 
-<p>
-As shown in the figure above, we divide an app into four areas: Title area, camera area, input area, info show area. An app display can consist of one or more areas.You can use Python (cvs class) statements to manipulate the Title, size and layout of these areas.
-for examples： in the info area ,you can do this:<br>
-cvs. setInfoX (320,60) # setting the width,height of the info area<br>
-cvs. infoshow ("this is info show") # show info in the info area<br>
 
-In particular, input area, we greatly simplify the operation process, you only need to specify a dict, AidLeaning will automatically generate a form for you to interact with users, such as you need to register a face, you can do this:<br><br>
-
-usr_dict={'username': '', 'type': 'add_person'}# define the input list<br><br>
-cvs.setInput_dict(usr_dict)# setting for gui<br><br>
-cvs.setSubmitName("Register your FaceID")#setting the name of submit button<br><br>
-so ,aidlearning will produce this gui:<br><br>
-<p align=center>
-<img src="input.jpg" />
-</p>
-<br><br>
-</p>
 
 
 
