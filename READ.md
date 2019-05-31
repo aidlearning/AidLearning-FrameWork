@@ -47,7 +47,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#ssh" >&#9635 SSH (connect to pc)</a><br>
 <a href="#Feature" >&#9635 Main Features</a><br>
 <a href="#youtobe" >&#9635 Youtobe show</a><br>
-<a href="#sample" >&#9635 Projects Built on ImageAI</a><br>
+<a href="#ScreenShot" >&#9635 Screenshot of AidLearning</a><br>
 <a href="#Examples" >&#9635 Examples Inside</a><br>
 <a href="#contact" >&#9635 Contact Developers</a><br>
 <a href="#contributors" >&#9635 Contributors</a><br>
@@ -128,7 +128,7 @@ so ,aidlearning will produce this gui:
 
 
 
-<a href="imageai/Detection/VIDEO.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide </button></a>
+<a href="cvs/READMME.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide </button></a>
 
 <br>
 
@@ -187,23 +187,14 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 
 <br> <br>
 
-<div id="performance"></div>
-<h3><b><u>Real-Time and High Performance Implementation</u></b></h3>
-<b>ImageAI</b> provides abstracted and convenient implementations of state-of-the-art Computer Vision technologies. All of <b>ImageAI</b> implementations and code can work on any computer system with moderate CPU capacity. However, the speed of processing for operations like image prediction, object detection and others on CPU is slow and not suitable for real-time applications. To perform real-time Computer Vision operations with high performance, you need to use GPU enabled technologies.
-<br> <br>
-<b>ImageAI</b> uses the Tensorflow backbone for it's Computer Vision operations. Tensorflow supports both CPUs and GPUs ( Specifically NVIDIA GPUs.  You can get one for your PC or get a PC that has one) for machine learning and artificial intelligence algorithms' implementations. To use Tensorflow that supports the use of GPUs, follow the link below :
-<br> <br>
-FOR WINDOWS <br>
-<a href="https://www.tensorflow.org/install/install_windows" >https://www.tensorflow.org/install/install_windows</a> <br><br>
-
-
-FOR macOS <br>
-<a href="https://www.tensorflow.org/install/install_mac" >https://www.tensorflow.org/install/install_mac</a> <br><br>
-
-
-FOR UBUNTU <br>
-<a href="https://www.tensorflow.org/install/install_linux">https://www.tensorflow.org/install/install_linux</a>
-<br><br>
+<div id="ScreenShot"></div>
+<h3><b><u>ScreenShot of AidLearning</u></b></h3>
+<p align="center">
+	<img src="Screen_11.jpg"  width="400" >
+</p>
+<p align="center">
+	<img src="Screen_10.jpg"  width="600" >
+</p>
 
 <div id="sample"></div>
 <h3><b><u>Sample Applications</u></b></h3> As a demonstration of  what you can do with ImageAI, we have 
