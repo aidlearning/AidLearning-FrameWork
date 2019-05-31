@@ -104,7 +104,7 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
     cvs. setCamX (350,480)<br>
     cvs. setInfoX (320,60)<br>
 </i></p>
-          <img src="gui.jpg" style="width: 500px; height: auto; margin-left: 50px; " />
+          <img src="gui.jpg" style="width: 300px; height: auto; margin-left: 50px; " />
     </div> <br>
 
 <b>AidLearnig</b> 
@@ -120,7 +120,7 @@ usr_dict={'username': '', 'type': 'add_person'}# define the input list<br><br>
 cvs.setInput_dict(usr_dict)# setting for gui<br><br>
 cvs.setSubmitName("Register your FaceID")#setting the name of submit button<br><br>
 so ,aidlearning will produce this gui:
-<img src="input.png" style="width: 500px; height: auto; margin-left: 50px; " />
+<img src="input.png" style="width: 300px; height: auto; margin-left: 50px; " />
 
 
 
