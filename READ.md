@@ -196,7 +196,7 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 	<img src="Screen_10.jpg"  width="600" >
 </p>
 
-<div id="Examples "></div>
+<div id="Examples"></div>
  <h3><b><u>Examples Inside:</u></b></h3>
 
 <p>Facencnn(mobiefacenet ncnn) 15fps in mobile phone
@@ -224,14 +224,14 @@ We provide an AI coding develop tool named Aid_code. It can provide you a visual
 
 <div id="contact"></div>
  <h3><b><u>Contributors</u></b></h3>
-We are inviting anyone who wishes to contribute to the <b>ImageAI</b> project to reach to us. We primarily need contributions in translating the documentation of the project's code to major languages that includes but not limited to French, Spanish, Portuguese, Arabian and more. We want every developer and researcher around the world to benefit from this project irrespective of their native languages. <br>
+We are inviting anyone who wishes to contribute to the <b>AidLearning</b> project to reach to us. We primarily need contributions in translating the documentation of the project's code to major languages that includes but not limited to French, Spanish, Portuguese, Arabian and more. We want every developer and researcher around the world to benefit from this project irrespective of their native languages. <br>
 
-We give special thanks to <b>[Kang vcar](https://github.com/kangvcar/)</b> for his incredible and excellent work in translating <b>ImageAI</b>'s documentation to the Chinese language. Find below the contact details of those who have contributed immensely to the <b>ImageAI</b> project.
+We give special thanks to <b>[Kang vcar](https://github.com/qidiso/)</b> for his incredible and excellent work in translating <b>AidLearning</b>'s documentation to the Chinese language. Find below the contact details of those who have contributed immensely to the <b>ImageAI</b> project.
 
- <p> <b>Kang vcar</b> <br>
-    <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:kangvcar@mail.com"> kangvcar@mail.com</a> <br>
-      <i>Website: </i>    <a style="text-decoration: none;" target="_blank" href="http://www.kangvcar.com"> http://www.kangvcar.com</a> <br>
-      <i>Twitter: </i>    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/kangvcar"> @kangvcar</a> <br>
+ <p> <b>bill</b> <br>
+    <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:postmaster@aidlearning.com">postmaster@aidlearning.com</a> <br>
+      <i>Website: </i>    <a style="text-decoration: none;" target="_blank" href="http://www.aidlearning.net"> http://www.aidlearning.net</a> <br>
+      <i>Issue: </i>    <a style="text-decoration: none;" target="_blank" href="http://www.aidlearning.net/mybb/"> @admin</a> <br>
 
 
 
