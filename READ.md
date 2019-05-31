@@ -49,7 +49,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <a href="#youtobe" >&#9635 Youtobe show</a><br>
 <a href="#ScreenShot" >&#9635 Screenshot of AidLearning</a><br>
 <a href="#Examples" >&#9635 Examples Inside</a><br>
-<a href="#contact" >&#9635 Contact Developers</a><br>
+<a href="#aidcode" >&#9635 Aid_code IDE</a><br>
 <a href="#contributors" >&#9635 Contributors</a><br>
 <a href="#ref" >&#9635 References</a><br>
 
@@ -223,24 +223,12 @@ According to the test on the mainstream smartphone like Samsung, Aid Learning Fr
 
 
 
-<div id="contact"></div>
- <h3><b><u>Contact Developers</u></b></h3>
- <p> <b>Moses Olafenwa</b> <br>
-    <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:guymodscientist@gmail.com"> guymodscientist@gmail.com</a> <br>
-      <i>Website: </i>    <a style="text-decoration: none;" target="_blank" href="https://moses.aicommons.science"> https://moses.aicommons.science</a> <br>
-      <i>Twitter: </i>    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/OlafenwaMoses"> @OlafenwaMoses</a> <br>
-      <i>Medium : </i>    <a style="text-decoration: none;" target="_blank" href="https://medium.com/@guymodscientist"> @guymodscientist</a> <br>
-      <i>Facebook : </i>    <a style="text-decoration: none;" target="_blank" href="https://facebook.com/moses.olafenwa"> moses.olafenwa</a> <br>
-<br><br>
-      <b>John Olafenwa</b> <br>
-    <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:johnolafenwa@gmail.com"> johnolafenwa@gmail.com</a> <br>
-      <i>Website: </i>    <a style="text-decoration: none;" target="_blank" href="https://john.aicommons.science"> https://john.aicommons.science</a> <br>
-      <i>Twitter: </i>    <a style="text-decoration: none;" target="_blank" href="https://twitter.com/johnolafenwa"> @johnolafenwa</a> <br>
-      <i>Medium : </i>    <a style="text-decoration: none;" target="_blank" href="https://medium.com/@johnolafenwa"> @johnolafenwa</a> <br>
-      <i>Facebook : </i>    <a style="text-decoration: none;" href="https://facebook.com/olafenwajohn"> olafenwajohn</a> <br>
-
-
- </p>
+<div id="aidcode"></div>
+ <h3><b><u>Aid_code IDE of python </u></b></h3>
+We provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming IDE by using Python from zero on our framework! Using the tool, you can run your python2 or python3 codes online.so ,you can coding with Aid_code IDE on your phone anywhere, anytime. 
+<p align="center">
+	<img src="screen3.jpg"  width="400" >
+</p>
 
  <br><br>
 
