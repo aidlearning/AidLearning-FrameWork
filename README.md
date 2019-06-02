@@ -113,7 +113,6 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
 	</p>
     </div> <br>
 
-<b>AidLearnig</b> 
 <p>
 As shown in the figure above, we divide an app into four areas: Title area, camera area, input area, info show area. An app display can consist of one or more areas.You can use Python (cvs class) statements to manipulate the Title, size and layout of these areas.
 for examples： in the info area ,you can do this:<br>
@@ -251,10 +250,10 @@ We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his in
  <div id="ref"></div>
  <h3><b><u>References</u></b></h3>
 
-VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. Source, Open Issues, and All (including closed) issues.
-iTerm 2: OS X terminal application. Source, Issues and Documentation (which includes iTerm2 proprietary escape codes).
-Konsole: KDE terminal application. Source, in particular tests, Bugs and Wishes.
-hterm: JavaScript terminal implementation from Chromium. Source, including tests, and Google group.
-xterm: The grandfather of terminal emulators. Source.
-Connectbot: Android SSH client. Source
-Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. Source.
+VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. Source, Open Issues, and All (including closed) issues.<br>
+iTerm 2: OS X terminal application. Source, Issues and Documentation (which includes iTerm2 proprietary escape codes).<br>
+Konsole: KDE terminal application. Source, in particular tests, Bugs and Wishes.<br>
+hterm: JavaScript terminal implementation from Chromium. Source, including tests, and Google group.<br>
+xterm: The grandfather of terminal emulators. Source.<br>
+Connectbot: Android SSH client. Source<br>
+Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. Source.<br>
