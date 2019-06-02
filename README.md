@@ -131,7 +131,7 @@ so ,aidlearning will produce this gui:
 
 
 
-<a href="cvs/READMME.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide </button></a>
+<a href="https://github.com/aidlearning/AidLearning-FrameWork/blob/master/cvs/README.md" ><button style="font-size: 20px; color: white; background-color: steelblue; height: 50px; border-radius: 10px; " > >>> Tutorial & Guide </button></a>
 
 <br>
 
