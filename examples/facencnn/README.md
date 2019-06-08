@@ -21,4 +21,4 @@ reached 99.733 in the cfp-ff、 the 99.68+ in lfw,96.71+ in agedb30.
 
 # Download the framework and install (free!)
 the example of landmark is inside the AidLearning Framework.
-[!Download now](http://www.aidlearning.net/downloads/aidlux-05-10.apk)
+[!Download now](http://www.aidlearning.net/downloads/aidlux-06-01.apk)
