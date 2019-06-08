@@ -237,10 +237,10 @@ We are inviting anyone who wishes to contribute to the <b>AidLearning</b> projec
 
 We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his incredible and excellent work in translating <b>AidLearning</b>'s documentation to the Chinese language. Find below the contact details of those who have contributed immensely to the <b>AidLearning</b> project.
 
-
+<p>
     <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:postmaster@aidlearning.com">postmaster@aidlearning.com</a> <br>
       <i>Website: </i>    <a style="text-decoration: none;" target="_blank" href="http://www.aidlearning.net"> http://www.aidlearning.net</a> <br>
-
+</p>
 
 
 
