@@ -237,10 +237,10 @@ We are inviting anyone who wishes to contribute to the <b>AidLearning</b> projec
 
 We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his incredible and excellent work in translating <b>AidLearning</b>'s documentation to the Chinese language. Find below the contact details of those who have contributed immensely to the <b>AidLearning</b> project.
 
- <p> <b>bill</b> <br>
+
     <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:postmaster@aidlearning.com">postmaster@aidlearning.com</a> <br>
       <i>Website: </i>    <a style="text-decoration: none;" target="_blank" href="http://www.aidlearning.net"> http://www.aidlearning.net</a> <br>
-      <i>Issue: </i>    <a style="text-decoration: none;" target="_blank" href="http://www.aidlearning.net/mybb/"> @admin</a> <br>
+
 
 
 
@@ -248,7 +248,7 @@ We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his in
 
  <br>
 
-[medium--more details](https://medium.com/@sxg628/aidlearning-build-a-linux-system-running-on-the-android-with-gui-ai-and-python-support-a90b6c2ded34)
+[Medium-- more details about AidLearning](https://medium.com/@sxg628/aidlearning-build-a-linux-system-running-on-the-android-with-gui-ai-and-python-support-a90b6c2ded34)
 
  <div id="ref"></div>
  <h3><b><u>References</u></b></h3>
