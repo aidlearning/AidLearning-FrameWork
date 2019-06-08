@@ -248,7 +248,7 @@ We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his in
 
  <br>
 
-[Medium-- more details about AidLearning](https://medium.com/@sxg628/aidlearning-build-a-linux-system-running-on-the-android-with-gui-ai-and-python-support-a90b6c2ded34)
+[Medium-- Stories about AidLearning](https://medium.com/@sxg628/aidlearning-build-a-linux-system-running-on-the-android-with-gui-ai-and-python-support-a90b6c2ded34)
 
  <div id="ref"></div>
  <h3><b><u>References</u></b></h3>
