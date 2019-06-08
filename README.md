@@ -235,7 +235,7 @@ Http://192.168.1.8:8900/, if your phone's IP is 192.168.1.8, you can check your 
  <h3><b><u>Contributors</u></b></h3>
 We are inviting anyone who wishes to contribute to the <b>AidLearning</b> project to reach to us. We primarily need contributions in translating the documentation of the project's code to major languages that includes but not limited to French, Spanish, Portuguese, Arabian and more. We want every developer and researcher around the world to benefit from this project irrespective of their native languages. <br>
 
-We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his incredible and excellent work in translating <b>AidLearning</b>'s documentation to the Chinese language. Find below the contact details of those who have contributed immensely to the <b>ImageAI</b> project.
+We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his incredible and excellent work in translating <b>AidLearning</b>'s documentation to the Chinese language. Find below the contact details of those who have contributed immensely to the <b>AidLearning</b> project.
 
  <p> <b>bill</b> <br>
     <i>Email: </i>    <a style="text-decoration: none;"  href="mailto:postmaster@aidlearning.com">postmaster@aidlearning.com</a> <br>
