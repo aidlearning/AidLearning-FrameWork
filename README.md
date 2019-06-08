@@ -19,8 +19,8 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 <b>New Release : AidLearning 0.70</b>
 <br> What's new:
 <br>
-- Full support for Python 3 and python 2, as well as PIP3 and PIP2 install <br>
-- Caffe/MXNET/Gluoncv/Tensorflow/ Keras/Pytorch/Opencv4
+- Full support for <b>Python 3 and python 2</b>, as well as pip3 and pip2 install <br>
+- <b>Caffe/MXNET/Gluoncv/Tensorflow/ Keras/Pytorch/Opencv4</b>
    for Python3 and Python2  are perfectly supported  <br>
 - With the new CVS package, you can easily customize your interface with Python code:
     
