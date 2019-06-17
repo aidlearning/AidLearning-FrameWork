@@ -263,3 +263,11 @@ We give special thanks to <b>[qidiso](https://github.com/qidiso/)</b> for his in
 * Termux: Android terminal and Linux environment - app repository. [Source](https://github.com/termux/termux-app).
 * remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source]
 (https://github.com/dddomodossola/remi).
+* [Caffe]https://github.com/BVLC/caffe
+* [Tensorflow]https://github.com/tensorflow/tensorflow
+* [Mxnet]https://github.com/apache/incubator-mxnet
+* [Keras]https://github.com/keras-team/keras
+* [ncnn]https://github.com/Tencent/ncnn
+* [pytorch]https://github.com/pytorch/pytorch
+* [opencv]https://github.com/opencv/opencv
+
