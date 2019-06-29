@@ -5,7 +5,9 @@ thank for <b>qidiso</b> provide the [中文说明](https://www.jianshu.com/p/f6e
 Aid Learning builds a Linux system with graphical interface on Android mobile phone, and supports GUI, Python and AI programming. This means that when it is installed, your Android phone has a Linux system in which you can run Gui programs of python and AI. Aid Learning supports a list of Top Machine Learning Framework for Deep Learning. Now we support Caffe, Tensorflow, Mxnet, ncnn, Keras, Pytorch,Gluoncv, cv2,scipy.... powerfully build-in. (in order to support deep learning, you no longer need complex configuration and wall-flipping dependency packages).
 
 Furthermore we provide an AI coding develop tool named Aid_code. It can provide you a visual AI programming IDE by using Python from zero on our framework! It means that when it is installed, your Android phone owned a Linux system with GUI which can write and run AI program in it as same as in PC. In addition,Latest version(>0.72) of Aid Learning can provide a new visual programming experience of <b>touch-and-drag</b> by using Python on our framework (supporting both Python 2 and Python 3)!
-
+<p align=center>
+<img src="Wizard.gif" width=400px />
+</p>
 At the same time, Aid Learning provides wifi-based mapping projection technology, which can project the code of mobile phone to PC and interact with SSH remote commands. It can also be projected to TV and projector for large screen display.
 
 In short, Aid Learning has created a Four-in-one and  touch-and-drag platform for rapid development and learning of Android+Linux+AI+Python. It can not only use mobile phones for fragmented programming, but also make full use of the development advantages of the two main operating systems (Android+Linux) and the perfect AI terminal advantages of mobile phones. With this advantage, Aid Learning can build a perfect learning ecosphere of programming education.
