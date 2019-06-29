@@ -10,7 +10,7 @@ At the same time, Aid Learning provides wifi-based mapping projection technology
 
 In short, Aid Learning has created a Four-in-one and  touch-and-drag platform for rapid development and learning of Android+Linux+AI+Python. It can not only use mobile phones for fragmented programming, but also make full use of the development advantages of the two main operating systems (Android+Linux) and the perfect AI terminal advantages of mobile phones. With this advantage, Aid Learning can build a perfect learning ecosphere of programming education.
 
-<img src="logo.png" style="width: 200px; height: auto; margin-left: 50px; " /> <br>
+<img src="logo.png" style="width: 150px; height: auto; margin-left: 50px; " />
 <img src="Screenshot_10.jpg"  width="600px" >
 
 AidLearning is a Linux system running on the Android with GUI, AI and  Python support . <a href="http://www.aidlearning.net" >The AidLearning </a> project which have the <b>Linux+Anroid+AI 3IN1</b> environments Developed and Maintained by several students from [Cas University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
