@@ -2,7 +2,13 @@
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://github.com/Yoline777/AidLearning/blob/master/license.md) 
 thank for <b>qidiso</b> provide the [中文说明](https://www.jianshu.com/p/f6ec13ece792)
 
-AidLearning FrameWork is a Linux system with GUI running on Android phone for AI programming without needing root. Aidlearning is also a Python programming framwork for mobile devices. In addition to some of the features available in the Linux environment, AidLearning has supported GUI and neural network environments. For example, Caffe, Tensorflow, Mxnet,Gluoncv, ncnn, Keras,Pytorch are perfectly supported.. <br><br>
+Aid Learning builds a Linux system with graphical interface on Android mobile phone, and supports GUI, Python and AI programming. This means that when it is installed, your Android phone has a Linux system in which you can run AI programs. Aid Learning has now perfectly supported the most popular Deep-Learning frameworks in Top6: Caffe, Tensorflow, Mxnet, ncnn, Keras, pytorch, opencv, which are perfectly supported and built-in (in order to support AI, you no longer need complex configuration and wall-flipping dependency packages).
+
+In addition, Aid Learning provides an AI coding development tool called Aid_code. It can provide a new visual programming experience of touch-and-drag by using Python on our framework (supporting both Python 2 and Python 3)!
+
+At the same time, Aid Learning provides wifi-based mapping projection technology, which can project the code of mobile phone to PC and interact with SSH remote commands. It can also be projected to TV and projector for large screen display.
+
+In short, Aid Learning has created a three-in-one touch-and-drag platform for rapid development and learning of Android+Linux+AI. It can not only use mobile phones for fragmented programming, but also make full use of the development advantages of the two main operating systems (Android+Linux) and the perfect terminal advantages of mobile phones. With this advantage, Aid Learning can build a perfect learning ecosphere of programming education.
 
 <img src="logo.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
 
