@@ -29,6 +29,9 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 
 - The interface and menu were redesigned to fix the bug of floating menu occlusion code.
 - New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
+	<p align=center>
+          <img src="codeauto.gif" width=200px />
+	</p>
 - New ui Design Interface (Wizard), now ui design does not require you to write ui code , you can use <b>touch and drag </b>Components to generate ui codes. We have built-in a large number of UI development components，the system will automatically generate ui code, you only need to focus on the core processing code.
 
 3.  Redesign the example codes and use the new ui Design method.
