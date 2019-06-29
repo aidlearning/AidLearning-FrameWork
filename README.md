@@ -128,16 +128,36 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
 <h3><b><u>GUI Customize</u></b></h3>
 
 <p><div style="width: 600px;" >
-          <p><i><b>Now you can easily customize your GUI with Python code！</b></i></p>
+          <p><i><b>Now you can easily customize your GUI with touch and drag！Wizard will produce the code automatic:</b></i></p>
 <p><i>    
-   cvs. setTitle ("Face Recognize")<br>
-    cvs. setInput_dict (usr_dict)<br>
-    cvs. setSubmitName ("Register your FaceID")<br>
-    cvs. setCamX (350,480)<br>
-    cvs. setInfoX (320,60)<br>
+
+class MyApp(App):
+    def __init__(self, *args):
+        super(MyApp, self).__init__(*args)
+
+    def main(self):
+        container = gui.VBox(width=120, height=100)
+        self.lbl = gui.Label('Hello world!')
+        self.bt = gui.Button('Press me!')
+
+        # setting the listener for the onclick event of the button
+        self.bt.onclick.do(self.on_button_pressed)
+
+        # appending a widget to another, the first argument is a string key
+        container.append(self.lbl)
+        container.append(self.bt)
+
+        # returning the root widget
+        return container
+
+    # listener function
+    def on_button_pressed(self, widget):
+        self.lbl.set_text('Button pressed!')
+        self.bt.set_text('Hi!')
+
 </i></p>
 	<p align=center>
-          <img src="wizard.gif" width=200px />
+          <img src="Wizard.gif" width=200px />
 	</p>
     </div> <br>
 
