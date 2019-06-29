@@ -131,29 +131,29 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
           <p><i><b>Now you can easily customize your GUI with touch and drag！Wizard will produce the code automatic:</b></i></p>
 <p><i>    
 
-class MyApp(App):
-    def __init__(self, *args):
-        super(MyApp, self).__init__(*args)
+	class MyApp(App):
+    	 	def __init__(self, *args):
+        		super(MyApp, self).__init__(*args)
 
-    def main(self):
-        container = gui.VBox(width=120, height=100)
-        self.lbl = gui.Label('Hello world!')
-        self.bt = gui.Button('Press me!')
+		def main(self):
+				container = gui.VBox(width=120, height=100)
+				self.lbl = gui.Label('Hello world!')
+				self.bt = gui.Button('Press me!')
 
-        # setting the listener for the onclick event of the button
-        self.bt.onclick.do(self.on_button_pressed)
+		# setting the listener for the onclick event of the button
+			self.bt.onclick.do(self.on_button_pressed)
 
-        # appending a widget to another, the first argument is a string key
-        container.append(self.lbl)
-        container.append(self.bt)
+		# appending a widget to another, the first argument is a string key
+			container.append(self.lbl)
+			container.append(self.bt)
 
-        # returning the root widget
-        return container
+		# returning the root widget
+			return container
 
-    # listener function
-    def on_button_pressed(self, widget):
-        self.lbl.set_text('Button pressed!')
-        self.bt.set_text('Hi!')
+	    # listener function
+		def on_button_pressed(self, widget):
+			self.lbl.set_text('Button pressed!')
+			self.bt.set_text('Hi!')
 
 </i></p>
 	<p align=center>
@@ -162,20 +162,7 @@ class MyApp(App):
     </div> <br>
 
 <p>
-As shown in the figure above, we divide an app into four areas: Title area, camera area, input area, info show area. An app display can consist of one or more areas.You can use Python (cvs class) statements to manipulate the Title, size and layout of these areas.
-for examples： in the info area ,you can do this:<br>
-cvs. setInfoX (320,60) # setting the width,height of the info area<br>
-cvs. infoshow ("this is info show") # show info in the info area<br>
-</p>
-In particular, input area, we greatly simplify the operation process, you only need to specify a dict, AidLeaning will automatically generate a form for you to interact with users, such as you need to register a face, you can do this:
-<br><br>
-usr_dict={'username': '', 'type': 'add_person'}# define the input list<br><br>
-cvs.setInput_dict(usr_dict)# setting for gui<br><br>
-cvs.setSubmitName("Register your FaceID")#setting the name of submit button<br><br>
-so ,aidlearning will produce this gui:
-<p align=center>
-<img src="input.png" width=200px  />
-</p>
+
 
 
 
