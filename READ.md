@@ -92,6 +92,8 @@ Now you have a complete linux with GUI running on Android (Real linux running on
  http://www.aidlearning.net/downloads/aidlux-05-31.apk (support python2.7 and python3.5.1) <br> 
  http://www.aidlearning.net/downloads/aidlux-06-01.apk (support  python2.7 and python3.6.4)<br> 
  
+ http://www.aidlearning.net/downloads/aidlux-06-28.apk (support  python2.7 and python3.6.4,support the touch and drag ui design,support automatic code completion)<br> 
+ 
  The  app （apk） is only 8M，when you install the apk ,the apk will download the depdence of the linux
 is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a WiFi environment.
 <br><br>
