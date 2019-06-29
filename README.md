@@ -10,7 +10,8 @@ At the same time, Aid Learning provides wifi-based mapping projection technology
 
 In short, Aid Learning has created a Four-in-one and  touch-and-drag platform for rapid development and learning of Android+Linux+AI+Python. It can not only use mobile phones for fragmented programming, but also make full use of the development advantages of the two main operating systems (Android+Linux) and the perfect AI terminal advantages of mobile phones. With this advantage, Aid Learning can build a perfect learning ecosphere of programming education.
 
-<img src="logo.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
+<img src="logo.png" style="width: 200px; height: auto; margin-left: 50px; " /> <br>
+<img src="Screenshot_10.jpg"  width="600px" >
 
 AidLearning is a Linux system running on the Android with GUI, AI and  Python support . <a href="http://www.aidlearning.net" >The AidLearning </a> project which have the <b>Linux+Anroid+AI 3IN1</b> environments Developed and Maintained by several students from [Cas University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
 <hr>
@@ -30,7 +31,7 @@ Now you have a complete linux with GUI running on Android (Real linux running on
 - The interface and menu were redesigned to fix the bug of floating menu occlusion code.
 - New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
 	<p align=center>
-          <img src="autocode.gif" width=200px />
+          <img src="autocode.gif" width=300px />
 	</p>
 - New ui Design Interface (Wizard), now ui design does not require you to write ui code , you can use <b>touch and drag </b>Components to generate ui codes. We have built-in a large number of UI development components，the system will automatically generate ui code, you only need to focus on the core processing code.
 
