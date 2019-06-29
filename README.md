@@ -137,7 +137,7 @@ is 700M and 350M examples of AI codes using python. all is about 1G size to down
     cvs. setInfoX (320,60)<br>
 </i></p>
 	<p align=center>
-          <img src="gui.jpg" width=200px />
+          <img src="wizard.gif" width=200px />
 	</p>
     </div> <br>
 
