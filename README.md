@@ -102,6 +102,9 @@ Now you have a complete linux with GUI running on Android (Real linux running on
  
  The  app （apk） is only 8M，when you install the apk ,the apk will download the depdence of the linux
 is 700M and 350M examples of AI codes using python. all is about 1G size to download .So it's recommended that you install it in a WiFi environment.
+
+<b>Important reminder</b>: Click the set icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in example.
+
 <br><br>
 
 <div id="Support"></div>
