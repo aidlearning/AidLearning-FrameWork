@@ -24,7 +24,7 @@ AidLearning is a Linux system running on the Android with GUI, AI and  Python su
 Now you have a complete linux with GUI running on Android (Real linux running on the busybox and not virtul environment. So it is faster and almost real-time.) and can write your AI code on it visually using the Python!
 <br> <br>
 
-<b>Now Release: AidLearning 0.73</b>
+<b>Now Release: AidLearning 0.73~0.74</b>
 <br> What's new:
 <br>
 1.  Fixed the bug that <b>apt update</b> failed (ps:The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 8B48AD62925553 NO_PUBKEY 7638D0442B90D010 NO_PUBKEY EF0F382A7B6500)
