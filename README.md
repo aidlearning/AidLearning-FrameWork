@@ -15,11 +15,11 @@ At the same time, **AidLearning** provides wifi-based mapping projection technol
 In short, **AidLearning** has created a 4in1 and  touch-and-drag platform for rapid development and learning of **Android+Linux+AI+Python**. It can not only use mobile phones for fragmented programming, but also make full use of the development advantages of the two main operating systems (**Android+Linux**) and the perfect AI terminal advantages of mobile phones. With this advantage, **AidLearning** can build a perfect learning ecosphere of programming education.
 
 
-## ++Dependencies++
+## Dependencies
 
 All you need is an Android devices (phone ,tablet or arm board)  that supports the CPU of **Arm64(aarch64)**. The Android version requires more than 6.0. If you think the parameters are not clear enough, I would like to say that most of the mainstream mobile phones support it, such as _Samsung, Huawei, MI, OPPO, VIVO, nubia_ etc. In addition, the requirement of storage space is a little big. It is suggested that there should be **4G** free storage space.
 
-##  ++One-click Installation++
+##  One-click Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
 [ Download v0.74 now!](http://www.aidlearning.net/downloads/aidlux-07-04.apk)  
@@ -29,7 +29,7 @@ The  APP （apk） is only 6M，when you install the apk  and launch,the apk wil
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.
 
-## ++Support Powerfully++
+## Support Powerfully
 ---
 Support AI Framework:
   * [Caffe]https://github.com/BVLC/caffe
