@@ -88,7 +88,7 @@ class MyApp(App):
 ```
 
 ![drag_touch](image/drag_touch.png)
-## ++SSH (pc connected)++
+## SSH (pc connected)
 PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
 
 Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://192.168.1.6:8910/upload)  on the pc to upload ssh's file(id_rsa and id_rsa.pub). 
@@ -104,20 +104,24 @@ ssh u0_a311@192.168.1.6 -p8022
 watch the video:
 
 ## Aid_code IDE of python
+
 We provide an AI coding develop tool named **Aid_code**. It can provide you a visual AI programming IDE by using Python from zero on our framework! Using the tool, you can run your python2 or python3 codes online. So ,you can coding with Aid_code IDE on your phone anywhere, anytime. 
 <img src="image/Screenshot_2019-07-06-12-21-02-38.png" align = "left" width="175" >  ++_Left on android_++ / ++_Right on pc_++  <img src="image/A15101DB465CDCCA18796F76D8121483.png" align = "right" width="374" >
+
+<p>
 Of course, you can use Aid_code on the web to edit your code online. For example, you can use web coding with Aid_code on PC. You just need to open the web address: IP of your mobile phone:8900/, when your PC and mobile phone are in the same LAN.
 You can open it on a PC, for example:
 http://192.168.1.8:8900/
  if your phone's IP is 192.168.1.8, you can check your phone's IP by commanding ifconfig (run ifconfig command under terminal)
 
-## ++Files transfer++
+## Files transfer
 
 * The sdcard directory on your Android phone has been mapped to the / sdcard directory under AidLearning
 
 * If you install QQ Instant Messaging Tool, the file directory transferred through QQ is mapped to / sdcard / Tencent / QQfile_recv / directory.
 ![sdcard](image/sdcardshow.png)
-## ++Examples inside++
+
+## Examples inside
 ---
 * Facencnn(mobiefacenet ncnn) 15fps in mobile phone
 * Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
@@ -125,6 +129,7 @@ http://192.168.1.8:8900/
 * body posenet for single person(converted from google ) 10fps  in mobile phone
 * body posenet for multi-person(converted from google ) 7fps  in mobile phone
 * Stylized picture(GAN ) 3fps in mobile phone
+
 ![examle](image/examle.png)
 
 ## ++References++
