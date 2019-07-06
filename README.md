@@ -113,7 +113,7 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 ![sdcard](image/A15101DB465CDCCA18796F76D8121483.png)
 
 ## Files transfer
----
+
 * The sdcard directory on your Android phone has been mapped to the / sdcard directory under AidLearning
 
 * If you install QQ Instant Messaging Tool, the file directory transferred through QQ is mapped to / sdcard / Tencent / QQfile_recv / directory.
