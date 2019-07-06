@@ -89,13 +89,13 @@ class MyApp(App):
 
 ![drag_touch](image/drag_touch.png)
 ## SSH (pc connected)
-PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
+* PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
 
-Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://192.168.1.6:8910/upload)  on the pc to upload ssh's file(id_rsa and id_rsa.pub). 
+* Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://192.168.1.6:8910/upload)  on the pc to upload ssh's file(id_rsa and id_rsa.pub). 
 
 <img src="image/ssh.png" align = "left" width="300" >
 
-When upload finished , just restart the app on the android ,open the terminal the type this command like this to connect:
+* upload finished , just restart the app on the android ,open the terminal the type this command like this to connect:
 
 ```
 ssh u0_a311@192.168.1.6 -p8022
