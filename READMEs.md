@@ -101,9 +101,6 @@ When upload finished , just restart the app on the android ,open the terminal th
 ssh u0_a311@192.168.1.6 -p8022
 ```
 
-watch the video:
-
-
 ## Aid_code IDE of python
 
 We provide an AI coding develop tool named **Aid_code**. It can provide you a visual AI programming IDE by using Python from zero on our framework! Using the tool, you can run your python2 or python3 codes online. So ,you can coding with Aid_code IDE on your phone anywhere, anytime. 
