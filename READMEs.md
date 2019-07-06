@@ -102,24 +102,26 @@ ssh u0_a311@192.168.1.6 -p8022
 ```
 
 watch the video:
-<p>
+
 
 ## Aid_code IDE of python
 
 We provide an AI coding develop tool named **Aid_code**. It can provide you a visual AI programming IDE by using Python from zero on our framework! Using the tool, you can run your python2 or python3 codes online. So ,you can coding with Aid_code IDE on your phone anywhere, anytime. 
+<p align=left>
 <img src="image/Screenshot_2019-07-06-12-21-02-38.png" align = "left" width="175" >  ++_Left on android_++ / ++_Right on pc_++  <img src="image/A15101DB465CDCCA18796F76D8121483.png" align = "right" width="374" >
 
-<p>
+</p>
 Of course, you can use Aid_code on the web to edit your code online. For example, you can use web coding with Aid_code on PC. You just need to open the web address: IP of your mobile phone:8900/, when your PC and mobile phone are in the same LAN.
 You can open it on a PC, for example:
 http://192.168.1.8:8900/
  if your phone's IP is 192.168.1.8, you can check your phone's IP by commanding ifconfig (run ifconfig command under terminal)
 
 ## Files transfer
-
+---
 * The sdcard directory on your Android phone has been mapped to the / sdcard directory under AidLearning
 
 * If you install QQ Instant Messaging Tool, the file directory transferred through QQ is mapped to / sdcard / Tencent / QQfile_recv / directory.
+
 ![sdcard](image/sdcardshow.png)
 
 ## Examples inside
@@ -133,7 +135,7 @@ http://192.168.1.8:8900/
 
 ![examle](image/examle.png)
 
-## ++References++
+## References
 
 * VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. [Source](https://github.com/GNOME/vte), [Open Issues](https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22vte%22+), and [All (including closed) issues](https://bugzilla.gnome.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&chfield=resolution&chfieldfrom=-2000d&chfieldvalue=FIXED&product=vte&resolution=FIXED).
 * iTerm 2: OS X terminal application. [Source](https://github.com/gnachman/iTerm2), [Issues](https://gitlab.com/gnachman/iterm2/issues) and [Documentation](http://www.iterm2.com/documentation.html) (which includes [iTerm2 proprietary escape codes](http://www.iterm2.com/documentation-escape-codes.html)).
