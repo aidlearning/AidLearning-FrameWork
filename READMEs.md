@@ -102,6 +102,7 @@ ssh u0_a311@192.168.1.6 -p8022
 ```
 
 watch the video:
+<p>
 
 ## Aid_code IDE of python
 
