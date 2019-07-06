@@ -19,7 +19,7 @@ In short, **AidLearning** has created a 4in1 and  touch-and-drag platform for ra
 
 All you need is an Android devices (phone ,tablet or arm board)  that supports the CPU of **Arm64(aarch64)**. The Android version requires more than 6.0. If you think the parameters are not clear enough, I would like to say that most of the mainstream mobile phones support it, such as _Samsung, Huawei, MI, OPPO, VIVO, nubia_ etc. In addition, the requirement of storage space is a little big. It is suggested that there should be **4G** free storage space.
 
-##  One-click Installation
+## Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
 [ Download v0.74 now!](http://www.aidlearning.net/downloads/aidlux-07-04.apk)  
