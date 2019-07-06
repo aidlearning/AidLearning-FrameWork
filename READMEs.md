@@ -105,7 +105,7 @@ ssh u0_a311@192.168.1.6 -p8022
 
 * We provide an AI coding develop tool named **Aid_code**. It can provide you a visual AI programming IDE by using Python from zero on our framework! Using the tool, you can run your python2 or python3 codes online. So ,you can coding with Aid_code IDE on your phone anywhere, anytime. 
 
-![sdcard](image/screenshot_2019-07-06-12-21-02-38.png)
+![sdcard](image/Screenshot_2019-07-06-12-21-02-38.png)
 * Of course, you can use Aid_code on the web to edit your code online. For example, you can use web coding with Aid_code on PC. You just need to open the web address: IP of your mobile phone:8900/, when your PC and mobile phone are in the same LAN.
 You can open it on a PC, for example:
 http://192.168.1.8:8900/
