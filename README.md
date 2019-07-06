@@ -14,6 +14,7 @@ At the same time, **AidLearning** provides wifi-based mapping projection technol
 
 In short, **AidLearning** has created a 4in1 and  touch-and-drag platform for rapid development and learning of **Android+Linux+AI+Python**. It can not only use mobile phones for fragmented programming, but also make full use of the development advantages of the two main operating systems (**Android+Linux**) and the perfect AI terminal advantages of mobile phones. With this advantage, **AidLearning** can build a perfect learning ecosphere of programming education.
 
+@toc
 
 ## Dependencies
 
