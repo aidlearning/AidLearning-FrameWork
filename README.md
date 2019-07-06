@@ -57,9 +57,9 @@ Support Python2.7 and Python3.6.4:
 
 ![screen](image/Aiframe.png)
 
-## Touch and Drag Programming Wizard
+## Touch and Drag Programming 
 
-Now you can easily customize your GUI with touch and drag！Wizard will produce the code automatic like this:
+Now you can easily customize your GUI with touch and drag using wizard！Wizard will produce the code automatic like this:
 
 ```
 class MyApp(App):
