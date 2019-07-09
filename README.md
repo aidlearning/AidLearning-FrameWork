@@ -89,6 +89,9 @@ class MyApp(App):
 ```
 
 ![drag_touch](image/drag_touch.png)
+<p align=center>
+<img src="Wizard.gif" width=400px />
+</p>
 ## SSH (pc connected)
 * PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
 
