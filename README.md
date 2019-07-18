@@ -30,6 +30,11 @@ The  APP （apk） is only 6M，when you install the apk  and launch,the apk wil
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.
 
+**New release**:
+[ Download v0.75 now!](http://www.aidlearning.net/downloads/aidlux-07-18.apk)  
+Other version at:[https://github.com/aidlearning/AidLearning-FrameWork/releases](https://github.com/aidlearning/AidLearning-FrameWork/releases)
+this is smaller size version,you can choose the ai framework(caffe/mxnet/tf/torch/keras) to install when u finished the install and enter the gui. the version all is about 650M size to download. so,the version can save your disk.
+
 ## Support Powerfully
 ---
 Support AI Framework:
