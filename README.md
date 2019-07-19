@@ -133,7 +133,7 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 
 ## Examples inside
 ---
-* Facencnn(mobiefacenet ncnn) 15fps in mobile phone
+* Facencnn(mobiefacenet ncnn) 15fps in mobile phone (99.78% in LFW)
 * Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
 * handpose (tensorflow ) 5fps  in mobile phone
 * body posenet for single person(converted from google ) 10fps  in mobile phone
