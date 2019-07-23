@@ -6,7 +6,7 @@
 - <a href='#Dependencies'>Dependencies</a>
 - <a href='#Installation'>Installation</a>
 - <a href='#Support'>Support Powerfully</a>
-- <a href='#Touch and Drag Programming'>Touch and Drag Programming </a>
+- <a href='#Touch_and_Drag_Programming'>Touch and Drag Style Programming </a>
 - <a href='#SSH (pc connected)'> SSH (pc connected)</a>
 - <a href='#Aid_code IDE of python'>Aid_code IDE of python</a>
 - <a href='#references'>References</a>
@@ -70,7 +70,7 @@ Support Python2.7 and Python3.6.4:
 
 ![screen](image/Aiframe.png)
 
-## Touch and Drag Programming 
+## Touch_and_Drag_Programming 
 
 Now you can easily customize your GUI with touch and drag using wizard！Wizard will produce the code automatic like this:
 
