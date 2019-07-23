@@ -7,8 +7,9 @@
 - <a href='#Installation'>Installation</a>
 - <a href='#Support'>Support Powerfully</a>
 - <a href='#Touch_and_Drag_Programming'>Touch and Drag Style Programming </a>
-- <a href='#SSH (pc connected)'> SSH (pc connected)</a>
-- <a href='#Aid_code IDE of python'>Aid_code IDE of python</a>
+- <a href='#SSH'> SSH (pc connected)</a>
+- <a href='#Aid_code'>Aid_code IDE of python</a>
+- <a href='#Examples'>Examples inside</a>
 - <a href='#references'>References</a>
 # Introduce
 
@@ -104,7 +105,7 @@ class MyApp(App):
 <p align=center>
 <img src="Wizard.gif" width=400px />
 </p>
-## SSH (pc connected)
+## SSH
 * PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
 
 * Just need you do: open the url:mobilephone'sip:8910/upload(for example:http://192.168.1.6:8910/upload)  on the pc to upload ssh's file(id_rsa and id_rsa.pub). 
@@ -117,7 +118,7 @@ class MyApp(App):
 ssh u0_a311@192.168.1.6 -p8022
 ```
 
-## Aid_code IDE of python
+## Aid_code
 
 * We provide an AI coding develop tool named **Aid_code**. It can provide you a visual AI programming IDE by using Python from zero on our framework! Using the tool, you can run your python2 or python3 codes online. So ,you can coding with Aid_code IDE on your phone anywhere, anytime. 
 
@@ -139,8 +140,8 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 
 ![sdcard](image/sdcardshow.png)
 
-## Examples inside
----
+## Examples
+---Examples inside
 * Facencnn(mobiefacenet ncnn) 15fps in mobile phone (99.78% in LFW)
 * Face Landmark (106 keypoints ncnn) 15fps  in mobile phone
 * handpose (tensorflow ) 5fps  in mobile phone
