@@ -5,7 +5,7 @@
 - <a href='#Introduce'>introduce</a>
 - <a href='#Dependencies'>Dependencies</a>
 - <a href='#Installation'>Installation</a>
-- <a href='#Support Powerfully'>Support Powerfully</a>
+- <a href='#Support'>Support Powerfully</a>
 - <a href='#Touch and Drag Programming'>Touch and Drag Programming </a>
 - <a href='#SSH (pc connected)'> SSH (pc connected)</a>
 - <a href='#Aid_code IDE of python'>Aid_code IDE of python</a>
