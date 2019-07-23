@@ -42,7 +42,7 @@ The  APP （apk） is only 6M，when you install the apk  and launch,the apk wil
 [ Download v0.75 now!](http://www.aidlearning.net/downloads/aidlux-07-18.apk)  
 this is smaller size version,you can choose the ai framework for python 2/3(caffe/mxnet/tf/torch/keras) to install when u finished the install and launch the gui. the version all is about 650M dependence to download. so,the version can save your disk.
 
-## Support Powerfully
+## Support
 ---
 Support AI Framework:
   * [Caffe]https://github.com/BVLC/caffe
