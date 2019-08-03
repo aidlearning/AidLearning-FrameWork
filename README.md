@@ -32,16 +32,12 @@ All you need is an Android devices (phone ,tablet or arm board)  that supports t
 ## Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
-[ Download v0.74 now!](http://www.aidlearning.net/downloads/aidlux-07-04.apk)  
+[ Download v0.76 now!](http://www.aidlearning.net/downloads/aidlux-08-04.apk)  
 Other version at:[https://github.com/aidlearning/AidLearning-FrameWork/releases](https://github.com/aidlearning/AidLearning-FrameWork/releases)
  
 The  APP （apk） is only 6M，when you install the apk  and launch,the apk will auto download the dependence of the linux and examples of codes . all is about 1G size to download .So it's recommended that you install it _in a wifi environment_.
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.
-
-**New release**:
-[ Download v0.75 now!](http://www.aidlearning.net/downloads/aidlux-07-18.apk)  
-this is smaller size version,you can choose the ai framework for python 2/3(caffe/mxnet/tf/torch/keras) to install when u finished the install and launch the gui. the version all is about 650M dependence to download. so,the version can save your disk.
 
 ## Support
 ---
