@@ -1,4 +1,4 @@
- ![](logo.png)
+ ![](image/logo.png)
  
  **AidLearning** is a Linux system running on the Android with GUI, Deep-Learning and  Python Visual Programming support . The [AidLearning](http://www.aidlearning.net) framework which have the <b>Linux+Anroid+AI+Python 4in1</b> environments Developed and Maintained by several students from [Cas University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
  ### Table of Contents
@@ -102,7 +102,7 @@ class MyApp(App):
 
 ![drag_touch](image/drag_touch.png)
 <p align=center>
-<img src="Wizard.gif" width=400px />
+<img src="image/Wizard.gif" width=400px />
 </p>
 ## SSH
 * PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
@@ -129,7 +129,7 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 ![sdcard](image/A15101DB465CDCCA18796F76D8121483.png)
 * New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
 	<p align=center>
-          <img src="autocode.gif" width=300px />
+          <img src="image/autocode.gif" width=300px />
 	</p>
 ## Files transfer
 
