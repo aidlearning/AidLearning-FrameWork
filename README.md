@@ -15,7 +15,7 @@
 
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](license.md)  / thank for <b>qidiso</b> provide the [中文说明](https://www.jianshu.com/p/f6ec13ece792)
 
-AidLearning App builds a graphical interface Linux system (without need root) on Android phones and coexists with your Android system.  The App has a built-in system of leading deep learning frameworks, including ***Caffe, Tensorflow, Mxnet, pytorch, keras, ncnn and opencv***. You no longer need complex configuration, wall-turning downloads and Install dependency packages.
+AidLearning App builds a ***graphical interface Linux*** system (without need root) **on Android phones** and coexists with your Android system.  The App has a built-in system of leading deep learning frameworks, including ***Caffe, Tensorflow, Mxnet, pytorch, keras, ncnn and opencv***. You no longer need complex configuration, wall-turning downloads and Install dependency packages.
 
 
 
