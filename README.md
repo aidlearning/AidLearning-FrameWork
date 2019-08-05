@@ -19,13 +19,13 @@ AidLearning App builds a graphical interface Linux system (without need root) on
 
 
 
-AidLearning is also a pocket AI programming tool. The built-in AICode visual IDE allows you to easily program on your mobile phone with Python (supporting Python 2 and Python 3), support touch-and-drag interface design, support real-time debugging and graphical running of codes. AidLearning has a large number of AI source code examples, which include face recognition, pose recognition and classification. You can develop the AI App on mobile phones on a zero-based basis.
+AidLearning is also a ***pocket AI programming tool***. The built-in AICode visual IDE allows you to easily program on your mobile phone with Python (supporting Python 2 and Python 3), support ***touch-and-drag*** interface design, support real-time debugging and graphical running of codes. AidLearning has a large number of AI source code examples, which include face recognition, pose recognition and classification. You can develop the AI App on mobile phones on a ***zero-based*** basis.
 
-In addition, AidLearning provides wifi-based mapping projection technology, which can project mobile phone code to PC for Web interactive programming and SSH remote command interaction.  Easy viewing on televisions and the ability to projector for large screen display, ensures the ability to present in group settings.
+In addition, AidLearning provides wifi-based mapping projection technology, which can project mobile phone code to PC for Web interactive programming and ***SSH*** remote command interaction.  Easy viewing on televisions and the ability to projector for large screen display, ensures the ability to present in group settings.
 
 
 
-In short, AidLearning has created a touch-and-drag programming platform for rapid development and learning that combines Android + Linux + AI  3IN1 environments. It utilizes mobile phones for fragmented programming and fully optimizes use of the development advantages of the two major operating systems (Android + Linux) and the perfect terminal advantages of mobile phones. AidLearning  offers a distinct advantage to its users through an effective new platform for programming learning and development.
+In short, AidLearning has created a touch-and-drag programming platform for rapid development and learning that combines ***Android + Linux + AI  3IN1 environments***. It utilizes mobile phones for fragmented programming and fully optimizes use of the development advantages of the two major operating systems (Android + Linux) and the perfect terminal advantages of mobile phones. AidLearning  offers a distinct advantage to its users through an effective new platform for programming learning and development.
 
 AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
 
