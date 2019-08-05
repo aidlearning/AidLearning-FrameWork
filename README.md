@@ -150,6 +150,10 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 
 ![examle](image/examle.png)
 
+## Privacy Policy
+Additional camera-based (camera) features: You can use this additional feature to capture camera video frames, making it easier to run python programs and view running results
+Mobile storage access: Our platform will read the package downloaded from the mobile phone, and users can download and use more third-party package.
+
 ## References
 
 * VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. [Source](https://github.com/GNOME/vte), [Open Issues](https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22vte%22+), and [All (including closed) issues](https://bugzilla.gnome.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&chfield=resolution&chfieldfrom=-2000d&chfieldvalue=FIXED&product=vte&resolution=FIXED).
