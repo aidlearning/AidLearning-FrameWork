@@ -1,4 +1,4 @@
-我们重写了cvs包用来在手机端对gui的显示和设计，同时cvs继承了cv2（opencv for python）包和remi（python的快平台的gui库）包的大部分功能，以下是cvs包的介绍：
+我们重写了cvs包用来在手机端对gui的显示和设计，同时cvs继承了cv2（opencv for python）包和remi（python的跨平台的gui库）包的大部分功能，以下是cvs包的介绍：
 
 # 怎么使用：
 
