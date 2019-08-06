@@ -33,31 +33,41 @@ HBox和VBox容器**不允许**手动拖动和调整窗口小部件的大小。�
 ![new_container](img/new_container.png)
 
 然后，将组件Widget添加到编辑器后，您可以拖动它并调整其大小。
+
 ![drag_resize_container](img/drag_resize_container.png)
 
 现在，从左侧工具箱中选择Label组件。同样，我们必须为此组件键入变量名称。
+
 ![new_label](img/new_label.png)
 
 然后，我们可以通过单击右侧的选择Label来拖动和调整大小。
+
 ![chooselabel](img/chooselabel.png)
 
 我们需要一个Button。由于我们想将它添加到mainContainer，我们必须通过单击右侧的mainContainer来选择这个容器。
+
 ![choosecontainer](img/choosecontainer.png)
 
 之后，单击左侧工具箱中的Button小部件。输入变量名称确定添加后，并拖动和调整大小。
+
 ![resizebt](img/resizebt.png)
 
 现在，假如已经添加完了所有必需的组件。我们必须将_onclick_事件从按钮连接到监听器，在我们的示例中，监听器将是主App。
+
 ![onclick](img/onclick.png)
 
 完成所有操作后，通过上方菜单栏保存项目。
+
 ![saveas](img/saveas.png)
 
 选择目标文件夹。输入py文件名并确认。
+
 ![hello](img/hello.png)
 
 我们现在可以点击菜单中的**code**按钮查看和编辑刚才wizard生成的代码，例如添加点击按钮消息，改变My label的值 为**Hello World**。
+
 ![aicode](img/aicode.png)
+
 生成的代码如下：
 
 ```python
@@ -117,5 +127,7 @@ if __name__ == "__main__":
 ```
 
 再次保存后，运行界面如下：
+
 ![sayhello](img/sayhello.png)
 
+未完待续
