@@ -31,15 +31,19 @@ HBox和VBox容器**不允许**手动拖动和调整窗口小部件的大小。�
 首先，我们必须先选择一个容器，我们从左侧工具箱中选择Widget组件。这将是我们的主要窗口。在显示的对话框中，我们必须为变量写一个名称。我们将其称为_mainContainer_。
 
 ![new_container](img/new_container.png)
+
 然后，将组件Widget添加到编辑器后，您可以拖动它并调整其大小。
 ![drag_resize_container](img/drag_resize_container.png)
+
 现在，从左侧工具箱中选择Label组件。同样，我们必须为此组件键入变量名称。
 ![new_label](img/new_label.png)
+
 然后，我们可以通过单击右侧的选择Label来拖动和调整大小。
 ![chooselabel](img/chooselabel.png)
 
 我们需要一个Button。由于我们想将它添加到mainContainer，我们必须通过单击右侧的mainContainer来选择这个容器。
 ![choosecontainer](img/choosecontainer.png)
+
 之后，单击左侧工具箱中的Button小部件。输入变量名称确定添加后，并拖动和调整大小。
 ![resizebt](img/resizebt.png)
 
