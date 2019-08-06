@@ -67,6 +67,7 @@ startcv(MyApp)
 ```
 
 Run the script，显示如下：
+
 ![hello](img/hello.png)
 
 # 常见用法：
@@ -104,8 +105,11 @@ startcv(MyApp)
 ```
 
 这个例子先构建一个容器（container，类似与Android studio里的Layout），然后在容器里添加了按钮和文本显示控件，并且定义了一个消息用于处理按钮按下来的情况。显示如下：
+
 ![simple1](img/simple1.png)
+
 点击后显示如下：
+
 ![simple2](img/simple2.png)
 
 Widgets公开了在用户交互期间发生的一组事件。这些事件是定义应用程序行为的一种方便方法。每个Widgets都有自己的回调，这取决于它允许的用户交互类型。稍后将说明Widgets的具体回调。
@@ -150,6 +154,7 @@ startcv(MyApp)
 ```
 
 显示如下：
+
 ![event](img/event.png)
 
 在所示的示例中，self.bt.onclick.do（self.on_button_pressed）将self的on_button_pressed函数注册为按钮组件所显示的onclick事件的侦听器。Simple, easy.
@@ -204,6 +209,7 @@ if __name__ == '__main__':
 ```
 
 运行后，显示界面如下：
+
 ![cam](img/cam.png)
 
 # 界面风格定制：
