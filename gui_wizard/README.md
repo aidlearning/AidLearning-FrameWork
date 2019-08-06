@@ -130,4 +130,5 @@ if __name__ == "__main__":
 
 ![sayhello](img/sayhello.png)
 
-未完待续
+# 深入了解原理
+请阅读[cvs-强大的图形界面开发包](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/gui_cvs/README.md)

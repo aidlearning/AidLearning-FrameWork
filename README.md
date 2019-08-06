@@ -116,6 +116,8 @@ class MyApp(App):
 <p align=center>
 <img src="image/Wizard.gif" width=400px />
 </p>
+更多请阅读[Wizard--触摸拖拽式设计你的界面](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/gui_wizard/README.md)
+
 ## SSH
 * PC can connect to mobile by using **ssh-keygen**. Generate a new key pair with <b>ssh-keygen</b> command in your PC.  the command ssh-keygen produce the file of id_rsa and id_rsa.pub in the dir: ~/.ssh/
 

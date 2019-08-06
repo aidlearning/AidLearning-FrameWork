@@ -215,7 +215,7 @@ if __name__ == '__main__':
 
 # 界面风格定制：
 
-In order to define a new style for your app, you have to do the following. Create a _res_ folder and pass it to your App class constructor:
+In order to define a new style for your app, you have to do the following. Create a _res_ folder and pass it to your App class constructor:
 
 ```source-python
 class MyApp(App):
@@ -224,8 +224,9 @@ class MyApp(App):
         super(MyApp, self).__init__(*args, static_file_path={'res':res_path})
 ```
 
-Make a copy the standard style.css from the remi folder and paste it inside your _res_ folder. Edit it in order to customize. This way the standard _style.css_ file gets overridden by the one you created.
+Make a copy the standard style.css from the remi folder and paste it inside your _res_ folder. Edit it in order to customize. This way the standard _style.css_ file gets overridden by the one you created.
 
-# wizard
-最后，我们建议界面部分开发，采用wizard进行触摸推拽式开发，自动生成类似
+# Wizard
+最后，我们建议界面部分开发，采用wizard进行触摸推拽式开发，自动生成类似上面的代码，更easy，更simple！
+请阅读[Wizard--触摸拖拽式设计你的界面](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/gui_wizard/README.md)
 
