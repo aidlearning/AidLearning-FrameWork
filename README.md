@@ -145,6 +145,9 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 	<p align=center>
           <img src="image/autocode.gif" width=300px />
 	</p>
+
+深入了解Gui开发原理请阅读[cvs-强大的图形界面开发包](https://github.com/aidlearning/AidLearning-FrameWork/blob/master/gui_cvs/README.md)
+
 ## Files transfer
 
 * The sdcard directory on your Android phone has been mapped to the / sdcard directory under AidLearning
