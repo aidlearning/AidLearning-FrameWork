@@ -1,3 +1,4 @@
+# * cvs 强大的图形界面开发包
 我们重写了cvs包用来在手机端对gui的显示和设计，同时cvs继承了cv2（opencv for python）包和remi（python的跨平台的gui库）包的大部分功能，以下是cvs包的介绍：
 
 # 怎么使用：
@@ -224,3 +225,7 @@ class MyApp(App):
 ```
 
 Make a copy the standard style.css from the remi folder and paste it inside your _res_ folder. Edit it in order to customize. This way the standard _style.css_ file gets overridden by the one you created.
+
+# wizard
+最后，我们建议界面部分开发，采用wizard进行触摸推拽式开发，自动生成类似
+
