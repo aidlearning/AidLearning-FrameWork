@@ -157,6 +157,13 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 
 ![sdcard](image/sdcardshow.png)
 
+* **Most Easy way:**
+ You just need to open the web address: IP of your mobile phone:8080/, when your PC and mobile phone are in the same LAN.
+You can open it on a PC, for example:
+http://192.168.1.8:8080/
+then hit the upload button to upload the pc file to your mobile,or hit the download button to download the files of mobile to the pc.
+![fileupload](image/fileupload.png)
+
 ## Examples
 ---Examples inside
 * Facencnn(mobiefacenet ncnn) 15fps in mobile phone (99.78% in LFW)
