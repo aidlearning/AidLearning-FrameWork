@@ -1,0 +1,6 @@
+import cvs/cv2...
+import cvs/cv2...
+/usr/lib/python2.7/dist-packages/pkg_resources/__init__.py:1869: UserWarning: /root/.mxnet/python/._mxnet.egg-info could not be properly decoded in UTF-8
+  warnings.warn(msg)
+quit!
+

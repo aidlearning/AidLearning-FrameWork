@@ -1,0 +1,53 @@
+chk: 3 # 3=mobilenet_v1_101
+imageSize: 257
+GOOGLE_CLOUD_STORAGE_DIR: 'https://storage.googleapis.com/tfjs-models/weights/posenet/'
+checkpoints: [ 'mobilenet_v1_050', 'mobilenet_v1_075', 'mobilenet_v1_100', 'mobilenet_v1_101']
+outputStride: 16
+mobileNet100Architecture: [
+  ['conv2d', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1]
+]
+mobileNet75Architecture: [ 
+  ['conv2d', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1]
+]
+mobileNet50Architecture: [
+  ['conv2d', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 2],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1],
+  ['separableConv', 1]
+]

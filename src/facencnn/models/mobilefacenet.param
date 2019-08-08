@@ -1,0 +1,162 @@
+7767517
+160 172
+Input            data                             0 1 data
+BinaryOp         _minusscalar0                    1 1 data _minusscalar0 0=1 1=1 2=127.500000
+BinaryOp         _mulscalar0                      1 1 _minusscalar0 _mulscalar0 0=2 1=1 2=0.007813
+Convolution      conv_1_conv2d                    1 1 _mulscalar0 conv_1_conv2d 0=64 1=3 11=3 3=2 13=2 4=1 14=1 5=0 6=1728
+BatchNorm        conv_1_batchnorm                 1 1 conv_1_conv2d conv_1_batchnorm 0=64
+PReLU            conv_1_relu                      1 1 conv_1_batchnorm conv_1_relu 0=64
+ConvolutionDepthWise conv_2_dw_conv2d                 1 1 conv_1_relu conv_2_dw_conv2d 0=64 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=576 7=64
+BatchNorm        conv_2_dw_batchnorm              1 1 conv_2_dw_conv2d conv_2_dw_batchnorm 0=64
+PReLU            conv_2_dw_relu                   1 1 conv_2_dw_batchnorm conv_2_dw_relu 0=64
+Convolution      dconv_23_conv_sep_conv2d         1 1 conv_2_dw_relu dconv_23_conv_sep_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        dconv_23_conv_sep_batchnorm      1 1 dconv_23_conv_sep_conv2d dconv_23_conv_sep_batchnorm 0=128
+PReLU            dconv_23_conv_sep_relu           1 1 dconv_23_conv_sep_batchnorm dconv_23_conv_sep_relu 0=128
+ConvolutionDepthWise dconv_23_conv_dw_conv2d          1 1 dconv_23_conv_sep_relu dconv_23_conv_dw_conv2d 0=128 1=3 11=3 3=2 13=2 4=1 14=1 5=0 6=1152 7=128
+BatchNorm        dconv_23_conv_dw_batchnorm       1 1 dconv_23_conv_dw_conv2d dconv_23_conv_dw_batchnorm 0=128
+PReLU            dconv_23_conv_dw_relu            1 1 dconv_23_conv_dw_batchnorm dconv_23_conv_dw_relu 0=128
+Convolution      dconv_23_conv_proj_conv2d        1 1 dconv_23_conv_dw_relu dconv_23_conv_proj_conv2d 0=64 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        dconv_23_conv_proj_batchnorm     1 1 dconv_23_conv_proj_conv2d dconv_23_conv_proj_batchnorm 0=64
+Split            splitncnn_0                      1 2 dconv_23_conv_proj_batchnorm dconv_23_conv_proj_batchnorm_splitncnn_0 dconv_23_conv_proj_batchnorm_splitncnn_1
+Convolution      res_3_block0_conv_sep_conv2d     1 1 dconv_23_conv_proj_batchnorm_splitncnn_1 res_3_block0_conv_sep_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block0_conv_sep_batchnorm  1 1 res_3_block0_conv_sep_conv2d res_3_block0_conv_sep_batchnorm 0=128
+PReLU            res_3_block0_conv_sep_relu       1 1 res_3_block0_conv_sep_batchnorm res_3_block0_conv_sep_relu 0=128
+ConvolutionDepthWise res_3_block0_conv_dw_conv2d      1 1 res_3_block0_conv_sep_relu res_3_block0_conv_dw_conv2d 0=128 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=1152 7=128
+BatchNorm        res_3_block0_conv_dw_batchnorm   1 1 res_3_block0_conv_dw_conv2d res_3_block0_conv_dw_batchnorm 0=128
+PReLU            res_3_block0_conv_dw_relu        1 1 res_3_block0_conv_dw_batchnorm res_3_block0_conv_dw_relu 0=128
+Convolution      res_3_block0_conv_proj_conv2d    1 1 res_3_block0_conv_dw_relu res_3_block0_conv_proj_conv2d 0=64 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block0_conv_proj_batchnorm 1 1 res_3_block0_conv_proj_conv2d res_3_block0_conv_proj_batchnorm 0=64
+BinaryOp         _plus0                           2 1 res_3_block0_conv_proj_batchnorm dconv_23_conv_proj_batchnorm_splitncnn_0 _plus0 0=0
+Split            splitncnn_1                      1 2 _plus0 _plus0_splitncnn_0 _plus0_splitncnn_1
+Convolution      res_3_block1_conv_sep_conv2d     1 1 _plus0_splitncnn_1 res_3_block1_conv_sep_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block1_conv_sep_batchnorm  1 1 res_3_block1_conv_sep_conv2d res_3_block1_conv_sep_batchnorm 0=128
+PReLU            res_3_block1_conv_sep_relu       1 1 res_3_block1_conv_sep_batchnorm res_3_block1_conv_sep_relu 0=128
+ConvolutionDepthWise res_3_block1_conv_dw_conv2d      1 1 res_3_block1_conv_sep_relu res_3_block1_conv_dw_conv2d 0=128 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=1152 7=128
+BatchNorm        res_3_block1_conv_dw_batchnorm   1 1 res_3_block1_conv_dw_conv2d res_3_block1_conv_dw_batchnorm 0=128
+PReLU            res_3_block1_conv_dw_relu        1 1 res_3_block1_conv_dw_batchnorm res_3_block1_conv_dw_relu 0=128
+Convolution      res_3_block1_conv_proj_conv2d    1 1 res_3_block1_conv_dw_relu res_3_block1_conv_proj_conv2d 0=64 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block1_conv_proj_batchnorm 1 1 res_3_block1_conv_proj_conv2d res_3_block1_conv_proj_batchnorm 0=64
+BinaryOp         _plus1                           2 1 res_3_block1_conv_proj_batchnorm _plus0_splitncnn_0 _plus1 0=0
+Split            splitncnn_2                      1 2 _plus1 _plus1_splitncnn_0 _plus1_splitncnn_1
+Convolution      res_3_block2_conv_sep_conv2d     1 1 _plus1_splitncnn_1 res_3_block2_conv_sep_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block2_conv_sep_batchnorm  1 1 res_3_block2_conv_sep_conv2d res_3_block2_conv_sep_batchnorm 0=128
+PReLU            res_3_block2_conv_sep_relu       1 1 res_3_block2_conv_sep_batchnorm res_3_block2_conv_sep_relu 0=128
+ConvolutionDepthWise res_3_block2_conv_dw_conv2d      1 1 res_3_block2_conv_sep_relu res_3_block2_conv_dw_conv2d 0=128 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=1152 7=128
+BatchNorm        res_3_block2_conv_dw_batchnorm   1 1 res_3_block2_conv_dw_conv2d res_3_block2_conv_dw_batchnorm 0=128
+PReLU            res_3_block2_conv_dw_relu        1 1 res_3_block2_conv_dw_batchnorm res_3_block2_conv_dw_relu 0=128
+Convolution      res_3_block2_conv_proj_conv2d    1 1 res_3_block2_conv_dw_relu res_3_block2_conv_proj_conv2d 0=64 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block2_conv_proj_batchnorm 1 1 res_3_block2_conv_proj_conv2d res_3_block2_conv_proj_batchnorm 0=64
+BinaryOp         _plus2                           2 1 res_3_block2_conv_proj_batchnorm _plus1_splitncnn_0 _plus2 0=0
+Split            splitncnn_3                      1 2 _plus2 _plus2_splitncnn_0 _plus2_splitncnn_1
+Convolution      res_3_block3_conv_sep_conv2d     1 1 _plus2_splitncnn_1 res_3_block3_conv_sep_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block3_conv_sep_batchnorm  1 1 res_3_block3_conv_sep_conv2d res_3_block3_conv_sep_batchnorm 0=128
+PReLU            res_3_block3_conv_sep_relu       1 1 res_3_block3_conv_sep_batchnorm res_3_block3_conv_sep_relu 0=128
+ConvolutionDepthWise res_3_block3_conv_dw_conv2d      1 1 res_3_block3_conv_sep_relu res_3_block3_conv_dw_conv2d 0=128 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=1152 7=128
+BatchNorm        res_3_block3_conv_dw_batchnorm   1 1 res_3_block3_conv_dw_conv2d res_3_block3_conv_dw_batchnorm 0=128
+PReLU            res_3_block3_conv_dw_relu        1 1 res_3_block3_conv_dw_batchnorm res_3_block3_conv_dw_relu 0=128
+Convolution      res_3_block3_conv_proj_conv2d    1 1 res_3_block3_conv_dw_relu res_3_block3_conv_proj_conv2d 0=64 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=8192
+BatchNorm        res_3_block3_conv_proj_batchnorm 1 1 res_3_block3_conv_proj_conv2d res_3_block3_conv_proj_batchnorm 0=64
+BinaryOp         _plus3                           2 1 res_3_block3_conv_proj_batchnorm _plus2_splitncnn_0 _plus3 0=0
+Convolution      dconv_34_conv_sep_conv2d         1 1 _plus3 dconv_34_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=16384
+BatchNorm        dconv_34_conv_sep_batchnorm      1 1 dconv_34_conv_sep_conv2d dconv_34_conv_sep_batchnorm 0=256
+PReLU            dconv_34_conv_sep_relu           1 1 dconv_34_conv_sep_batchnorm dconv_34_conv_sep_relu 0=256
+ConvolutionDepthWise dconv_34_conv_dw_conv2d          1 1 dconv_34_conv_sep_relu dconv_34_conv_dw_conv2d 0=256 1=3 11=3 3=2 13=2 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        dconv_34_conv_dw_batchnorm       1 1 dconv_34_conv_dw_conv2d dconv_34_conv_dw_batchnorm 0=256
+PReLU            dconv_34_conv_dw_relu            1 1 dconv_34_conv_dw_batchnorm dconv_34_conv_dw_relu 0=256
+Convolution      dconv_34_conv_proj_conv2d        1 1 dconv_34_conv_dw_relu dconv_34_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        dconv_34_conv_proj_batchnorm     1 1 dconv_34_conv_proj_conv2d dconv_34_conv_proj_batchnorm 0=128
+Split            splitncnn_4                      1 2 dconv_34_conv_proj_batchnorm dconv_34_conv_proj_batchnorm_splitncnn_0 dconv_34_conv_proj_batchnorm_splitncnn_1
+Convolution      res_4_block0_conv_sep_conv2d     1 1 dconv_34_conv_proj_batchnorm_splitncnn_1 res_4_block0_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block0_conv_sep_batchnorm  1 1 res_4_block0_conv_sep_conv2d res_4_block0_conv_sep_batchnorm 0=256
+PReLU            res_4_block0_conv_sep_relu       1 1 res_4_block0_conv_sep_batchnorm res_4_block0_conv_sep_relu 0=256
+ConvolutionDepthWise res_4_block0_conv_dw_conv2d      1 1 res_4_block0_conv_sep_relu res_4_block0_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_4_block0_conv_dw_batchnorm   1 1 res_4_block0_conv_dw_conv2d res_4_block0_conv_dw_batchnorm 0=256
+PReLU            res_4_block0_conv_dw_relu        1 1 res_4_block0_conv_dw_batchnorm res_4_block0_conv_dw_relu 0=256
+Convolution      res_4_block0_conv_proj_conv2d    1 1 res_4_block0_conv_dw_relu res_4_block0_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block0_conv_proj_batchnorm 1 1 res_4_block0_conv_proj_conv2d res_4_block0_conv_proj_batchnorm 0=128
+BinaryOp         _plus4                           2 1 res_4_block0_conv_proj_batchnorm dconv_34_conv_proj_batchnorm_splitncnn_0 _plus4 0=0
+Split            splitncnn_5                      1 2 _plus4 _plus4_splitncnn_0 _plus4_splitncnn_1
+Convolution      res_4_block1_conv_sep_conv2d     1 1 _plus4_splitncnn_1 res_4_block1_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block1_conv_sep_batchnorm  1 1 res_4_block1_conv_sep_conv2d res_4_block1_conv_sep_batchnorm 0=256
+PReLU            res_4_block1_conv_sep_relu       1 1 res_4_block1_conv_sep_batchnorm res_4_block1_conv_sep_relu 0=256
+ConvolutionDepthWise res_4_block1_conv_dw_conv2d      1 1 res_4_block1_conv_sep_relu res_4_block1_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_4_block1_conv_dw_batchnorm   1 1 res_4_block1_conv_dw_conv2d res_4_block1_conv_dw_batchnorm 0=256
+PReLU            res_4_block1_conv_dw_relu        1 1 res_4_block1_conv_dw_batchnorm res_4_block1_conv_dw_relu 0=256
+Convolution      res_4_block1_conv_proj_conv2d    1 1 res_4_block1_conv_dw_relu res_4_block1_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block1_conv_proj_batchnorm 1 1 res_4_block1_conv_proj_conv2d res_4_block1_conv_proj_batchnorm 0=128
+BinaryOp         _plus5                           2 1 res_4_block1_conv_proj_batchnorm _plus4_splitncnn_0 _plus5 0=0
+Split            splitncnn_6                      1 2 _plus5 _plus5_splitncnn_0 _plus5_splitncnn_1
+Convolution      res_4_block2_conv_sep_conv2d     1 1 _plus5_splitncnn_1 res_4_block2_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block2_conv_sep_batchnorm  1 1 res_4_block2_conv_sep_conv2d res_4_block2_conv_sep_batchnorm 0=256
+PReLU            res_4_block2_conv_sep_relu       1 1 res_4_block2_conv_sep_batchnorm res_4_block2_conv_sep_relu 0=256
+ConvolutionDepthWise res_4_block2_conv_dw_conv2d      1 1 res_4_block2_conv_sep_relu res_4_block2_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_4_block2_conv_dw_batchnorm   1 1 res_4_block2_conv_dw_conv2d res_4_block2_conv_dw_batchnorm 0=256
+PReLU            res_4_block2_conv_dw_relu        1 1 res_4_block2_conv_dw_batchnorm res_4_block2_conv_dw_relu 0=256
+Convolution      res_4_block2_conv_proj_conv2d    1 1 res_4_block2_conv_dw_relu res_4_block2_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block2_conv_proj_batchnorm 1 1 res_4_block2_conv_proj_conv2d res_4_block2_conv_proj_batchnorm 0=128
+BinaryOp         _plus6                           2 1 res_4_block2_conv_proj_batchnorm _plus5_splitncnn_0 _plus6 0=0
+Split            splitncnn_7                      1 2 _plus6 _plus6_splitncnn_0 _plus6_splitncnn_1
+Convolution      res_4_block3_conv_sep_conv2d     1 1 _plus6_splitncnn_1 res_4_block3_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block3_conv_sep_batchnorm  1 1 res_4_block3_conv_sep_conv2d res_4_block3_conv_sep_batchnorm 0=256
+PReLU            res_4_block3_conv_sep_relu       1 1 res_4_block3_conv_sep_batchnorm res_4_block3_conv_sep_relu 0=256
+ConvolutionDepthWise res_4_block3_conv_dw_conv2d      1 1 res_4_block3_conv_sep_relu res_4_block3_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_4_block3_conv_dw_batchnorm   1 1 res_4_block3_conv_dw_conv2d res_4_block3_conv_dw_batchnorm 0=256
+PReLU            res_4_block3_conv_dw_relu        1 1 res_4_block3_conv_dw_batchnorm res_4_block3_conv_dw_relu 0=256
+Convolution      res_4_block3_conv_proj_conv2d    1 1 res_4_block3_conv_dw_relu res_4_block3_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block3_conv_proj_batchnorm 1 1 res_4_block3_conv_proj_conv2d res_4_block3_conv_proj_batchnorm 0=128
+BinaryOp         _plus7                           2 1 res_4_block3_conv_proj_batchnorm _plus6_splitncnn_0 _plus7 0=0
+Split            splitncnn_8                      1 2 _plus7 _plus7_splitncnn_0 _plus7_splitncnn_1
+Convolution      res_4_block4_conv_sep_conv2d     1 1 _plus7_splitncnn_1 res_4_block4_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block4_conv_sep_batchnorm  1 1 res_4_block4_conv_sep_conv2d res_4_block4_conv_sep_batchnorm 0=256
+PReLU            res_4_block4_conv_sep_relu       1 1 res_4_block4_conv_sep_batchnorm res_4_block4_conv_sep_relu 0=256
+ConvolutionDepthWise res_4_block4_conv_dw_conv2d      1 1 res_4_block4_conv_sep_relu res_4_block4_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_4_block4_conv_dw_batchnorm   1 1 res_4_block4_conv_dw_conv2d res_4_block4_conv_dw_batchnorm 0=256
+PReLU            res_4_block4_conv_dw_relu        1 1 res_4_block4_conv_dw_batchnorm res_4_block4_conv_dw_relu 0=256
+Convolution      res_4_block4_conv_proj_conv2d    1 1 res_4_block4_conv_dw_relu res_4_block4_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block4_conv_proj_batchnorm 1 1 res_4_block4_conv_proj_conv2d res_4_block4_conv_proj_batchnorm 0=128
+BinaryOp         _plus8                           2 1 res_4_block4_conv_proj_batchnorm _plus7_splitncnn_0 _plus8 0=0
+Split            splitncnn_9                      1 2 _plus8 _plus8_splitncnn_0 _plus8_splitncnn_1
+Convolution      res_4_block5_conv_sep_conv2d     1 1 _plus8_splitncnn_1 res_4_block5_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block5_conv_sep_batchnorm  1 1 res_4_block5_conv_sep_conv2d res_4_block5_conv_sep_batchnorm 0=256
+PReLU            res_4_block5_conv_sep_relu       1 1 res_4_block5_conv_sep_batchnorm res_4_block5_conv_sep_relu 0=256
+ConvolutionDepthWise res_4_block5_conv_dw_conv2d      1 1 res_4_block5_conv_sep_relu res_4_block5_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_4_block5_conv_dw_batchnorm   1 1 res_4_block5_conv_dw_conv2d res_4_block5_conv_dw_batchnorm 0=256
+PReLU            res_4_block5_conv_dw_relu        1 1 res_4_block5_conv_dw_batchnorm res_4_block5_conv_dw_relu 0=256
+Convolution      res_4_block5_conv_proj_conv2d    1 1 res_4_block5_conv_dw_relu res_4_block5_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_4_block5_conv_proj_batchnorm 1 1 res_4_block5_conv_proj_conv2d res_4_block5_conv_proj_batchnorm 0=128
+BinaryOp         _plus9                           2 1 res_4_block5_conv_proj_batchnorm _plus8_splitncnn_0 _plus9 0=0
+Convolution      dconv_45_conv_sep_conv2d         1 1 _plus9 dconv_45_conv_sep_conv2d 0=512 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=65536
+BatchNorm        dconv_45_conv_sep_batchnorm      1 1 dconv_45_conv_sep_conv2d dconv_45_conv_sep_batchnorm 0=512
+PReLU            dconv_45_conv_sep_relu           1 1 dconv_45_conv_sep_batchnorm dconv_45_conv_sep_relu 0=512
+ConvolutionDepthWise dconv_45_conv_dw_conv2d          1 1 dconv_45_conv_sep_relu dconv_45_conv_dw_conv2d 0=512 1=3 11=3 3=2 13=2 4=1 14=1 5=0 6=4608 7=512
+BatchNorm        dconv_45_conv_dw_batchnorm       1 1 dconv_45_conv_dw_conv2d dconv_45_conv_dw_batchnorm 0=512
+PReLU            dconv_45_conv_dw_relu            1 1 dconv_45_conv_dw_batchnorm dconv_45_conv_dw_relu 0=512
+Convolution      dconv_45_conv_proj_conv2d        1 1 dconv_45_conv_dw_relu dconv_45_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=65536
+BatchNorm        dconv_45_conv_proj_batchnorm     1 1 dconv_45_conv_proj_conv2d dconv_45_conv_proj_batchnorm 0=128
+Split            splitncnn_10                     1 2 dconv_45_conv_proj_batchnorm dconv_45_conv_proj_batchnorm_splitncnn_0 dconv_45_conv_proj_batchnorm_splitncnn_1
+Convolution      res_5_block0_conv_sep_conv2d     1 1 dconv_45_conv_proj_batchnorm_splitncnn_1 res_5_block0_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_5_block0_conv_sep_batchnorm  1 1 res_5_block0_conv_sep_conv2d res_5_block0_conv_sep_batchnorm 0=256
+PReLU            res_5_block0_conv_sep_relu       1 1 res_5_block0_conv_sep_batchnorm res_5_block0_conv_sep_relu 0=256
+ConvolutionDepthWise res_5_block0_conv_dw_conv2d      1 1 res_5_block0_conv_sep_relu res_5_block0_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_5_block0_conv_dw_batchnorm   1 1 res_5_block0_conv_dw_conv2d res_5_block0_conv_dw_batchnorm 0=256
+PReLU            res_5_block0_conv_dw_relu        1 1 res_5_block0_conv_dw_batchnorm res_5_block0_conv_dw_relu 0=256
+Convolution      res_5_block0_conv_proj_conv2d    1 1 res_5_block0_conv_dw_relu res_5_block0_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_5_block0_conv_proj_batchnorm 1 1 res_5_block0_conv_proj_conv2d res_5_block0_conv_proj_batchnorm 0=128
+BinaryOp         _plus10                          2 1 res_5_block0_conv_proj_batchnorm dconv_45_conv_proj_batchnorm_splitncnn_0 _plus10 0=0
+Split            splitncnn_11                     1 2 _plus10 _plus10_splitncnn_0 _plus10_splitncnn_1
+Convolution      res_5_block1_conv_sep_conv2d     1 1 _plus10_splitncnn_1 res_5_block1_conv_sep_conv2d 0=256 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_5_block1_conv_sep_batchnorm  1 1 res_5_block1_conv_sep_conv2d res_5_block1_conv_sep_batchnorm 0=256
+PReLU            res_5_block1_conv_sep_relu       1 1 res_5_block1_conv_sep_batchnorm res_5_block1_conv_sep_relu 0=256
+ConvolutionDepthWise res_5_block1_conv_dw_conv2d      1 1 res_5_block1_conv_sep_relu res_5_block1_conv_dw_conv2d 0=256 1=3 11=3 3=1 13=1 4=1 14=1 5=0 6=2304 7=256
+BatchNorm        res_5_block1_conv_dw_batchnorm   1 1 res_5_block1_conv_dw_conv2d res_5_block1_conv_dw_batchnorm 0=256
+PReLU            res_5_block1_conv_dw_relu        1 1 res_5_block1_conv_dw_batchnorm res_5_block1_conv_dw_relu 0=256
+Convolution      res_5_block1_conv_proj_conv2d    1 1 res_5_block1_conv_dw_relu res_5_block1_conv_proj_conv2d 0=128 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=32768
+BatchNorm        res_5_block1_conv_proj_batchnorm 1 1 res_5_block1_conv_proj_conv2d res_5_block1_conv_proj_batchnorm 0=128
+BinaryOp         _plus11                          2 1 res_5_block1_conv_proj_batchnorm _plus10_splitncnn_0 _plus11 0=0
+Convolution      conv_6sep_conv2d                 1 1 _plus11 conv_6sep_conv2d 0=512 1=1 11=1 3=1 13=1 4=0 14=0 5=0 6=65536
+BatchNorm        conv_6sep_batchnorm              1 1 conv_6sep_conv2d conv_6sep_batchnorm 0=512
+PReLU            conv_6sep_relu                   1 1 conv_6sep_batchnorm conv_6sep_relu 0=512
+ConvolutionDepthWise conv_6dw7_7_conv2d               1 1 conv_6sep_relu conv_6dw7_7_conv2d 0=512 1=7 11=7 3=1 13=1 4=0 14=0 5=0 6=25088 7=512
+BatchNorm        conv_6dw7_7_batchnorm            1 1 conv_6dw7_7_conv2d conv_6dw7_7_batchnorm 0=512
+InnerProduct     pre_fc1                          1 1 conv_6dw7_7_batchnorm pre_fc1 0=128 1=1 2=65536
+BatchNorm        fc1                              1 1 pre_fc1 fc1 0=128

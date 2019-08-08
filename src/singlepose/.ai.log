@@ -1,0 +1,9 @@
+libdc1394 error: Failed to create juju: opendir: Permission denied
+libdc1394 error: Failed to initialize libdc1394
+/usr/lib/python2.7/dist-packages/pkg_resources/__init__.py:1869: UserWarning: /root/.mxnet/python/._mxnet.egg-info could not be properly decoded in UTF-8
+  warnings.warn(msg)
+remi.server      INFO     Started httpserver http://0.0.0.0:5000/
+remi.request     INFO     built UI (path=/)
+remi.server.ws   INFO     connection established: ('127.0.0.1', 47594)
+remi.server.ws   INFO     handshake complete
+Hangup

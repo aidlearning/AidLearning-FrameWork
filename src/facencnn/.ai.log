@@ -1,0 +1,6 @@
+remi.server      INFO     Started httpserver http://0.0.0.0:5000/
+FaceRecognition Init Finished.
+remi.request     INFO     built UI (path=/)
+remi.server.ws   INFO     connection established: ('127.0.0.1', 37490)
+remi.server.ws   INFO     handshake complete
+Hangup

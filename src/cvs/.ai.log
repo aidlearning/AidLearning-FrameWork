@@ -1,0 +1,5 @@
+remi.server      INFO     Started httpserver http://0.0.0.0:5000/
+remi.request     INFO     built UI (path=/)
+remi.server.ws   INFO     connection established: ('127.0.0.1', 46766)
+remi.server.ws   INFO     handshake complete
+Hangup
