@@ -21,8 +21,8 @@ from cvs import *
 |circle |cv2 |same as cv2 |画椭圆 |无   |
 |putText|cv2 |same as cv2 |在图像上写字 |无   |
 |GaussianBlur|cv2|same as cv2 |高斯模糊|mat图像数据
-|flip|cv2|same as cv2 |高斯模糊|mat图像数据
-|resize|cv2|same as cv2 |高斯模糊|mat图像数据
+|flip|cv2|same as cv2 |图像反转|mat图像数据
+|resize|cv2|same as cv2 |缩放图像尺寸|mat图像数据
 |setLbs|custom|str |传递str参数 |无 |
 |getLbs|custom| 无 |传递str参数| str  |
 |waitKey|cv2 |same as cv2 |等待延迟| 无  |
