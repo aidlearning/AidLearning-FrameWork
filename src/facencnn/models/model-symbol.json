@@ -1,0 +1,4951 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "data", 
+      "inputs": []
+    }, 
+    {
+      "op": "_minus_scalar", 
+      "name": "_minusscalar0", 
+      "attrs": {"scalar": "127.5"}, 
+      "inputs": [[0, 0, 0]]
+    }, 
+    {
+      "op": "_mul_scalar", 
+      "name": "_mulscalar0", 
+      "attrs": {"scalar": "0.0078125"}, 
+      "inputs": [[1, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_1_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_1_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[2, 0, 0], [3, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_1_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_1_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_1_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_1_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "conv_1_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[4, 0, 0], [5, 0, 0], [6, 0, 0], [7, 0, 1], [8, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_1_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "conv_1_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[9, 0, 0], [10, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_2_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "64", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_2_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "64", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[11, 0, 0], [12, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_2_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_2_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_2_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_2_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "conv_2_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[13, 0, 0], [14, 0, 0], [15, 0, 0], [16, 0, 1], [17, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_2_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "conv_2_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[18, 0, 0], [19, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_23_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[20, 0, 0], [21, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_23_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[22, 0, 0], [23, 0, 0], [24, 0, 0], [25, 0, 1], [26, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "dconv_23_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[27, 0, 0], [28, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_23_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[29, 0, 0], [30, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_23_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[31, 0, 0], [32, 0, 0], [33, 0, 0], [34, 0, 1], [35, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "dconv_23_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[36, 0, 0], [37, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_23_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[38, 0, 0], [39, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_23_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_23_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[40, 0, 0], [41, 0, 0], [42, 0, 0], [43, 0, 1], [44, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block0_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[45, 0, 0], [46, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block0_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[47, 0, 0], [48, 0, 0], [49, 0, 0], [50, 0, 1], [51, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block0_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[52, 0, 0], [53, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block0_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[54, 0, 0], [55, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block0_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[56, 0, 0], [57, 0, 0], [58, 0, 0], [59, 0, 1], [60, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block0_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[61, 0, 0], [62, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block0_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[63, 0, 0], [64, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block0_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block0_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[65, 0, 0], [66, 0, 0], [67, 0, 0], [68, 0, 1], [69, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus0", 
+      "inputs": [[70, 0, 0], [45, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block1_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[71, 0, 0], [72, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block1_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[73, 0, 0], [74, 0, 0], [75, 0, 0], [76, 0, 1], [77, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block1_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[78, 0, 0], [79, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block1_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[80, 0, 0], [81, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block1_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[82, 0, 0], [83, 0, 0], [84, 0, 0], [85, 0, 1], [86, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block1_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[87, 0, 0], [88, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block1_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[89, 0, 0], [90, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block1_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block1_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[91, 0, 0], [92, 0, 0], [93, 0, 0], [94, 0, 1], [95, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus1", 
+      "inputs": [[96, 0, 0], [71, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block2_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[97, 0, 0], [98, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block2_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[99, 0, 0], [100, 0, 0], [101, 0, 0], [102, 0, 1], [103, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block2_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[104, 0, 0], [105, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block2_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[106, 0, 0], [107, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block2_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[108, 0, 0], [109, 0, 0], [110, 0, 0], [111, 0, 1], [112, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block2_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[113, 0, 0], [114, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block2_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[115, 0, 0], [116, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block2_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block2_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[117, 0, 0], [118, 0, 0], [119, 0, 0], [120, 0, 1], [121, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus2", 
+      "inputs": [[122, 0, 0], [97, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block3_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[123, 0, 0], [124, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block3_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[125, 0, 0], [126, 0, 0], [127, 0, 0], [128, 0, 1], [129, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block3_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[130, 0, 0], [131, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block3_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "128", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[132, 0, 0], [133, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block3_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[134, 0, 0], [135, 0, 0], [136, 0, 0], [137, 0, 1], [138, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_3_block3_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[139, 0, 0], [140, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_3_block3_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "64", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[141, 0, 0], [142, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_3_block3_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_3_block3_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[143, 0, 0], [144, 0, 0], [145, 0, 0], [146, 0, 1], [147, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus3", 
+      "inputs": [[148, 0, 0], [123, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_34_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[149, 0, 0], [150, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_34_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[151, 0, 0], [152, 0, 0], [153, 0, 0], [154, 0, 1], [155, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "dconv_34_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[156, 0, 0], [157, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_34_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[158, 0, 0], [159, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_34_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[160, 0, 0], [161, 0, 0], [162, 0, 0], [163, 0, 1], [164, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "dconv_34_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[165, 0, 0], [166, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_34_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[167, 0, 0], [168, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_34_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_34_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[169, 0, 0], [170, 0, 0], [171, 0, 0], [172, 0, 1], [173, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block0_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[174, 0, 0], [175, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block0_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[176, 0, 0], [177, 0, 0], [178, 0, 0], [179, 0, 1], [180, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block0_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[181, 0, 0], [182, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block0_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[183, 0, 0], [184, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block0_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[185, 0, 0], [186, 0, 0], [187, 0, 0], [188, 0, 1], [189, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block0_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[190, 0, 0], [191, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block0_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[192, 0, 0], [193, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block0_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block0_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[194, 0, 0], [195, 0, 0], [196, 0, 0], [197, 0, 1], [198, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus4", 
+      "inputs": [[199, 0, 0], [174, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block1_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[200, 0, 0], [201, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block1_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[202, 0, 0], [203, 0, 0], [204, 0, 0], [205, 0, 1], [206, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block1_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[207, 0, 0], [208, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block1_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[209, 0, 0], [210, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block1_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[211, 0, 0], [212, 0, 0], [213, 0, 0], [214, 0, 1], [215, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block1_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[216, 0, 0], [217, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block1_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[218, 0, 0], [219, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block1_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block1_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[220, 0, 0], [221, 0, 0], [222, 0, 0], [223, 0, 1], [224, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus5", 
+      "inputs": [[225, 0, 0], [200, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block2_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[226, 0, 0], [227, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block2_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[228, 0, 0], [229, 0, 0], [230, 0, 0], [231, 0, 1], [232, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block2_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[233, 0, 0], [234, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block2_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[235, 0, 0], [236, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block2_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[237, 0, 0], [238, 0, 0], [239, 0, 0], [240, 0, 1], [241, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block2_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[242, 0, 0], [243, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block2_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[244, 0, 0], [245, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block2_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block2_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[246, 0, 0], [247, 0, 0], [248, 0, 0], [249, 0, 1], [250, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus6", 
+      "inputs": [[251, 0, 0], [226, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block3_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[252, 0, 0], [253, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block3_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[254, 0, 0], [255, 0, 0], [256, 0, 0], [257, 0, 1], [258, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block3_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[259, 0, 0], [260, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block3_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[261, 0, 0], [262, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block3_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[263, 0, 0], [264, 0, 0], [265, 0, 0], [266, 0, 1], [267, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block3_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[268, 0, 0], [269, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block3_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[270, 0, 0], [271, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block3_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block3_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[272, 0, 0], [273, 0, 0], [274, 0, 0], [275, 0, 1], [276, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus7", 
+      "inputs": [[277, 0, 0], [252, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block4_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[278, 0, 0], [279, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block4_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[280, 0, 0], [281, 0, 0], [282, 0, 0], [283, 0, 1], [284, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block4_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[285, 0, 0], [286, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block4_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[287, 0, 0], [288, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block4_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[289, 0, 0], [290, 0, 0], [291, 0, 0], [292, 0, 1], [293, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block4_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[294, 0, 0], [295, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block4_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[296, 0, 0], [297, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block4_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block4_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[298, 0, 0], [299, 0, 0], [300, 0, 0], [301, 0, 1], [302, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus8", 
+      "inputs": [[303, 0, 0], [278, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block5_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[304, 0, 0], [305, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block5_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[306, 0, 0], [307, 0, 0], [308, 0, 0], [309, 0, 1], [310, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block5_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[311, 0, 0], [312, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block5_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[313, 0, 0], [314, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block5_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[315, 0, 0], [316, 0, 0], [317, 0, 0], [318, 0, 1], [319, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_4_block5_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[320, 0, 0], [321, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_4_block5_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[322, 0, 0], [323, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_4_block5_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_4_block5_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[324, 0, 0], [325, 0, 0], [326, 0, 0], [327, 0, 1], [328, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus9", 
+      "inputs": [[329, 0, 0], [304, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_45_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[330, 0, 0], [331, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_45_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[332, 0, 0], [333, 0, 0], [334, 0, 0], [335, 0, 1], [336, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "dconv_45_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[337, 0, 0], [338, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "512", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_45_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "512", 
+        "pad": "(1, 1)", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[339, 0, 0], [340, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_45_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[341, 0, 0], [342, 0, 0], [343, 0, 0], [344, 0, 1], [345, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "dconv_45_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[346, 0, 0], [347, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "dconv_45_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[348, 0, 0], [349, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "dconv_45_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "dconv_45_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[350, 0, 0], [351, 0, 0], [352, 0, 0], [353, 0, 1], [354, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_5_block0_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[355, 0, 0], [356, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_5_block0_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[357, 0, 0], [358, 0, 0], [359, 0, 0], [360, 0, 1], [361, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_5_block0_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[362, 0, 0], [363, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_5_block0_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[364, 0, 0], [365, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_5_block0_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[366, 0, 0], [367, 0, 0], [368, 0, 0], [369, 0, 1], [370, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_5_block0_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[371, 0, 0], [372, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_5_block0_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[373, 0, 0], [374, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block0_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_5_block0_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[375, 0, 0], [376, 0, 0], [377, 0, 0], [378, 0, 1], [379, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus10", 
+      "inputs": [[380, 0, 0], [355, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_5_block1_conv_sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[381, 0, 0], [382, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_5_block1_conv_sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[383, 0, 0], [384, 0, 0], [385, 0, 0], [386, 0, 1], [387, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_5_block1_conv_sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[388, 0, 0], [389, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_dw_conv2d_weight", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_5_block1_conv_dw_conv2d", 
+      "attrs": {
+        "kernel": "(3, 3)", 
+        "no_bias": "True", 
+        "num_filter": "256", 
+        "num_group": "256", 
+        "pad": "(1, 1)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[390, 0, 0], [391, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_dw_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_dw_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_dw_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_dw_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_5_block1_conv_dw_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[392, 0, 0], [393, 0, 0], [394, 0, 0], [395, 0, 1], [396, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_dw_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "res_5_block1_conv_dw_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[397, 0, 0], [398, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_proj_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "res_5_block1_conv_proj_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "128", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[399, 0, 0], [400, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_proj_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_proj_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_proj_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "res_5_block1_conv_proj_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "res_5_block1_conv_proj_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[401, 0, 0], [402, 0, 0], [403, 0, 0], [404, 0, 1], [405, 0, 1]]
+    }, 
+    {
+      "op": "elemwise_add", 
+      "name": "_plus11", 
+      "inputs": [[406, 0, 0], [381, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6sep_conv2d_weight", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_6sep_conv2d", 
+      "attrs": {
+        "kernel": "(1, 1)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "1", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[407, 0, 0], [408, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6sep_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6sep_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6sep_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6sep_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "conv_6sep_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[409, 0, 0], [410, 0, 0], [411, 0, 0], [412, 0, 1], [413, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6sep_relu_gamma", 
+      "attrs": {
+        "__init__": "[\"Constant\", {\"value\": 0.25}]", 
+        "act_type": "prelu"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "LeakyReLU", 
+      "name": "conv_6sep_relu", 
+      "attrs": {"act_type": "prelu"}, 
+      "inputs": [[414, 0, 0], [415, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6dw7_7_conv2d_weight", 
+      "attrs": {
+        "kernel": "(7, 7)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "512", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "conv_6dw7_7_conv2d", 
+      "attrs": {
+        "kernel": "(7, 7)", 
+        "no_bias": "True", 
+        "num_filter": "512", 
+        "num_group": "512", 
+        "pad": "(0, 0)", 
+        "stride": "(1, 1)"
+      }, 
+      "inputs": [[416, 0, 0], [417, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6dw7_7_batchnorm_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6dw7_7_batchnorm_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6dw7_7_batchnorm_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "conv_6dw7_7_batchnorm_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "conv_6dw7_7_batchnorm", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[418, 0, 0], [419, 0, 0], [420, 0, 0], [421, 0, 1], [422, 0, 1]]
+    }, 
+    {
+      "op": "null", 
+      "name": "pre_fc1_weight", 
+      "attrs": {
+        "__lr_mult__": "1.0", 
+        "__shape__": "(512, 512)", 
+        "__wd_mult__": "10.0"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "pre_fc1_bias", 
+      "attrs": {"num_hidden": "512"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "pre_fc1", 
+      "attrs": {"num_hidden": "512"}, 
+      "inputs": [[423, 0, 0], [424, 0, 0], [425, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "fc1_gamma", 
+      "attrs": {
+        "eps": "2e-05", 
+        "fix_gamma": "True", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "fc1_beta", 
+      "attrs": {
+        "eps": "2e-05", 
+        "fix_gamma": "True", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "fc1_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "eps": "2e-05", 
+        "fix_gamma": "True", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "fc1_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "eps": "2e-05", 
+        "fix_gamma": "True", 
+        "momentum": "0.9"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "fc1", 
+      "attrs": {
+        "eps": "2e-05", 
+        "fix_gamma": "True", 
+        "momentum": "0.9"
+      }, 
+      "inputs": [[426, 0, 0], [427, 0, 0], [428, 0, 0], [429, 0, 1], [430, 0, 1]]
+    }
+  ], 
+  "arg_nodes": [
+    0, 
+    3, 
+    5, 
+    6, 
+    7, 
+    8, 
+    10, 
+    12, 
+    14, 
+    15, 
+    16, 
+    17, 
+    19, 
+    21, 
+    23, 
+    24, 
+    25, 
+    26, 
+    28, 
+    30, 
+    32, 
+    33, 
+    34, 
+    35, 
+    37, 
+    39, 
+    41, 
+    42, 
+    43, 
+    44, 
+    46, 
+    48, 
+    49, 
+    50, 
+    51, 
+    53, 
+    55, 
+    57, 
+    58, 
+    59, 
+    60, 
+    62, 
+    64, 
+    66, 
+    67, 
+    68, 
+    69, 
+    72, 
+    74, 
+    75, 
+    76, 
+    77, 
+    79, 
+    81, 
+    83, 
+    84, 
+    85, 
+    86, 
+    88, 
+    90, 
+    92, 
+    93, 
+    94, 
+    95, 
+    98, 
+    100, 
+    101, 
+    102, 
+    103, 
+    105, 
+    107, 
+    109, 
+    110, 
+    111, 
+    112, 
+    114, 
+    116, 
+    118, 
+    119, 
+    120, 
+    121, 
+    124, 
+    126, 
+    127, 
+    128, 
+    129, 
+    131, 
+    133, 
+    135, 
+    136, 
+    137, 
+    138, 
+    140, 
+    142, 
+    144, 
+    145, 
+    146, 
+    147, 
+    150, 
+    152, 
+    153, 
+    154, 
+    155, 
+    157, 
+    159, 
+    161, 
+    162, 
+    163, 
+    164, 
+    166, 
+    168, 
+    170, 
+    171, 
+    172, 
+    173, 
+    175, 
+    177, 
+    178, 
+    179, 
+    180, 
+    182, 
+    184, 
+    186, 
+    187, 
+    188, 
+    189, 
+    191, 
+    193, 
+    195, 
+    196, 
+    197, 
+    198, 
+    201, 
+    203, 
+    204, 
+    205, 
+    206, 
+    208, 
+    210, 
+    212, 
+    213, 
+    214, 
+    215, 
+    217, 
+    219, 
+    221, 
+    222, 
+    223, 
+    224, 
+    227, 
+    229, 
+    230, 
+    231, 
+    232, 
+    234, 
+    236, 
+    238, 
+    239, 
+    240, 
+    241, 
+    243, 
+    245, 
+    247, 
+    248, 
+    249, 
+    250, 
+    253, 
+    255, 
+    256, 
+    257, 
+    258, 
+    260, 
+    262, 
+    264, 
+    265, 
+    266, 
+    267, 
+    269, 
+    271, 
+    273, 
+    274, 
+    275, 
+    276, 
+    279, 
+    281, 
+    282, 
+    283, 
+    284, 
+    286, 
+    288, 
+    290, 
+    291, 
+    292, 
+    293, 
+    295, 
+    297, 
+    299, 
+    300, 
+    301, 
+    302, 
+    305, 
+    307, 
+    308, 
+    309, 
+    310, 
+    312, 
+    314, 
+    316, 
+    317, 
+    318, 
+    319, 
+    321, 
+    323, 
+    325, 
+    326, 
+    327, 
+    328, 
+    331, 
+    333, 
+    334, 
+    335, 
+    336, 
+    338, 
+    340, 
+    342, 
+    343, 
+    344, 
+    345, 
+    347, 
+    349, 
+    351, 
+    352, 
+    353, 
+    354, 
+    356, 
+    358, 
+    359, 
+    360, 
+    361, 
+    363, 
+    365, 
+    367, 
+    368, 
+    369, 
+    370, 
+    372, 
+    374, 
+    376, 
+    377, 
+    378, 
+    379, 
+    382, 
+    384, 
+    385, 
+    386, 
+    387, 
+    389, 
+    391, 
+    393, 
+    394, 
+    395, 
+    396, 
+    398, 
+    400, 
+    402, 
+    403, 
+    404, 
+    405, 
+    408, 
+    410, 
+    411, 
+    412, 
+    413, 
+    415, 
+    417, 
+    419, 
+    420, 
+    421, 
+    422, 
+    424, 
+    425, 
+    427, 
+    428, 
+    429, 
+    430
+  ], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    5, 
+    6, 
+    7, 
+    8, 
+    9, 
+    12, 
+    13, 
+    14, 
+    15, 
+    16, 
+    17, 
+    18, 
+    19, 
+    20, 
+    23, 
+    24, 
+    25, 
+    26, 
+    27, 
+    28, 
+    29, 
+    30, 
+    31, 
+    34, 
+    35, 
+    36, 
+    37, 
+    38, 
+    39, 
+    40, 
+    41, 
+    42, 
+    45, 
+    46, 
+    47, 
+    48, 
+    49, 
+    50, 
+    51, 
+    52, 
+    53, 
+    56, 
+    57, 
+    58, 
+    59, 
+    60, 
+    61, 
+    62, 
+    65, 
+    66, 
+    67, 
+    68, 
+    69, 
+    70, 
+    71, 
+    72, 
+    73, 
+    76, 
+    77, 
+    78, 
+    79, 
+    80, 
+    81, 
+    82, 
+    83, 
+    84, 
+    87, 
+    88, 
+    89, 
+    90, 
+    91, 
+    92, 
+    93, 
+    94, 
+    97, 
+    98, 
+    99, 
+    100, 
+    101, 
+    102, 
+    103, 
+    104, 
+    105, 
+    108, 
+    109, 
+    110, 
+    111, 
+    112, 
+    113, 
+    114, 
+    115, 
+    116, 
+    119, 
+    120, 
+    121, 
+    122, 
+    123, 
+    124, 
+    125, 
+    126, 
+    129, 
+    130, 
+    131, 
+    132, 
+    133, 
+    134, 
+    135, 
+    136, 
+    137, 
+    140, 
+    141, 
+    142, 
+    143, 
+    144, 
+    145, 
+    146, 
+    147, 
+    148, 
+    151, 
+    152, 
+    153, 
+    154, 
+    155, 
+    156, 
+    157, 
+    158, 
+    161, 
+    162, 
+    163, 
+    164, 
+    165, 
+    166, 
+    167, 
+    168, 
+    169, 
+    172, 
+    173, 
+    174, 
+    175, 
+    176, 
+    177, 
+    178, 
+    179, 
+    180, 
+    183, 
+    184, 
+    185, 
+    186, 
+    187, 
+    188, 
+    189, 
+    190, 
+    193, 
+    194, 
+    195, 
+    196, 
+    197, 
+    198, 
+    199, 
+    200, 
+    201, 
+    204, 
+    205, 
+    206, 
+    207, 
+    208, 
+    209, 
+    210, 
+    211, 
+    212, 
+    215, 
+    216, 
+    217, 
+    218, 
+    219, 
+    220, 
+    221, 
+    224, 
+    225, 
+    226, 
+    227, 
+    228, 
+    229, 
+    230, 
+    231, 
+    232, 
+    235, 
+    236, 
+    237, 
+    238, 
+    239, 
+    240, 
+    241, 
+    242, 
+    243, 
+    246, 
+    247, 
+    248, 
+    249, 
+    250, 
+    251, 
+    252, 
+    253, 
+    256, 
+    257, 
+    258, 
+    259, 
+    260, 
+    261, 
+    262, 
+    263, 
+    264, 
+    267, 
+    268, 
+    269, 
+    270, 
+    271, 
+    272, 
+    273, 
+    274, 
+    275, 
+    278, 
+    279, 
+    280, 
+    281, 
+    282, 
+    283, 
+    284, 
+    285, 
+    288, 
+    289, 
+    290, 
+    291, 
+    292, 
+    293, 
+    294, 
+    295, 
+    296, 
+    299, 
+    300, 
+    301, 
+    302, 
+    303, 
+    304, 
+    305, 
+    306, 
+    307, 
+    310, 
+    311, 
+    312, 
+    313, 
+    314, 
+    315, 
+    316, 
+    317, 
+    320, 
+    321, 
+    322, 
+    323, 
+    324, 
+    325, 
+    326, 
+    327, 
+    328, 
+    331, 
+    332, 
+    333, 
+    334, 
+    335, 
+    336, 
+    337, 
+    338, 
+    339, 
+    342, 
+    343, 
+    344, 
+    345, 
+    346, 
+    347, 
+    348, 
+    349, 
+    352, 
+    353, 
+    354, 
+    355, 
+    356, 
+    357, 
+    358, 
+    359, 
+    360, 
+    363, 
+    364, 
+    365, 
+    366, 
+    367, 
+    368, 
+    369, 
+    370, 
+    371, 
+    374, 
+    375, 
+    376, 
+    377, 
+    378, 
+    379, 
+    380, 
+    381, 
+    384, 
+    385, 
+    386, 
+    387, 
+    388, 
+    389, 
+    390, 
+    391, 
+    392, 
+    395, 
+    396, 
+    397, 
+    398, 
+    399, 
+    400, 
+    401, 
+    402, 
+    403, 
+    406, 
+    407, 
+    408, 
+    409, 
+    410, 
+    411, 
+    412, 
+    413, 
+    416, 
+    417, 
+    418, 
+    419, 
+    420, 
+    421, 
+    422, 
+    423, 
+    424, 
+    427, 
+    428, 
+    429, 
+    430, 
+    431, 
+    432, 
+    433, 
+    434, 
+    435, 
+    438, 
+    439, 
+    440, 
+    441, 
+    442, 
+    443, 
+    444, 
+    447, 
+    448, 
+    449, 
+    450, 
+    451, 
+    452, 
+    453, 
+    454, 
+    455, 
+    458, 
+    459, 
+    460, 
+    461, 
+    462, 
+    463, 
+    464, 
+    465, 
+    466, 
+    469, 
+    470, 
+    471, 
+    472, 
+    473, 
+    474, 
+    475, 
+    476, 
+    479, 
+    480, 
+    481, 
+    482, 
+    483, 
+    484, 
+    485, 
+    486, 
+    487, 
+    490, 
+    491, 
+    492, 
+    493, 
+    494, 
+    495, 
+    496, 
+    497, 
+    498, 
+    501, 
+    502, 
+    503, 
+    504, 
+    505, 
+    506, 
+    507, 
+    508, 
+    511, 
+    512, 
+    513, 
+    514, 
+    515, 
+    516, 
+    517, 
+    518, 
+    519, 
+    522, 
+    523, 
+    524, 
+    525, 
+    526, 
+    527, 
+    528, 
+    529, 
+    532
+  ], 
+  "heads": [[431, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 10100]}
+}
