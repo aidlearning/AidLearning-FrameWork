@@ -175,7 +175,7 @@ then hit the upload button to upload the pc file to your mobile,or hit the downl
 
 ![examle](image/examle.png)
 <p align=left>
-<img src="image/facepose.png" width=300px /><img src="image/bodypose.png" width=300px /><img src="image/bodyface.png" width=300px />
+<img src="image/facepose.png" width=300px /><img src="image/bodypose.png" width=300px /><img src="image/face.png" width=300px />
 </p>
 
 ## Privacy Policy
