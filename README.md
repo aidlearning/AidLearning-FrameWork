@@ -13,7 +13,7 @@
 - <a href='#references'>⚘ References</a>
 # Introduce
 
-[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](license.md)  / thank for <b>qidiso</b> provide the [中文说明](https://www.jianshu.com/p/f6ec13ece792)
+[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](license.md) 
 
 AidLearning App builds a ***graphical interface Linux*** system (without need root) **on Android phones** and coexists with your Android system.  The App has a built-in system of leading deep learning frameworks, including ***Caffe, Tensorflow, Mxnet, pytorch, keras, ncnn and opencv***. You no longer need complex configuration, wall-turning downloads and Install dependency packages.
 
@@ -44,7 +44,7 @@ All you need is an Android devices (phone ,tablet or arm board)  that supports t
 ## Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
-[ Download v0.76 now!](http://www.aidlearning.net/downloads/aidlux-08-04.apk)  
+[ Download v0.76 now!](http://www.aidlearning.net/downloads/aidlux-08-24.apk)  
 Other version at:[https://github.com/aidlearning/AidLearning-FrameWork/releases](https://github.com/aidlearning/AidLearning-FrameWork/releases)
  
 The  APP （apk） is only 6M，when you install the apk  and launch,the apk will auto download the dependence of the linux and examples of codes . all is about 1G size to download .So it's recommended that you install it _in a wifi environment_.
