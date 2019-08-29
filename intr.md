@@ -1,4 +1,4 @@
- ![](images/logo.png)![frame](image/frame.png)
+ ![](images/logo.png)
 
 ### 介绍
 AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
