@@ -147,7 +147,7 @@ You can open it on a PC, for example:
 http://192.168.1.8:8900/
 assume your phone's IP is 192.168.1.8, you can check your phone's IP by commanding ifconfig (run ifconfig command under terminal)
 ![sdcard](image/A15101DB465CDCCA18796F76D8121483.png)
-* New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
+*code IntelliSense: New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
 	<p align=center>
           <img src="image/autocode.gif" width=300px />
 	</p>
