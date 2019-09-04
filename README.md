@@ -48,14 +48,14 @@ All you need is an Android devices (phone ,tablet or arm board)  that supports t
 ## Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
-[ Download v0.76 now!](http://www.aidlearning.net/downloads/aidlux-08-25.apk)  
+[ Download v0.76 now!](http://www.aidlearning.net/downloads/aidlux-09-04.apk)  
 Other version at:[https://github.com/aidlearning/AidLearning-FrameWork/releases](https://github.com/aidlearning/AidLearning-FrameWork/releases)
  
 The  APP （apk） is only 9M，when you install the apk  and launch,the apk will auto download the dependence of the linux and examples of codes . all is about 1G size to download .So it's recommended that you install it _in a wifi environment_.
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.<br>
 
-[Download v0.76 for chinese version now!](http://www.aidlearning.net/downloads/aidlux-08-25.apk)  
+[Download v0.76 for chinese version now!](http://www.aidlearning.net/downloads/aidlux-09-04.apk)  
 
 
 ## Support
@@ -147,7 +147,7 @@ You can open it on a PC, for example:
 http://192.168.1.8:8900/
 assume your phone's IP is 192.168.1.8, you can check your phone's IP by commanding ifconfig (run ifconfig command under terminal)
 ![sdcard](image/A15101DB465CDCCA18796F76D8121483.png)
-* New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
+* code IntelliSense: New code auto-prompting function, if you input the initial letters of variables, functions and keywords, the system will <b>automatically complete</b> , which can greatly improve efficiency.
 	<p align=center>
           <img src="image/autocode.gif" width=300px />
 	</p>
