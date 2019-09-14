@@ -220,3 +220,5 @@ if __name__ == "__main__":
 再次保存后，运行界面如下：
 
 ![sayhello](images/sayhello.png)
+
+更多中文资料(https://www.jianshu.com/p/f6ec13ece792)
