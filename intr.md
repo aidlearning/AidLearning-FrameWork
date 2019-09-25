@@ -9,7 +9,7 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 
 总之，Aid Learning打造了一个Android+Linux+AI 三合一的触摸拖拽式的快速开发和学习平台，不仅可利用手机进行碎片式编程，同时可充分利用两大主流操作系统（Android+Linux）的开发优势和手机的完美终端优势，利用这种优势，Aid Learning打造了一个完美的编程学习和开发的新平台,我们鼓励研究人员和学生利用这些项目来加速 AI 开发和应用。
 
-
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
 
 ### 目录
 * <a href='#下载'>⚘ 下载</a>
