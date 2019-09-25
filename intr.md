@@ -18,18 +18,18 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 [![Watch the video](image/aid07.png)](http://www.aidlearning.net/user/aid07.mp4)
 
 ### 目录
-* <a href='#下载'>⚘ 下载</a>
+* <a href='#下载'>⚘ 下载与安装</a>
 * <a href='#界面介绍'>⚘ 界面介绍</a>
-	* <a href='#我的电脑'>我的电脑</a>
-	* <a href='#AidCode'>AidCode</a>
-	* <a href='#终端'>终端</a>
-	* <a href='#其他'>其他</a>
+	* <a href='#我的电脑'>我的电脑与文件管理</a>
+	* <a href='#AidCode'>AidCode可视化开发工具</a>
+	* <a href='#终端'>命令终端使用</a>
+	* <a href='#其他'>其他注意的事情</a>
 * <a href='#使用说明'>⚘ 使用说明</a>
-	* <a href='#下载安装'>下载安装</a>
-	* <a href='#AidCode介绍'>AidCode介绍</a>
+	* <a href='#下载安装'>运行后依赖包的安装</a>
+	* <a href='#AidCode介绍'>AidCode开发工具介绍</a>
 	* <a href='#电脑通过ssh连接'>电脑通过ssh连接</a>
 * <a href='#使用样例'>⚘ 使用样例</a>
-	* <a href='#运行姿态检测'>运行姿态检测</a>
+	* <a href='#运行姿态检测'>运行姿态检测例子</a>
 	* <a href='#借助AidCode写HelloWorld'>借助AidCode写HelloWorld</a>
 
 ## 下载
