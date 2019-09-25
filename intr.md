@@ -14,6 +14,8 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 [![Watch the video](image/aid03.png)](http://www.aidlearning.net/user/aid03.mp4)
 [![Watch the video](image/aid04.png)](http://www.aidlearning.net/user/aid04.mp4)
 [![Watch the video](image/aid05.png)](http://www.aidlearning.net/user/aid05.mp4)
+[![Watch the video](image/aid06.png)](http://www.aidlearning.net/user/aid06.mp4)
+[![Watch the video](image/aid07.png)](http://www.aidlearning.net/user/aid07.mp4)
 
 ### 目录
 * <a href='#下载'>⚘ 下载</a>
