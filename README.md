@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/repo%20size-37%20MB-blue" alt="Repo size">
     <img src="https://img.shields.io/badge/code%20size-11.83%20MB-blue" alt="Code size">
 <img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?label=Fork&style=social" alt="Fork">
-<img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?label=star&style=social" alt="star">
+<img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?label=star&style=social" alt="star">
   </p>
 </p>
 
