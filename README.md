@@ -1,6 +1,6 @@
 <p align=center>
 	<img src="image/logo.png" width=100px />
-	<h3 align="center">AidLearning<a href='README.md'>English</a> <a href='intr.md'>中文版</a></h3>
+	<h4 align="center">AidLearning <a href='README.md'>[English]</a> <a href='intr.md'>[中文版]</a></h4>
 </p>
 
   <p align="center">
