@@ -1,6 +1,7 @@
+<p align=center>
+	<img src="image/logo.png" width=100px /><a href='intr.md'>⚘ 中文版</a>
 
-![](image/logo.png)[中文版](intr.md)
-
+</p>
  **AidLearning** is a Linux system running on the Android with GUI, Deep-Learning and  Python Visual Programming support . The [AidLearning](http://www.aidlearning.net) framework which have the <b>Linux+Anroid+AI+Python 4in1</b> environments Developed and Maintained by several students from [Cas University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
  ### Table of Contents
 - <a href='#Introduce'>⚘ introduce</a>
