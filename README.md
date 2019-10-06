@@ -1,10 +1,10 @@
 <p align=center>
 	<img src="image/logo.png" width=100px />
-	<h4 align="center">AidLearning <a href='README.md'>[English]</a> <a href='intr.md'>[中文版]</a></h4>
+	<h3 align="center">AidLearning </a></h3>
 </p>
 
   <p align="center">
-    Linux+AI+Python+Gui 4in1 Environments Running on the Android .
+    <a href='README.md'>[English]Linux+AI+Python+Gui 4in1 Environments Running on the Android . <a href='intr.md'>[中文版]</a>
   </p>
   <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
