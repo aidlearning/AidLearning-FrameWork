@@ -11,8 +11,8 @@
     <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
     <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases"><img src="https://img.shields.io/github/release/lc-soft/LCUI/all.svg" alt="Github Release"></a>
     <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases"><img src="https://img.shields.io/github/downloads/lc-soft/LCUI/total.svg" alt="Github All Releases"></a>
-    <img src="https://img.shields.io/github/repo-size/lc-soft/LCUI.svg" alt="Repo size">
-    <img src="https://img.shields.io/github/languages/code-size/lc-soft/LCUI.svg" alt="Code size">
+    <img src="https://img.shields.io/badge/repo%20size-37%20MB-blue" alt="Repo size">
+    <img src="https://img.shields.io/badge/code%20size-11.83%20MB-blue" alt="Code size">
   </p>
 </p>
 
