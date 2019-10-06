@@ -15,6 +15,8 @@
     <img src="https://img.shields.io/badge/code%20size-11.83%20MB-blue" alt="Code size">
 <img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
+<img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
+	
   </p>
 </p>
 
