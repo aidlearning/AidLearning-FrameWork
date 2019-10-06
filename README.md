@@ -3,7 +3,7 @@
 </p>
 
   <p align="center">
-    Linux+AI+Python 3in1 Environments Running on the Android .
+    Linux+AI+Python+Gui 4in1 Environments Running on the Android .
   </p>
   <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
