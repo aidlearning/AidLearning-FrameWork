@@ -1,4 +1,25 @@
- ![](images/logo.png)
+<p align=center>
+	<img src="image/logo.png" width=100px />
+	<h3 align="center">AidLearning </a></h3>
+</p>
+
+  <p align="center">
+    Linux+AI+Python+Gui 4in1 Environments Running on the Android . <a href='intr.md'>[中文版]</a> <a href='README.md'>[English]
+  </p>
+  <p align="center">
+    <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
+    <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
+    <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
+    <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases">
+    <img src="https://img.shields.io/github/v/tag/aidlearning/AidLearning-FrameWork" > </a>
+    <img src="https://img.shields.io/badge/repo%20size-37%20MB-blue" alt="Repo size">
+    <img src="https://img.shields.io/badge/code%20size-11.83%20MB-blue" alt="Code size">
+<img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
+<img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
+<img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
+	
+  </p>
+</p>
 
 ### 介绍
 AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
