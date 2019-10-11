@@ -255,6 +255,6 @@ if __name__ == "__main__":
 更多例子参考(http://code.aidlearning.net:3000/explore/repos)
 
 <p align=center>
-	<img src="image/QQqun.png" width=200px />
+	<img src="images/QQqun.png" width=200px />
 
 </p>
