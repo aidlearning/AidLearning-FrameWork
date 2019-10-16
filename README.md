@@ -80,7 +80,7 @@ The  APP （apk） is only 9M，when you install the apk  and launch,the apk wil
 
 [Download v0.76 for chinese version now!](http://www.aidlearning.net/downloads/aidlux-09-04.apk)
 
-[Download v0.77 with Full dependence build-in version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/tag/V0.77)
+[Download v0.77 with Full dependence build-in version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/V0.77/aidlux-10-16.apk)
 
 
 
