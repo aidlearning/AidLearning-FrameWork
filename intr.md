@@ -60,6 +60,7 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 </p>
 
 也可以去 [Github主页](https://github.com/aidlearning/AidLearning-FrameWork)或者[官网](http://www.aidlearning.net)进行下载
+[也可以下载V0.77全功能版!1G大小](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/V0.77/aidlux-10-16.apk)
 ## 界面介绍
 ### 我的电脑
 <p align=left>
