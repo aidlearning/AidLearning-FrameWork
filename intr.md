@@ -30,13 +30,7 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 
 总之，Aid Learning打造了一个Android+Linux+AI 三合一的触摸拖拽式的快速开发和学习平台，不仅可利用手机进行碎片式编程，同时可充分利用两大主流操作系统（Android+Linux）的开发优势和手机的完美终端优势，利用这种优势，Aid Learning打造了一个完美的编程学习和开发的新平台,我们鼓励研究人员和学生利用这些项目来加速 AI 开发和应用。
 
-[![Watch the video](image/aid01.png)](http://www.aidlearning.net/user/aid01.mp4)
-[![Watch the video](image/aid02.png)](http://www.aidlearning.net/user/aid02.mp4)
-[![Watch the video](image/aid03.png)](http://www.aidlearning.net/user/aid03.mp4)
-[![Watch the video](image/aid04.png)](http://www.aidlearning.net/user/aid04.mp4)
-[![Watch the video](image/aid05.png)](http://www.aidlearning.net/user/aid05.mp4)
-[![Watch the video](image/aid06.png)](http://www.aidlearning.net/user/aid06.mp4)
-[![Watch the video](image/aid07.png)](http://www.aidlearning.net/user/aid07.mp4)
+
 
 ### 目录
 * <a href='#下载'>⚘ 下载与安装</a>
@@ -49,6 +43,7 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 	* <a href='#下载安装'>运行后依赖包的安装</a>
 	* <a href='#AidCode介绍'>AidCode开发工具介绍</a>
 	* <a href='#电脑通过ssh连接'>电脑通过ssh连接</a>
+* <a href='#视频'>⚘ 视频操作</a>
 * <a href='#使用样例'>⚘ 使用样例</a>
 	* <a href='#运行姿态检测'>运行姿态检测例子</a>
 	* <a href='#借助AidCode写HelloWorld'>借助AidCode写HelloWorld</a>
@@ -113,6 +108,16 @@ AidLearning中的sdcard映射到手机的sdcard，AidLearning与手机之间的�
 <p align=left>
 	<img src="images/fileupload.png">
 </p>
+
+## 视频
+
+[![Watch the video](image/aid01.png)](http://www.aidlearning.net/user/aid01.mp4)
+[![Watch the video](image/aid02.png)](http://www.aidlearning.net/user/aid02.mp4)
+[![Watch the video](image/aid03.png)](http://www.aidlearning.net/user/aid03.mp4)
+[![Watch the video](image/aid04.png)](http://www.aidlearning.net/user/aid04.mp4)
+[![Watch the video](image/aid05.png)](http://www.aidlearning.net/user/aid05.mp4)
+[![Watch the video](image/aid06.png)](http://www.aidlearning.net/user/aid06.mp4)
+[![Watch the video](image/aid07.png)](http://www.aidlearning.net/user/aid07.mp4)
 
 ## 使用样例
 ### 运行姿态检测
