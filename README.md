@@ -60,11 +60,13 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 
 <p align=center>
 <img src="image/01.jpeg"  width="260"/><img src="image/02.jpeg"  width="260"/><img src="image/03.jpeg"  width="260"/><img src="image/04.jpeg"  width="260"/><img src="image/05.jpeg"  width="260"/><img src="image/06.jpeg"  width="260"/>
+<img src="image/Screen_11.jpg"  width="840"/>
+
 </p>
 
 
 
-![screen](image/Screen_11.jpg)
+
 
 ## Dependencies
 
