@@ -24,15 +24,15 @@
  **AidLearning** is a Linux system running on the Android with GUI, Deep-Learning and  Python Visual Programming support . The [AidLearning](http://www.aidlearning.net) framework which have the <b>Linux+Android+AI+Python 4in1</b> environments Developed and Maintained by several students from [Cas University](http://english.cas.cn) and [Yale University](https://www.yale.edu).
  
  ### Table of Contents
-- <a href='#Introduce'>⚘ introduce</a>
-- <a href='#Dependencies'>⚘ Dependencies</a>
-- <a href='#Installation'>⚘ Installation</a>
-- <a href='#Support'>⚘ Support Powerfully</a>
-- <a href='#Touch_and_Drag_Programming'>⚘ Touch and Drag Style Programming </a>
-- <a href='#SSH'>⚘ SSH (pc connected)</a>
-- <a href='#Aid_code'>⚘ Aid_code IDE of python</a>
-- <a href='#Examples'>⚘ Examples inside</a>
-- <a href='#references'>⚘ References</a>
+- <a href='#Introduce'>Introduce</a>
+- <a href='#Dependencies'>Dependencies</a>
+- <a href='#Installation'>Installation</a>
+- <a href='#Support'>Support Powerfully</a>
+- <a href='#Touch_and_Drag_Programming'>Touch and Drag Style Programming </a>
+- <a href='#SSH'>SSH (pc connected)</a>
+- <a href='#Aid_code'>Aid_code IDE of python</a>
+- <a href='#Examples'>Examples inside</a>
+- <a href='#references'>References</a>
 
 # Introduce
 
@@ -60,7 +60,7 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 
 <p align=center>
 <img src="image/01.jpeg"  width="260"/><img src="image/02.jpeg"  width="260"/><img src="image/03.jpeg"  width="260"/><img src="image/04.jpeg"  width="260"/><img src="image/05.jpeg"  width="260"/><img src="image/06.jpeg"  width="260"/>
-<img src="image/Screen_11.jpg"  width="840"/>
+<img src="image/Screen_11.jpg" />
 
 </p>
 
