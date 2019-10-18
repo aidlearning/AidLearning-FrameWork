@@ -209,9 +209,7 @@ then hit the upload button to upload the pc file to your mobile,or hit the downl
 * Stylized picture(GAN ) 3fps in mobile phone
 
 ![更多例子参考](images/examples.png)
-<p align=left>
-<img src="image/facepose.png" width=300px /><img src="image/bodypose.png" width=300px /><img src="image/face.png" width=300px />
-</p>
+
 
 ## Privacy Policy
 * Additional camera-based (camera) features: You can use this additional feature to capture camera video frames, making it easier to run python programs and view running results.
