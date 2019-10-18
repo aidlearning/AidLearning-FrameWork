@@ -208,7 +208,7 @@ then hit the upload button to upload the pc file to your mobile,or hit the downl
 * body posenet for multi-person(converted from google ) 7fps  in mobile phone
 * Stylized picture(GAN ) 3fps in mobile phone
 
-![examle](image/examle.png)
+![更多例子参考](images/examples.png)
 <p align=left>
 <img src="image/facepose.png" width=300px /><img src="image/bodypose.png" width=300px /><img src="image/face.png" width=300px />
 </p>
