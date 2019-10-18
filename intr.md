@@ -29,9 +29,9 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 此外，Aid Learning提供了基于wifi的映射投屏技术，可以把手机的代码投屏到电脑pc进行web互动编程和SSH远程命令交互，同时也可投影到电视机、投影仪进行大屏显示。
 
 总之，Aid Learning打造了一个Android+Linux+AI 三合一的触摸拖拽式的快速开发和学习平台，不仅可利用手机进行碎片式编程，同时可充分利用两大主流操作系统（Android+Linux）的开发优势和手机的完美终端优势，利用这种优势，Aid Learning打造了一个完美的编程学习和开发的新平台,我们鼓励研究人员和学生利用这些项目来加速 AI 开发和应用。
-
+<p align=center>
 <img src="image/01.jpeg"  width="260"/><img src="image/02.jpeg"  width="260"/><img src="image/03.jpeg"  width="260"/><img src="image/04.jpeg"  width="260"/><img src="image/05.jpeg"  width="260"/><img src="image/06.jpeg"  width="260"/>
-
+</p>
 ### 目录
 * <a href='#下载'>⚘ 下载与安装</a>
 * <a href='#界面介绍'>⚘ 界面介绍</a>
