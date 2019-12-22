@@ -46,13 +46,13 @@ AidLearning is also a ***pocket AI programming tool***. The built-in AICode visu
 
 In addition, AidLearning provides wifi-based mapping projection technology, which can project mobile phone code to PC for Web interactive programming and ***SSH*** remote command interaction.  Easy viewing on televisions and the ability to projector for large screen display, ensures the ability to present in group settings.
 
-
+Last,the new version 0.80 now surpport convert the py to App(android apk),with the buildin ApkBuild tools,you can published the python project to only one apk,it's very fun and business.
 
 In short, AidLearning has created a touch-and-drag programming platform for rapid development and learning that combines ***Android + Linux + AI  3IN1 environments***. It utilizes mobile phones for fragmented programming and fully optimizes use of the development advantages of the two major operating systems (Android + Linux) and the perfect terminal advantages of mobile phones. AidLearning  offers a distinct advantage to its users through an effective new platform for programming learning and development.
 
 AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
 
-AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程器，可以让你在手机上用python（同时支持Python2和Python3）轻松零基础编程，支持触摸拖拽式界面设计 ，支持代码实时调试和图形化运行。Aid Learning内置大量人脸识别、行为识别、分类等AI源码例子程序，你可以零基础在手机上开发AI App。
+AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程器，可以让你在手机上用python（同时支持Python2和Python3）轻松零基础编程，支持触摸拖拽式界面设计 ，支持代码实时调试和图形化运行。Aid Learning内置大量人脸识别、行为识别、分类等AI源码例子程序，你可以零基础在手机上开发AI App。同时支持把你用python开发的工程转化为apk，可运行在任意android系统上。
 
 此外，Aid Learning提供了基于wifi的映射投屏技术，可以把手机的代码投屏到电脑pc进行web互动编程和SSH远程命令交互，同时也可投影到电视机、投影仪进行大屏显示。
 
@@ -75,14 +75,14 @@ All you need is an Android devices (phone ,tablet or arm board)  that supports t
 ## Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
-[ Download v0.79 now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.79-1/v0.79.apk)  
+[ Download v0.79 now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.80/aidlux-0.80.apk)  
 Other version at:[https://github.com/aidlearning/AidLearning-FrameWork/releases](https://github.com/aidlearning/AidLearning-FrameWork/releases)
  
 The  APP （apk） is only 9M，when you install the apk  and launch,the apk will auto download the dependence of the linux and examples of codes . all is about 1G size to download .So it's recommended that you install it _in a wifi environment_.
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.<br>
 
-[Download v0.79 for chinese version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.79-1/v0.79.apk)
+[Download v0.79 for chinese version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.80/aidlux-0.80.apk)
 
 
 
