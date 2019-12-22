@@ -22,9 +22,9 @@
 </p>
 
 ### 介绍
-AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
+AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet/gluoncv、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
 
-AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程器，可以让你在手机上用python（同时支持Python2和Python3）轻松零基础编程，支持触摸拖拽式界面设计 ，支持代码实时调试和图形化运行。Aid Learning内置大量人脸识别、行为识别、分类等AI源码例子程序，你可以零基础在手机上开发AI App。
+AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程器，可以让你在手机上用python（同时支持Python2和Python3）轻松零基础编程，支持触摸拖拽式界面设计 ，支持代码实时调试和图形化运行。Aid Learning内置大量人脸识别、行为识别、分类等AI源码例子程序，你可以零基础在手机上开发AI App，并支持把你用python开发的项目转换为一个单独运行的Apk文件，可运行在任何别的Android手机或平台上。
 
 此外，Aid Learning提供了基于wifi的映射投屏技术，可以把手机的代码投屏到电脑pc进行web互动编程和SSH远程命令交互，同时也可投影到电视机、投影仪进行大屏显示。
 
@@ -57,7 +57,7 @@ AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程�
 </p>
 
 也可以去 [Github主页](https://github.com/aidlearning/AidLearning-FrameWork)或者[官网](http://www.aidlearning.net)进行下载
-[也可以下载V0.79最新中文版!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.79-1/v0.79.apk)
+[也可以下载V0.80最新中文版!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.80/aidlux-0.80.apk)
 ## 界面介绍
 ### 我的电脑
 <p align=left>
