@@ -1,6 +1,5 @@
 <p align=center>
-	<img src="image/logo.png" width=100px />
-	<h3 align="center">AidLearning </a></h3>
+	<img src="image/AidLearning.png" width=100% />
 </p>
 
   <p align="center">
