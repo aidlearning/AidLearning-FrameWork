@@ -1,5 +1,5 @@
 <p align=center>
-	<img src="image/AidLearning.png" width=600px />
+	<img src="image/AidLearning.png" width=100% />
 	
 </p>
 
