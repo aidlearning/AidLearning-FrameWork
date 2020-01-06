@@ -66,8 +66,8 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 ##  交流与反馈
 - [常见问题](http://www.aidlearning.net/mnn/en/faq)
-<img src="doc/DingTalkQR1.png" height="256"/>
-<img src="doc/DingTalkQR2.png" height="256"/>
+<img src="images/QQqun.png" height="256"/>
+
 
 ## License
 Apache 2.0
