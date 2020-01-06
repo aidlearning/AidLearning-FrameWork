@@ -1,4 +1,4 @@
-![AidLearning](image/banner.png)
+![AidLearning](image/AidLearning-1.png)
 
 [English Version](README.md)
 
@@ -66,9 +66,6 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 ##  交流与反馈
 - [常见问题](http://www.aidlearning.net/mnn/en/faq)
-
-扫描二维码加入钉钉讨论群。
-
 <img src="doc/DingTalkQR1.png" height="256"/>
 <img src="doc/DingTalkQR2.png" height="256"/>
 
