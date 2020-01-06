@@ -1,4 +1,4 @@
-![AidLearning](doc/banner.png)
+![AidLearning](image/banner.png)
 
 [English Version](README.md)
 
