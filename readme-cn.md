@@ -1,5 +1,17 @@
 ![AidLearning](image/AidLearning-1.png)
-
+  <p align="center">
+    <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
+    <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
+    <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
+    <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases">
+    <img src="https://img.shields.io/github/v/tag/aidlearning/AidLearning-FrameWork" > </a>
+    <img src="https://img.shields.io/badge/repo%20size-37%20MB-blue" alt="Repo size">
+    <img src="https://img.shields.io/badge/code%20size-11.83%20MB-blue" alt="Code size">
+<img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
+<img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
+<img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
+	
+  </p>
 [English Version](README.md)
 
 ## 简介
