@@ -30,7 +30,7 @@ AidLearning是一个运行在移动端（Android）上的支持图形化界面�
 - 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU的算力
 
 ### 通用性
-- 支持`Tensorflow`、`Caffe`、`mxnet`、`keras`、`pytoch`、`ncnn`、`opencv`、`scipy`....
+- 支持`Tensorflow`、`Caffe`、`mxnet`、`keras`、`pytorch`、`ncnn`、`opencv`、`scipy`....
 - 支持Python2.7/Python3.6.4。
 - 自带AiCode可视化编程IDE，也支持谷歌的Jupyter的IDE。
 - 内置完整原生的跨平台桌面，不需要安装第三方vnc等的支持，支持电脑端和手机端同桌面
