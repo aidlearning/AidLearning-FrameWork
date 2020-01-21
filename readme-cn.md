@@ -74,7 +74,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [系统扩展](https://www.yuque.com/glg1kx/aidlearning/acghe9)
 
 ##  交流与反馈
-- [更多参考](intro.md)
+- [更多参考](intr.md)
 <img src="images/QQqun.png" height="256"/>
 
 
