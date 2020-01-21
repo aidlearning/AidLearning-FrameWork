@@ -59,24 +59,21 @@ Linux模拟器由Terminal和Desktop构成。前者基于Android底层Linux kerne
 AI编程平台由深度学习框架和Python可视化编程框架（Python IDE）构成。前者包含了几乎所有目前流行的深度学习框架，负责模型的加载、计算图的调度；包含各计算的内存分配、Op实现。后则构建了Python可视化快速开发平台，不仅可以在线实时运行、调试Python代码，同时支持触摸拖拽式界面设计、并且可以生成最终的可执行程序、产出apk文件。
 
 ## 开始使用
-- [安装配置](http://www.aidlearning.net/mnn/cn/usage)
-- [开发文档](http://www.aidlearning.net/mnn/en/ops)
-- [界面截图](doc/API/API_index.html)
-- [示例代码](http://www.aidlearning.net/mnn/cn/demo_zoo)
+- [安装配置](https://www.yuque.com/glg1kx/aidlearning/setup)
+- [开发文档](https://www.yuque.com/glg1kx/aidlearning/include)
+- [界面截图](https://www.yuque.com/glg1kx/aidlearning/qzpyt5)
+- [示例代码](https://www.yuque.com/glg1kx/aidlearning/nnkgzu)
 
 ## 内置工具
-- [测试工具](http://www.aidlearning.net/mnn/cn/tool_test)
-- [性能测试](http://www.aidlearning.net/mnn/cn/tool_benchmark)
-- [模型压缩](http://www.aidlearning.net/mnn/cn/tool_quantize)
-- [基于表达式构建模型并评测](benchmark/Readme_CN.md)
+- [AidCode](https://www.yuque.com/glg1kx/aidlearning/include)
+- [文件管理器](https://www.yuque.com/glg1kx/aidlearning/include)
 
-## 如何修改
-- [自定义后端](http://www.aidlearning.net/mnn/cn/customize_backend)
-- [自定义算子](http://www.aidlearning.net/mnn/cn/customize_op)
-- [贡献代码](http://www.aidlearning.net/mnn/cn/contribute)
+
+## 贡献与参与
+- [贡献代码](https://www.yuque.com/glg1kx/aidlearning/vl7mtk)
+- [系统扩展](https://www.yuque.com/glg1kx/aidlearning/acghe9)
 
 ##  交流与反馈
-- [常见问题](http://www.aidlearning.net/mnn/en/faq)
 <img src="images/QQqun.png" height="256"/>
 
 
