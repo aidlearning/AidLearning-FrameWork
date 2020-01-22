@@ -82,7 +82,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [GPL 3.0](license.md)
 
 ## 致谢
-AidLearning参与人员：耶鲁大学gondon、中科院大学yoline777、qidiso。
+AidLearning参与人员：bill，耶鲁大学gondon、中科院大学yoline777、qidiso。
 
 AidLearning参考、借鉴了下列项目：
 
