@@ -3,7 +3,7 @@
 </p>
 
   <p align="center">
-    Linux+AI+Python+Gui 4in1 Environments Running on the Android . <a href='intr.md'>[中文版]</a> <a href='README.md'>[English]
+    Linux+AI+Python+Gui 4in1 Environments Running on the Android . <a href='README.md'>[中文版]</a> <a href='README.md'>[English]
   </p>
   <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
