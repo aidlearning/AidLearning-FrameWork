@@ -218,7 +218,7 @@ then hit the upload button to upload the pc file to your mobile,or hit the downl
 * body posenet for multi-person(converted from google ) 7fps  in mobile phone
 * Stylized picture(GAN ) 3fps in mobile phone
 
-![更多例子参考](images/examples.jpeg)
+![更多例子参考](images/examples.jpg)
 
 
 ## Privacy Policy
