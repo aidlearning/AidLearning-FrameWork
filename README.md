@@ -64,7 +64,7 @@ In short, AidLearning has created a touch-and-drag programming platform for rapi
 
 ## Dependencies
 
-All you need is an Android devices (phone ,tablet or arm board)  that supports the CPU of **Arm64(aarch64)**. The Android version requires more than 6.0. If you think the parameters are not clear enough, I would like to say that most of the mainstream mobile phones support it, such as _Samsung, Huawei, MI, OPPO, VIVO, nubia_ etc. In addition, the requirement of storage space is a little big. It is suggested that there should be **2G** free storage space.
+All you need is an Android devices (phone ,tablet or arm board)  that supports the CPU of **Arm64(aarch64)**. The Android version requires more than 6.0. If you think the parameters are not clear enough, I would like to say that most of the mainstream mobile phones support it, such as _Samsung, Huawei, MI, OPPO, VIVO, nubia_ etc. In addition, the requirement of storage space is a little big. It is suggested that there should be **6G** free storage space.
 
 ## Installation
 
