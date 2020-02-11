@@ -53,12 +53,28 @@ In short, AidLearning has created a touch-and-drag programming platform for rapi
 
 
 <p align=center>
-<img src="image/01.jpeg"  width="260"/><img src="image/02.jpeg"  width="260"/><img src="image/03.jpeg"  width="260"/><img src="image/04.jpeg"  width="260"/><img src="image/05.jpeg"  width="260"/><img src="image/06.jpeg"  width="260"/>
+<img src="image/01.jpeg"  width="520"/>>
+</p>
+<p align=center>
+<img src="image/02.jpeg"  width="520"/>>
+</p>
+<p align=center>
+<img src="image/03.jpeg"  width="520"/>>
+</p>
+<p align=center>
+<img src="image/04.jpeg"  width="520"/>>
+</p>
+<p align=center>
+<img src="image/05.jpeg"  width="520"/>>
+</p>
+<p align=center>
+<img src="image/06.jpeg"  width="520"/>>
+</p>
+<p align=center>
+
 <img src="image/Screen_11.jpg" />
 
 </p>
-
-
 
 
 
