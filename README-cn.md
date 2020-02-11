@@ -89,7 +89,7 @@ Twitter- https://twitter.com/aidlearning
 - 更多示例
 http://code.aidlearning.net:3000/explore/repos
 
-<img src="images/examples.png" height="256"/>
+<img src="images/examples.png"/>
 
 
 ## License
