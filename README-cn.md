@@ -82,10 +82,14 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 ##  交流与反馈
 - [更多参考](intr.md)
 <img src="images/QQqun.png" height="256"/>
+
 - 推特
 Twitter- https://twitter.com/aidlearning
-- 示例代码
+
+- 更多示例
 Code.aidlearning.net：3000-http://code.aidlearning.net:3000/explore/repos
+
+<img src="images/QQqun.png" height="256"/>
 
 
 ## License
