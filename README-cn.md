@@ -88,7 +88,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [更多示例](http://code.aidlearning.net:3000/explore/repos)
 
 
-<img src="images/examples.png"/>
+<img src="images/examples.jpg"/>
 
 
 ## License
