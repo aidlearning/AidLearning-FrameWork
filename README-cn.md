@@ -19,6 +19,8 @@ AidLearning是一个运行在移动端（Android）上的支持图形化桌面�
 
 ![AidLearning](image/pc1.jpg)
 
+[立即下载v0.82中文版进行安装](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.82/aidv0.82-cn.apk) 
+
 ## 整体特点
 
 ### 创新性
@@ -61,7 +63,6 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 ## 开始使用
 - [安装配置](https://www.yuque.com/glg1kx/aidlearning/setup)
-  [v0.82cn](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.82/aidv0.82-cn.apk) 
 - [开发文档](https://www.yuque.com/glg1kx/aidlearning/develop)
 - [界面截图](https://www.yuque.com/glg1kx/aidlearning/qzpyt5)
 - [示例代码](https://www.yuque.com/glg1kx/aidlearning/nnkgzu)
