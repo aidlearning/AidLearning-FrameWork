@@ -92,7 +92,7 @@ The  APP （apk） is only 9M，when you install the apk  and launch,the apk wil
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.<br>
 
-[Download v0.82 for chinese version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.82/aidv0.82.apk)
+[Download v0.82 for chinese version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.82/aidv0.82-cn.apk)
 
 
 
