@@ -196,14 +196,7 @@ assume your phone's IP is 192.168.1.8, you can check your phone's IP by commandi
 
 ## Files transfer
 
-* The sdcard directory on your Android phone has been mapped to the / sdcard directory under AidLearning
-
-* If you install QQ Instant Messaging Tool, the file directory transferred through QQ is mapped to / sdcard / Tencent / QQfile_recv / directory.
-
-![sdcard](image/sdcardshow.png)
-
-* **Most Easy way:**
- You just need to open the web address: IP of your mobile phone:8080/, when your PC and mobile phone are in the same LAN.
+You just need to open the web address: IP of your mobile phone:8080/, when your PC and mobile phone are in the same LAN.
 You can open it on a PC, for example:
 http://192.168.1.8:8080/
 then hit the upload button to upload the pc file to your mobile,or hit the download button to download the files of mobile to the pc.
