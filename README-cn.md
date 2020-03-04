@@ -33,13 +33,14 @@ AidLearning是一个运行在移动端（Android）上的支持图形化桌面�
 - 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU的算力
 
 ### 通用性
-- 支持`Tensorflow`、`Caffe`、`mxnet`、`keras`、`pytorch`、`ncnn`、`opencv`、`scipy`....
-- 支持Python2.7/Python3.6.4。
+- 支持`Tensorflow`、`Caffe`、`mxnet`、`keras`、`pytorch`、`torchvision`、`ncnn`、`opencv`、`scipy`、`sklearn`....
+- 支持Python2.7/Python3.7.3。
 - 自带AiCode可视化编程IDE，也支持微软的VSCode和谷歌的Jupyter的IDE。
 - 内置完整原生的跨平台桌面，不需要安装第三方vnc等的支持，支持电脑端和手机端同桌面
 - 既支持手机、Pad、也支持工业Arm板卡
 - 开发的程序，既可以部署在手机端、也可以部署在电脑端
 - 支持市面上99.9%的手机，已测试华为、VIVO、OPPO、三星、小米等全系列64位手机
+- 支持内置xfce4桌面，支持pyqt5、turtle等图形化包
 
 ### 安全性
 - Aid在手机上虚拟了一个封闭空间，不需要root，不会破坏你的手机的内容。
@@ -51,7 +52,7 @@ AidLearning是一个运行在移动端（Android）上的支持图形化桌面�
 - 一部手机，两个系统，Android和Linux共生共存，无重启自由切换；娱乐、开发、学习三不误
 - 支持手机端开发与电脑端开发代码自动同步，支持界面触摸拖拽式设计，自动生成界面的代码
 - 一键式编译和发布你开发支持AI的App
-- 可扩展支持Java、C++、Nodejs、Go等语言的支持
+- 可扩展支持Java、C/C++、Nodejs、Go等语言的支持
 
 ## 架构设计
 
@@ -77,6 +78,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [Jupyter](https://www.yuque.com/glg1kx/aidlearning/include)
 - [内置浏览器](https://www.yuque.com/glg1kx/aidlearning/include)
 - [VSCode](https://www.yuque.com/glg1kx/aidlearning/include)
+- [XFCE4](https://www.yuque.com/glg1kx/aidlearning/include)
 
 ## 贡献与参与
 - [贡献代码](https://www.yuque.com/glg1kx/aidlearning/vl7mtk)
