@@ -85,14 +85,14 @@ All you need is an Android devices (phone ,tablet or arm board)  that supports t
 ## Installation
 
 To install **AidLearing**, Simply download an App (apk file) and install it on your mobile device. download newest version at :
-[ Download v0.82 now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.82/aidv0.82.apk)  
+[ Download v0.83 now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.83/aidv0.83p3.apk)  
 Other version at:[https://github.com/aidlearning/AidLearning-FrameWork/releases](https://github.com/aidlearning/AidLearning-FrameWork/releases)
  
-The  APP （apk） is only 9M，when you install the apk  and launch,the apk will auto download the dependence of the linux and examples of codes . all is about 1G size to download .So it's recommended that you install it _in a wifi environment_.
+The  APP （apk） is only 10M，when you install the apk  and launch,the apk will auto download the dependence of the linux and examples of codes . all is about 1G size to download .So it's recommended that you install it _in a wifi environment_.
 
 **Important reminder:**  Click the setting icon after entering the desktop, the dialog box for the camera permission will pop up, please click agree, if you want to use the built-in examples.<br>
 
-[Download v0.82 for chinese version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.82/aidv0.82-cn.apk)
+[Download v0.83 for chinese version now!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.83/aidv0.83p3.apk)
 
 
 
