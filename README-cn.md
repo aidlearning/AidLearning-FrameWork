@@ -103,7 +103,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 ## 致谢
 AidLearning参与人员：bill，耶鲁大学gondon、中科院大学yoline777、qidiso。
 
-AidLearning参考、借鉴了下列项目（目前是测试阶段，未来我们会逐步开源！）：
+AidLearning参考、借鉴了下列项目（目前是测试阶段，未来我们会逐步开源）：
 
 * VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. [Source](https://github.com/GNOME/vte), [Open Issues](https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22vte%22+), and [All (including closed) issues](https://bugzilla.gnome.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&chfield=resolution&chfieldfrom=-2000d&chfieldvalue=FIXED&product=vte&resolution=FIXED).
 * iTerm 2: OS X terminal application. [Source](https://github.com/gnachman/iTerm2), [Issues](https://gitlab.com/gnachman/iterm2/issues) and [Documentation](http://www.iterm2.com/documentation.html) (which includes [iTerm2 proprietary escape codes](http://www.iterm2.com/documentation-escape-codes.html)).
