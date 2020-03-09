@@ -113,14 +113,14 @@ Support AI Framework:
 
 Support Python2.7 and Python3.6.4:
 
-| AidLearning      | Python2.7    |  Python3.6|
+| AidLearning      | Python2.7    |  Python3.7.4|
 | --------- | -------- | -----: | 
 | caffe    | ✓1.0.0 | ✓ 1.0.0| 
 | mxnet     | ✓1.0.0     |   ✓1.5.0 | 
-| tensorflow     | ✓1.10.0     |   ✓1.5.0 | 
+| tensorflow     | ✓1.10.0     |   ✓2.1.0 | 
 | Gluoncv     | ✗  | ✓ 0.40|
 | Keras | ✓2.2.4 | ✓2.2.4 |
-| Pytorch |  ✗ | ✓1.1.0 |
+| Pytorch |  ✗ | ✓1.4.0 |
 | Opencv(cv2) | ✓2.4.9 | ✓3.4.6 |
 | Scipy | ✓0.18.1 | ✓1.3.0 |
 | Numpy | ✓1.14.5 | ✓1.16.3 |
