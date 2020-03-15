@@ -111,9 +111,9 @@ Support AI Framework:
   * [opencv]https://github.com/opencv/opencv
 ---
 
-Support Python2.7 and Python3.6.4:
+Support Python2.7 and Python3.7.3:
 
-| AidLearning      | Python2.7    |  Python3.7.4|
+| AidLearning      | Python2.7    |  Python3.7.3|
 | --------- | -------- | -----: | 
 | caffe    | ✓1.0.0 | ✓ 1.0.0| 
 | mxnet     | ✓1.0.0     |   ✓1.5.0 | 
@@ -121,6 +121,7 @@ Support Python2.7 and Python3.6.4:
 | Gluoncv     | ✗  | ✓ 0.40|
 | Keras | ✓2.2.4 | ✓2.2.4 |
 | Pytorch |  ✗ | ✓1.4.0 |
+| torchvision |  ✗ | ✓0.5.0 |
 | Opencv(cv2) | ✓2.4.9 | ✓3.4.6 |
 | Scipy | ✓0.18.1 | ✓1.3.0 |
 | Numpy | ✓1.14.5 | ✓1.16.3 |
