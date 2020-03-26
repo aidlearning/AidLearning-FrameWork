@@ -46,7 +46,7 @@ AidLearning is also a ***pocket AI programming tool***. The built-in AICode visu
 
 In addition, AidLearning provides wifi-based mapping projection technology, which can project mobile phone code to PC for Web interactive programming and ***SSH*** remote command interaction.  Easy viewing on televisions and the ability to projector for large screen display, ensures the ability to present in group settings.
 
-Last,the new version 0.82 now support convert the py to App(android apk),with the buildin ApkBuild tools,you can published the python project to only one apk,it's very fun and business.support ***VSCode and Jupyter*** programming tools,so you can coding by any languages(python，java，c++，js，go...)
+Last,the new version 0.84 now support convert the py to App(android apk),with the buildin ApkBuild tools,you can published the python project to only one apk,it's very fun and business.support ***VSCode and Jupyter*** programming tools,so you can coding by any languages(python，java，c++，js，go...)
 
 In short, AidLearning has created a touch-and-drag programming platform for rapid development and learning that combines ***Android + Linux + AI  3IN1 environments***. It utilizes mobile phones for fragmented programming and fully optimizes use of the development advantages of the two major operating systems (Android + Linux) and the perfect terminal advantages of mobile phones. AidLearning  offers a distinct advantage to its users through an effective new platform for programming learning and development.
 
