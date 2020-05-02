@@ -17,7 +17,7 @@
 ## 简介
 AidLearning是一个运行在移动端（Android）上的支持图形化桌面的完整的Linux虚拟机，同时是一个支持深度神经网络开发的框架和平台，内置了最为流行的深度学习框架caffe/mxnet/keras/pytoch/tensorflow/ncnn/opencv...内置了可视化AI开发编辑器，内置了VSCode、Jupyter等流行的编程工具，支持触摸拖拽式界面设计，支持代码动态调试和运行。支持在移动端和PC端用python开发你的AI应用，支持把你的python源码转化为APP（Apk）发布。支持一键式安装，只需要安装一个10M的App即可自动引导完成安装。目前，已在各大App应用中心（华为、小米、vivo、oppo...）上线，下载和访问量已超100万，内置了大量的AI例子和教程，互联网上（知乎、简书、CSDN、百度等）也有大量中文教程，方便你学习和开发。
 
-![AidLearning](image/pc1.jpg)
+![AidLearning](https://cdn.nlark.com/yuque/0/2020/png/726405/1582298093528-4347e60f-9f56-4005-87e0-facccea3e185.png?x-oss-process=image%2Fresize%2Cw_1492)
 
 [立即下载v0.84中文版进行安装](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.84/aidv0.84-b2.apk) 
 
