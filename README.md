@@ -62,7 +62,7 @@ In short, AidLearning has created a touch-and-drag programming platform for rapi
 <img src="https://cdn.nlark.com/yuque/0/2020/jpeg/726405/1579602189217-2e1e6843-e8f7-479b-8007-11b0daa135d6.jpeg"  width="520"/>
 </p>
 <p align=center>
-<img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1579602394249-6f4e2c85-cd92-48d9-af2c-1d1363ccd237.png"  width="520"/>
+<img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1582297790775-601741e8-a457-417b-97df-a407a218f65c.png?x-oss-process=image%2Fresize%2Cw_1492"  width="520"/>
 </p>
 <p align=center>
 <img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1579603153163-a2cb999e-cd5d-46f1-8aca-dadece5c5727.png?x-oss-process=image%2Fresize%2Cw_1492"  width="520"/>
