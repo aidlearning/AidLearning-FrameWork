@@ -19,7 +19,7 @@ AidLearning是一个运行在移动端（Android）上的支持图形化桌面�
 
 ![AidLearning](https://cdn.nlark.com/yuque/0/2020/png/726405/1582298093528-4347e60f-9f56-4005-87e0-facccea3e185.png?x-oss-process=image%2Fresize%2Cw_1492)
 
-[立即下载v0.85中文版进行安装](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.85/aidv0.85-b2.apk) 
+[立即下载v0.86中文版进行安装](http://23668748.s21d-23.faiusrd.com/0/ABUIABBKGAAggZnz_QUosomgnAQ?f=aid-0.86b2f3.apk&v=1597820033) 
 
 ## 整体特点
 
