@@ -79,7 +79,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [云桌面icloud](https://www.aidlearning.net/showdoc/web/#/5?page_id=29)
 - [Blocky积木编程](https://www.aidlearning.net/showdoc/web/#/5?page_id=34)
 - [Service-依赖包、系统服务](https://www.aidlearning.net/showdoc/web/#/5?page_id=33)
-- [Apkbuild](hhttps://www.aidlearning.net/showdoc/web/#/5?page_id=31)
+- [Apkbuild](https://www.aidlearning.net/showdoc/web/#/5?page_id=31)
 - [Jupyter notebook](https://www.aidlearning.net/showdoc/web/#/5?page_id=30)
 - [X模式--兼容开发模式](https://www.aidlearning.net/showdoc/web/#/5?page_id=36)
 - [VSCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=32)
