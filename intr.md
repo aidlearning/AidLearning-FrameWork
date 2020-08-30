@@ -28,24 +28,25 @@
 
 ## Features
 ### Innovation
-- The best Linux simulator on mobile terminal (mobile phone), the only Linux simulator that supports graphical desktop
+- The best Linux environment on android terminal (mobile phone), the only Linux os that supports GUI desktop without vnc running on the android.
 - It is the only simulator that supports AI development environment, built-in deep learning framework with the world's most popular top 7, and a large number of deep learning models, examples and development components
-- The only simulator that supports Python graphical development and debugging supports touch and drag interface design to improve your development efficiency
+- The only simulator that supports Python Visual development and debugging supports touch and drag interface design to improve your development efficiency
 - It supports the development of apps that can run on mobile phones with Python, and supports the direct compilation of Python code to generate deployable APK files
 - One click installation, without any dependence, you only need to install a 10m boot app on your mobile phone, and you can automatically complete the installation of all environments.
 - Cross platform development, support cloud desktop (mobile desktop and computer desktop are the same), can not only run on mobile phone or tablet or other embedded motherboard, but also can be directly accessed and developed on the computer side based on Web.
 - It supports openblas, multi thread and multi process, runs smoothly without jamming, and gives full play to the computing power of ARM CPU and GPU
 
 ### Versatility
-- 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
-- 支持Python2.7/Python3.7.3。
-- 自带AidCode可视化编程IDE，也支持谷歌的Jupyter的IDE,同时支持微软的VSCode编程开发工具
-- 内置完整原生的跨平台桌面，不需要安装第三方vnc等的支持，支持电脑端和手机端同桌面
-- 既支持手机、Pad、也支持工业Arm板卡
-- 开发的程序，既可以部署在手机端、也可以部署在电脑端
-- 支持市面上99.5%的手机，已测试华为、VIVO、OPPO、三星、小米等全系列64位手机
-- 支持Linux 原生xfce4桌面，不需要安装VNC等软件
-- 支持pyqt5、pygame、turtle、SDL等开发
+- Support Tensorflow, Caffe, mxnet, keras, python, ncnn, opencv, SciPy
+- Supports Python 2.7 / Python 3.7.3.
+- Buildin AidCode visual programming IDE, it also supports Jupyter notebook and Microsoft's vscode programming development tool.
+- Built in complete and native cross platform desktop, no need to install third-party VNC support, support the same desktop of computer and mobile phone
+- It supports not only mobile phone/pad, but also industrial arm board
+- The developed program can be deployed on both mobile phone and computer
+- It supports 99.5% of the mobile phones on the market, and has tested a full series of 64 bit mobile phones such as Huawei, vivo, oppo, Samsung and Xiaomi
+- Support Linux native xfce4 desktop, do not need to install VNC and other software
+- Support the development of pyqt5, pyGame, vortex, SDL, etc
+
 ### Safety
 - Aid在手机上虚拟了一个封闭空间，不需要root，不会破坏你的手机的内容。
 - 不会收集你的个人隐私，所有权限都可以自己设定...
