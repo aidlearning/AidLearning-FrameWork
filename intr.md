@@ -60,48 +60,49 @@
 - Extensible support Java, C + +, go... And other languages
 
 ### support peripherals
-- 内置传感器控制包，可方便控制手机上的各种传感器：声音、陀螺仪、位置、摄像头等等
-- 通过OTG USB可支持外设扩展，支持控制Aduino，可对其进行python编程
-- 通过OTG USB也可支持外设存储设备读取和写入操作
-- 可作为智能机器人的操作系统
+- The built-in sensor control package can easily control various sensors on the mobile phone: sound, gyroscope, position, camera, etc
+- Using OTG USB can support the extension of peripherals and control aduino, which can be programmed in Python
+- Using OTG USB can also support peripheral storage device read and write operations
+- It can be used as the operating system of intelligent robot
 
 ## Architecture
-AidLearning FrameWork可以分为Linux模拟器和AI编程平台两部分。
+Aidlearning framework can be divided into two parts: Linux simulator and AI programming platform.
 
-Linux模拟器由Terminal和Desktop构成。前者基于Android底层Linux kernel和busybox命令包构建了完整Linux的模拟器，你可以用apt命令安装任何你需要的依赖包；后者基于web构建了图形化操作桌面，你可以用在手机上用触摸操控整个系统，同时该桌面支持云桌面，你可以在电脑端通过一个网址轻松访达。
+Linux simulator consists of terminal and desktop. The former builds a complete Linux simulator based on Android underlying Linux kernel and busybox command package, and you can install any dependency package you need with apt command; the latter builds a graphical operating desktop based on Web, which you can control the whole system with touch on your mobile phone. At the same time, the desktop supports cloud desktop, which you can easily access through a website on the computer.
 
-AI编程平台由深度学习框架和Python可视化编程框架（Python IDE）构成。前者包含了几乎所有目前流行的深度学习框架，负责模型的加载、计算图的调度；包含各计算的内存分配、Op实现。后则构建了Python可视化快速开发平台，不仅可以在线实时运行、调试Python代码，同时支持触摸拖拽式界面设计、并且可以生成最终的可执行程序、产出apk文件。
+AI programming platform is composed of deep learning framework and python visual programming framework (Python IDE). The former includes almost all the popular deep learning framework, which is responsible for the loading of models and the scheduling of calculation graphs, and includes the memory allocation and op implementation of each calculation. After that, a python visual rapid development platform is built, which can not only run and debug Python code online, but also support touch-pull interface design, and generate the final executable program and output APK file.
+
 
 
 ## Quick start
-- [安装配置](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
-- [开发文档](https://www.aidlearning.net/showdoc/web/#/5?page_id=23)
-- [示例代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=40)
+- [install](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
+- [develop](https://www.aidlearning.net/showdoc/web/#/5?page_id=23)
+- [examples](https://www.aidlearning.net/showdoc/web/#/5?page_id=40)
 
 ## Buildin Tools
 - [AidCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=28)
-- [文件管理器](https://www.aidlearning.net/showdoc/web/#/5?page_id=27)
-- [云桌面icloud](https://www.aidlearning.net/showdoc/web/#/5?page_id=29)
-- [Blocky积木编程](https://www.aidlearning.net/showdoc/web/#/5?page_id=34)
-- [Service-依赖包、系统服务](https://www.aidlearning.net/showdoc/web/#/5?page_id=33)
+- [document](https://www.aidlearning.net/showdoc/web/#/5?page_id=27)
+- [icloud](https://www.aidlearning.net/showdoc/web/#/5?page_id=29)
+- [Blocky](https://www.aidlearning.net/showdoc/web/#/5?page_id=34)
+- [Service](https://www.aidlearning.net/showdoc/web/#/5?page_id=33)
 - [Apkbuild](https://www.aidlearning.net/showdoc/web/#/5?page_id=31)
 - [Jupyter notebook](https://www.aidlearning.net/showdoc/web/#/5?page_id=30)
-- [X模式--兼容开发模式](https://www.aidlearning.net/showdoc/web/#/5?page_id=36)
+- [X mode](https://www.aidlearning.net/showdoc/web/#/5?page_id=36)
 - [VSCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=32)
-- [XFce4-Linux原生桌面](https://www.aidlearning.net/showdoc/web/#/5?page_id=35)
+- [XFce4](https://www.aidlearning.net/showdoc/web/#/5?page_id=35)
 
 ## Expansion
-- [贡献代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
-- [系统扩展](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
-- [更新日志](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
+- [contribution](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
+- [extends](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
+- [version](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
 ##  FeedBack
-- [更多参考](http://code.aidlearning.net)
+- [ref](http://code.aidlearning.net)
 <img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
 
-- [推特-twitter](https://twitter.com/aidlearning)
+- [twitter](https://twitter.com/aidlearning)
 
-- [更多示例](http://code.aidlearning.net)
+- [more](http://code.aidlearning.net)
 
 
 <img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1588573935881-54e2a362-57f2-4afb-9312-a5ccd2355ecf.png"/>
@@ -112,9 +113,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 
 ## Thanks
-AidLearning参与人员：bill，耶鲁大学gondon、中科院大学yoline777、qidiso。
-
-AidLearning参考、借鉴了下列项目（目前是测试阶段，未来我们会逐步开源）：
+bill，gondon、yoline777、qidiso。
 
 * VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. [Source](https://github.com/GNOME/vte), [Open Issues](https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22vte%22+), and [All (including closed) issues](https://bugzilla.gnome.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&chfield=resolution&chfieldfrom=-2000d&chfieldvalue=FIXED&product=vte&resolution=FIXED).
 * iTerm 2: OS X terminal application. [Source](https://github.com/gnachman/iTerm2), [Issues](https://gitlab.com/gnachman/iterm2/issues) and [Documentation](http://www.iterm2.com/documentation.html) (which includes [iTerm2 proprietary escape codes](http://www.iterm2.com/documentation-escape-codes.html)).
