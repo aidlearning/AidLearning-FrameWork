@@ -1,5 +1,7 @@
 ![AidLearning](https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492)
-
+  <p align="center">
+    Linux+AI+Python+GUI 4in1 Environments Running on the Android . <a href='README-cn.md'>[中文版]</a> <a href='README.md'>[English]
+  </p>
   <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
     <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
@@ -13,10 +15,7 @@
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 
 </p>
-<p align="center"> 
- <a href="README-cn.md">
-   [中文版本]</a>
-</p>
+
 
 ## Intro
 [AidLearning](http://www.aidlearning.net) is a powerful mobile AI development platform, which supports almost all frameworks and tools for deep learning neural network development. It has built a complete Linux OS supporting GUI desktop on Android, built-in the most popular deep learning framework Caffe / mxnet / keras / Python / tensorflow / ncnn / opencv... Built in Visual AI development IDE, built-in most popular programming tools such as VSCode and Jupyter, supporting touch-and-drop ui design, supporting dynamic debugging and running of code. Support the development of AI applications in Python on mobile and pad, and support the package your Python source code into app (APK) to release. One click installation is supported. You only need to install a 10m app to automatically boot to complete the installation. At present, it has been online in major app application centers, with more than 1.5 million downloads and visits, and a large number of AI examples and tutorials are built-in. There are also a large number of tutorials on the Internet to facilitate your learning and development.
@@ -28,14 +27,15 @@
 [Download the v0.86b2f3 now!](http://23668748.s21d-23.faiusrd.com/0/ABUIABBKGAAggZnz_QUosomgnAQ?f=aid-0.86b2f3.apk&v=1597820033) 
 
 ## Features
-### 创新性
-- 移动端（手机）上最好的，环境最全的Linux模拟器，唯一支持图形化桌面的Linux模拟器...
-- 唯一支持AI开发环境的模拟器、内置全球最流行Top 7的深度学习框架，内置大量深度学习的模型、例子和开发组件
-- 唯一支持python图形化开发和调试的模拟器，支持触摸拖拽式界面设计，提高你的开发效率
-- 支持用python开发可运行在手机的App，支持python代码直接编译生成可部署的apk文件
-- 一键式安装，无任何依赖，你只需在手机上要安装一个10M的引导App，就可以自动完成所有环境的安装。
-- 跨平台开发，支持云桌面（手机桌面和电脑桌面相同），既可以在手机或平版上或其他嵌入式主板上运行，也可以在电脑端基于web直接访问和开发。
-- 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU和GPU的算力
+### Innovation
+- The best Linux simulator on mobile terminal (mobile phone), the only Linux simulator that supports graphical desktop
+- It is the only simulator that supports AI development environment, built-in deep learning framework with the world's most popular top 7, and a large number of deep learning models, examples and development components
+- The only simulator that supports Python graphical development and debugging supports touch and drag interface design to improve your development efficiency
+- It supports the development of apps that can run on mobile phones with Python, and supports the direct compilation of Python code to generate deployable APK files
+- One click installation, without any dependence, you only need to install a 10m boot app on your mobile phone, and you can automatically complete the installation of all environments.
+- Cross platform development, support cloud desktop (mobile desktop and computer desktop are the same), can not only run on mobile phone or tablet or other embedded motherboard, but also can be directly accessed and developed on the computer side based on Web.
+- It supports openblas, multi thread and multi process, runs smoothly without jamming, and gives full play to the computing power of ARM CPU and GPU
+
 ### Versatility
 - 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
 - 支持Python2.7/Python3.7.3。
