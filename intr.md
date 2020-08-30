@@ -14,7 +14,7 @@
 
 </p>
 <p align="center"> 
- <a href="https://github.com/aidlearning/AidLearning-FrameWork/edit/master/README-cn.md">
+ <a href="README-cn.md">
    [中文版本]</a>
 </p>
 
