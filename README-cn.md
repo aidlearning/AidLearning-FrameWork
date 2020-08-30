@@ -35,7 +35,7 @@ AidLearning是一个强大的移动端的AI开发平台，它几乎支持所有�
 ### 通用性
 - 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
 - 支持Python2.7/Python3.7.3。
-- 自带AiCode可视化编程IDE，也支持谷歌的Jupyter的IDE,同时支持微软的VSCode编程开发工具
+- 自带AidCode可视化编程IDE，也支持谷歌的Jupyter的IDE,同时支持微软的VSCode编程开发工具
 - 内置完整原生的跨平台桌面，不需要安装第三方vnc等的支持，支持电脑端和手机端同桌面
 - 既支持手机、Pad、也支持工业Arm板卡
 - 开发的程序，既可以部署在手机端、也可以部署在电脑端
