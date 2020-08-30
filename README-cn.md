@@ -86,8 +86,8 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [XFce4-Linux原生桌面](https://www.aidlearning.net/showdoc/web/#/5?page_id=35)
 
 ## 贡献与参与
-- [贡献代码](https://www.yuque.com/glg1kx/aidlearning/vl7mtk)
-- [系统扩展](https://www.yuque.com/glg1kx/aidlearning/acghe9)
+- [贡献代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
+- [系统扩展](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
 - [更新日志](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
 ##  交流与反馈
