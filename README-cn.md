@@ -69,7 +69,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 
 ## 开始使用
-- [安装配置](https://www.yuque.com/glg1kx/aidlearning/setup)
+- [安装配置](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
 - [开发文档](https://www.yuque.com/glg1kx/aidlearning/develop)
 - [界面截图](https://www.yuque.com/glg1kx/aidlearning/qzpyt5)
 - [示例代码](https://www.yuque.com/glg1kx/aidlearning/nnkgzu)
@@ -89,6 +89,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 ## 贡献与参与
 - [贡献代码](https://www.yuque.com/glg1kx/aidlearning/vl7mtk)
 - [系统扩展](https://www.yuque.com/glg1kx/aidlearning/acghe9)
+- [更新日志](https://wwww.aidlearning.net/showdoc/web/#/5?page_id=24)
 
 ##  交流与反馈
 - [更多参考](http://bbs.aidlearning.net)
