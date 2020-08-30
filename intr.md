@@ -1,10 +1,4 @@
-<p align=center>
-	<img src="image/AidLearning-1.png" width=100% />
-</p>
-
-  <p align="center">
-    Linux+AI+Python+Gui 4in1 Environments Running on the Android . <a href='README.md'>[中文版]</a> <a href='README.md'>[English]
-  </p>
+![AidLearning](https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492)
   <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
     <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
@@ -16,252 +10,122 @@
 <img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
-	
-  </p>
 </p>
+  
+[中文版](README-cn.md)
+
+## 简介
+[AidLearning](http://www.aidlearning.net)is a powerful mobile AI development platform, which supports almost all frameworks and tools for deep learning neural network development. It has built a complete Linux OS supporting GUI desktop on Android, built-in the most popular deep learning framework Caffe / mxnet / keras / Python / tensorflow / ncnn / opencv... Built in Visual AI development IDE, built-in most popular programming tools such as VSCode and Jupyter, supporting touch-and-drop ui design, supporting dynamic debugging and running of code. Support the development of AI applications in Python on mobile and pad, and support the package your Python source code into app (APK) to release. One click installation is supported. You only need to install a 10m app to automatically boot to complete the installation. At present, it has been online in major app application centers, with more than 1.5 million downloads and visits, and a large number of AI examples and tutorials are built-in. There are also a large number of tutorials on the Internet to facilitate your learning and development.
+<img src="http://www.aidlearning.net/git_img/0.jpg" />
+<img src="https://www.aidlearning.net/git_img/1.jpg" />
+<img src="http://www.aidlearning.net/git_img/2.jpg" />
+
+
+[download the app now](http://23668748.s21d-23.faiusrd.com/0/ABUIABBKGAAggZnz_QUosomgnAQ?f=aid-0.86b2f3.apk&v=1597820033) 
+
+## 整体特点
+### 创新性
+- 移动端（手机）上最好的，环境最全的Linux模拟器，唯一支持图形化桌面的Linux模拟器...
+- 唯一支持AI开发环境的模拟器、内置全球最流行Top 7的深度学习框架，内置大量深度学习的模型、例子和开发组件
+- 唯一支持python图形化开发和调试的模拟器，支持触摸拖拽式界面设计，提高你的开发效率
+- 支持用python开发可运行在手机的App，支持python代码直接编译生成可部署的apk文件
+- 一键式安装，无任何依赖，你只需在手机上要安装一个10M的引导App，就可以自动完成所有环境的安装。
+- 跨平台开发，支持云桌面（手机桌面和电脑桌面相同），既可以在手机或平版上或其他嵌入式主板上运行，也可以在电脑端基于web直接访问和开发。
+- 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU和GPU的算力
+### 通用性
+- 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
+- 支持Python2.7/Python3.7.3。
+- 自带AidCode可视化编程IDE，也支持谷歌的Jupyter的IDE,同时支持微软的VSCode编程开发工具
+- 内置完整原生的跨平台桌面，不需要安装第三方vnc等的支持，支持电脑端和手机端同桌面
+- 既支持手机、Pad、也支持工业Arm板卡
+- 开发的程序，既可以部署在手机端、也可以部署在电脑端
+- 支持市面上99.5%的手机，已测试华为、VIVO、OPPO、三星、小米等全系列64位手机
+- 支持Linux 原生xfce4桌面，不需要安装VNC等软件
+- 支持pyqt5、pygame、turtle、SDL等开发
+### 安全性
+- Aid在手机上虚拟了一个封闭空间，不需要root，不会破坏你的手机的内容。
+- 不会收集你的个人隐私，所有权限都可以自己设定...
+### 易用性
+- 一键式安装，自动下载最新依赖包、自动配置AI开发需要的环境，降低AI开发门槛
+- 内置大量AI组件、模型、例子、教程，降低AI开发的门槛，你可以不懂AI算法，但可以用这个平台开发出AI应用。
+- 内置传感器控制包，可方便控制手机上的各种传感器：声音、陀螺仪、位置、摄像头等等
+- 一部手机，两个系统，Android和Linux共生共存，无重启自由切换；娱乐、开发、学习三不误
+- 支持手机端开发与电脑端开发代码自动同步，支持界面触摸拖拽式设计，自动生成界面的代码
+- 一键式编译和发布你开发支持AI的App
+- 可扩展支持Java、C++、Go...等语言的支持
+
+### 支持外设
+- 内置传感器控制包，可方便控制手机上的各种传感器：声音、陀螺仪、位置、摄像头等等
+- 通过OTG USB可支持外设扩展，支持控制Aduino，可对其进行python编程
+- 通过OTG USB也可支持外设存储设备读取和写入操作
+- 可作为智能机器人的操作系统
+
+## 架构设计
+AidLearning FrameWork可以分为Linux模拟器和AI编程平台两部分。
+
+Linux模拟器由Terminal和Desktop构成。前者基于Android底层Linux kernel和busybox命令包构建了完整Linux的模拟器，你可以用apt命令安装任何你需要的依赖包；后者基于web构建了图形化操作桌面，你可以用在手机上用触摸操控整个系统，同时该桌面支持云桌面，你可以在电脑端通过一个网址轻松访达。
+
+AI编程平台由深度学习框架和Python可视化编程框架（Python IDE）构成。前者包含了几乎所有目前流行的深度学习框架，负责模型的加载、计算图的调度；包含各计算的内存分配、Op实现。后则构建了Python可视化快速开发平台，不仅可以在线实时运行、调试Python代码，同时支持触摸拖拽式界面设计、并且可以生成最终的可执行程序、产出apk文件。
+
+
+## 开始使用
+- [安装配置](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
+- [开发文档](https://www.aidlearning.net/showdoc/web/#/5?page_id=23)
+- [示例代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=40)
+
+## 内置工具
+- [AidCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=28)
+- [文件管理器](https://www.aidlearning.net/showdoc/web/#/5?page_id=27)
+- [云桌面icloud](https://www.aidlearning.net/showdoc/web/#/5?page_id=29)
+- [Blocky积木编程](https://www.aidlearning.net/showdoc/web/#/5?page_id=34)
+- [Service-依赖包、系统服务](https://www.aidlearning.net/showdoc/web/#/5?page_id=33)
+- [Apkbuild](https://www.aidlearning.net/showdoc/web/#/5?page_id=31)
+- [Jupyter notebook](https://www.aidlearning.net/showdoc/web/#/5?page_id=30)
+- [X模式--兼容开发模式](https://www.aidlearning.net/showdoc/web/#/5?page_id=36)
+- [VSCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=32)
+- [XFce4-Linux原生桌面](https://www.aidlearning.net/showdoc/web/#/5?page_id=35)
+
+## 贡献与参与
+- [贡献代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
+- [系统扩展](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
+- [更新日志](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
+
+##  交流与反馈
+- [更多参考](http://code.aidlearning.net)
+<img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
+
+- [推特-twitter](https://twitter.com/aidlearning)
+
+- [更多示例](http://code.aidlearning.net)
+
+
+<img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1588573935881-54e2a362-57f2-4afb-9312-a5ccd2355ecf.png"/>
+
+
+## License
+- [GPL 3.0](license.md)
+
+
+## 致谢
+AidLearning参与人员：bill，耶鲁大学gondon、中科院大学yoline777、qidiso。
+
+AidLearning参考、借鉴了下列项目（目前是测试阶段，未来我们会逐步开源）：
+
+* VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. [Source](https://github.com/GNOME/vte), [Open Issues](https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22vte%22+), and [All (including closed) issues](https://bugzilla.gnome.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&chfield=resolution&chfieldfrom=-2000d&chfieldvalue=FIXED&product=vte&resolution=FIXED).
+* iTerm 2: OS X terminal application. [Source](https://github.com/gnachman/iTerm2), [Issues](https://gitlab.com/gnachman/iterm2/issues) and [Documentation](http://www.iterm2.com/documentation.html) (which includes [iTerm2 proprietary escape codes](http://www.iterm2.com/documentation-escape-codes.html)).
+* Konsole: KDE terminal application. [Source](https://projects.kde.org/projects/kde/applications/konsole/repository), in particular [tests](https://projects.kde.org/projects/kde/applications/konsole/repository/revisions/master/show/tests), [Bugs](https://bugs.kde.org/buglist.cgi?bug_severity=critical&bug_severity=grave&bug_severity=major&bug_severity=crash&bug_severity=normal&bug_severity=minor&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=konsole) and [Wishes](https://bugs.kde.org/buglist.cgi?bug_severity=wishlist&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=konsole).
+* hterm: JavaScript terminal implementation from Chromium. [Source](https://github.com/chromium/hterm), including [tests](https://github.com/chromium/hterm/blob/master/js/hterm_vt_tests.js), and [Google group](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-hterm).
+* xterm: The grandfather of terminal emulators. [Source](http://invisible-island.net/datafiles/release/xterm.tar.gz).
+* Connectbot: Android SSH client. [Source](https://github.com/connectbot/connectbot)
+* Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).
+* Termux: Android terminal and Linux environment - app repository. [Source](https://github.com/termux/termux-app).
+* remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source]
+(https://github.com/dddomodossola/remi).
+* [Caffe]https://github.com/BVLC/caffe
+* [Tensorflow]https://github.com/tensorflow/tensorflow
+* [Mxnet]https://github.com/apache/incubator-mxnet
+* [Keras]https://github.com/keras-team/keras
+* [ncnn]https://github.com/Tencent/ncnn
+* [pytorch]https://github.com/pytorch/pytorch
+* [opencv]https://github.com/opencv/opencv
 
-### 介绍
-AidLearning App在Android手机上构建了一个带图形界面的Linux系统(不需要root)，和你的Android系统共生共存，并内置了目前排名top7的深度学习框架包括Caffe、Tensorflow、Mxnet/gluoncv、pytorch、keras、ncnn、opencv，你不再需要复杂的配置和翻墙安装依赖包。
-
-AidLearning同时是一款口袋AI编程工具，内置的AiCode可视化编程器，可以让你在手机上用python（同时支持Python2和Python3）轻松零基础编程，支持触摸拖拽式界面设计 ，支持代码实时调试和图形化运行。Aid Learning内置大量人脸识别、行为识别、分类等AI源码例子程序，你可以零基础在手机上开发AI App，并支持把你用python开发的项目转换为一个单独运行的Apk文件，可运行在任何别的Android手机或平台上。
-
-此外，Aid Learning提供了基于wifi的映射投屏技术，可以把手机的代码投屏到电脑pc进行web互动编程和SSH远程命令交互，同时也可投影到电视机、投影仪进行大屏显示。
-
-总之，Aid Learning打造了一个Android+Linux+AI 三合一的触摸拖拽式的快速开发和学习平台，不仅可利用手机进行碎片式编程，同时可充分利用两大主流操作系统（Android+Linux）的开发优势和手机的完美终端优势，利用这种优势，Aid Learning打造了一个完美的编程学习和开发的新平台,我们鼓励研究人员和学生利用这些项目来加速 AI 开发和应用。
-
-<p align=center>
-<img src="image/01.jpeg"  width="260"/><img src="image/02.jpeg"  width="260"/><img src="image/03.jpeg"  width="260"/><img src="image/04.jpeg"  width="260"/><img src="image/05.jpeg"  width="260"/><img src="image/06.jpeg"  width="260"/>
-</p>
-
-### 目录
-* <a href='#下载'>下载与安装</a>
-* <a href='#界面介绍'>界面介绍</a>
-	* <a href='#我的电脑'>我的电脑与文件管理</a>
-	* <a href='#AidCode'>AidCode可视化开发工具</a>
-	* <a href='#终端'>命令终端使用</a>
-	* <a href='#其他'>其他注意的事情</a>
-* <a href='#使用说明'>使用说明</a>
-	* <a href='#下载安装'>运行后依赖包的安装</a>
-	* <a href='#AidCode介绍'>AidCode开发工具介绍</a>
-	* <a href='#电脑通过ssh连接'>电脑通过ssh连接</a>
-* <a href='#视频'>视频操作</a>
-* <a href='#使用样例'>使用样例</a>
-	* <a href='#运行姿态检测'>运行姿态检测例子</a>
-	* <a href='#借助AidCode写HelloWorld'>借助AidCode写HelloWorld</a>
-
-## 下载
-可以在各大手机应用市场或者Github上搜索AidLearning下载。
-<p align="center">
-	<img src="images/Screenshot_20190828-152555.jpg"  width="320" >
-</p>
-
-也可以去 [Github主页](https://github.com/aidlearning/AidLearning-FrameWork)或者[官网](http://www.aidlearning.net)进行下载
-[也可以下载V0.81最新中文版!](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/V0.81/v0.81.apk)
-## 界面介绍
-### 我的电脑
-<p align=left>
-	<img src="images/20190828155827.png" width="300" height="600" hspace="3"/><img src="images/20190828160021.png" width="300" height="600" hspace="3"/>
-</p>
-
-### AidCode
-<p align=left>
-	<img src="images/20190828162306.png" width="300" height="600" hspace="3"/><img src="images/20190828162605.png" width="300" height="600" hspace="3"/>
-</p>
-
-### 终端
-<p align=left>
-	<img src="images/20190828163440.png" width="300" height="600" hspace="3"/><img src="images/20190828163550.png" width="300" height="600" hspace="3"/>
-</p>
-
-### 其他
-下图右边为更新界面，可以自定义资源包，减少下载时间，后续会有更详细的资源包列表。
-<p align=left>
-	<img src="images/20190828164223.png" width="300" height="600" hspace="3"/><img src="images/20190828164305.png" width="300" height="600" hspace="3"/>
-</p>
-
-## 使用说明
-### 下载安装
-第一次运行程序，会自动下载配置基本资源包
-<p align=left>
-	<img src="images/Screenshot_20190828-153432.jpg" width="300" height="600" hspace="3"/><img src="images/Screenshot_20190828-153558.jpg" width="300" height="600" hspace="3"/>
-</p>
-
-### AidCode介绍
-<p align=left>
-	<img src="images/20190828183906.png" width="300" height="600" hspace="3"/><img src="images/Wizard.gif" width="300" height="600" hspace="3"/>
-</p>
-
-### 电脑通过ssh连接
-首先需要在PC端安装ssh，然后执行**ssh-keygen**生成密钥文件，然后将密钥拷贝到手机即可
-<p align=center>
-	<img src="images/20190823133940.png">
-</p>
-
-在PC端就可以通过**ssh u0_a311@手机IP -p8022**连手机进而控制手机了
-
-### 文件传输
-AidLearning中的sdcard映射到手机的sdcard，AidLearning与手机之间的文件传输可以通过拷贝到sdcard目录中进行。
-<p align=left>
-	<img src="images/sdcardshow.png">
-</p>
-
-还可以在电脑上使用AidLearning的文件资源管理进行文件传输，通过浏览器访问**http://手机IP:8080/**即可使用AidLearning的文件资源管理
-<p align=left>
-	<img src="images/fileupload.png">
-</p>
-
-## 视频
-
-[![Watch the video](image/aid01.png)](http://www.aidlearning.net/user/aid01.mp4)
-[![Watch the video](image/aid02.png)](http://www.aidlearning.net/user/aid02.mp4)
-[![Watch the video](image/aid03.png)](http://www.aidlearning.net/user/aid03.mp4)
-[![Watch the video](image/aid04.png)](http://www.aidlearning.net/user/aid04.mp4)
-[![Watch the video](image/aid05.png)](http://www.aidlearning.net/user/aid05.mp4)
-[![Watch the video](image/aid06.png)](http://www.aidlearning.net/user/aid06.mp4)
-[![Watch the video](image/aid07.png)](http://www.aidlearning.net/user/aid07.mp4)
-
-## 使用样例
-### 运行姿态检测
-<p align=left>
-	<img src="images/20190829090203.png" width="280" height="560" hspace="3"/><img src="images/20190829090032.png" width="280" height="560" hspace="3"/><img src="images/20190829090335.png" width="280" height="560" hspace="3" alt="运行效果"/>
-</p>
-
-### 借助AidCode写HelloWorld
-![wizard](images/wizard.png)
-
-您可以从组件工具箱（在屏幕左侧）中，选择要添加到界面的UI组件。选择一个组件，您必须填写分配该组件所需的一些字段。除了构造函数参数之外，还需要一些其他信息：
-
-*   **变量名称**：将用于生成应用程序代码的标识符;
-*   **重载基类**标志：定义变量是否必须是将重载基类的新类的实例。
-
-在屏幕的右侧，是选中的UI组件的参数面版。它包含属性和样式。可以通过单击选择窗口组件。选择窗口小部件后，可以通过参数面板对其进行自定义。
-
-你要自由添加你的组件，你首先要定义一个或多个容器。目前有三种类型的容器可供选择：
-
-*  **Widget****：允许绝对定位的通用容器;
-*   **HBox，VBox**：两种布局都是自动对齐（水平方向对齐和竖直方向对齐）的容齐。
-
-通过使用Widget容器，您可以手动调整大小和拖动小组件。
-
-HBox和VBox容器**不允许**手动拖动和调整窗口小部件的大小。但是可以通过正确的参数面板调整窗口组件的大小。
-
-界面设计完成后后，您可以保存应用程序。它将直接生成python代码并保存在py文件中。通过文件菜单你可以**可以重新加载进行编辑**。
-
-保存后，你可以点击菜单中的**code**按钮查看生成的python代码，并可以修改和运行预览界面。
-
-注意：因为手机屏幕显示区域较小，你可以点击菜单中的tools和Attrib进行显示和隐藏左边栏和右边栏。
-
-现在，让我们创建我们的第一个_Hello World_应用程序。
-
-首先，我们必须先选择一个容器，我们从左侧工具箱中选择Widget组件。这将是我们的主要窗口。在显示的对话框中，我们必须为变量写一个名称。我们将其称为_mainContainer_。
-
-![new_container](images/new_container.png)
-
-然后，将组件Widget添加到编辑器后，您可以拖动它并调整其大小。
-
-![drag_resize_container](images/drag_resize_container.png)
-
-现在，从左侧工具箱中选择Label组件。同样，我们必须为此组件键入变量名称。
-
-![new_label](images/new_label.png)
-
-然后，我们可以通过单击右侧的选择Label来拖动和调整大小。
-
-![chooselabel](images/chooselabel.png)
-
-我们需要一个Button。由于我们想将它添加到mainContainer，我们必须通过单击右侧的mainContainer来选择这个容器。
-
-![choosecontainer](images/choosecontainer.png)
-
-之后，单击左侧工具箱中的Button小部件。输入变量名称确定添加后，并拖动和调整大小。
-
-![resizebt](images/resizebt.png)
-
-现在，假如已经添加完了所有必需的组件。我们必须将_onclick_事件从按钮连接到监听器，在我们的示例中，监听器将是主App。
-
-![onclick](images/onclick.png)
-
-完成所有操作后，通过上方菜单栏保存项目。
-
-![saveas](images/saveas.png)
-
-选择目标文件夹。输入py文件名并确认。
-
-![hello](images/hello.png)
-
-我们现在可以点击菜单中的**code**按钮查看和编辑刚才wizard生成的代码，例如添加点击按钮消息，改变My label的值 为**Hello World**。
-
-![aicode](images/aicode.png)
-
-生成的代码如下：
-
-```python
-# -*- coding: utf-8 -*-
-
-
-from remi.gui import *
-
-
-from cvs import *
-
-
-class untitled(App):
-    def __init__(self, *args, **kwargs):
-        #DON'T MAKE CHANGES HERE, THIS METHOD GETS OVERWRITTEN WHEN SAVING IN THE EDITOR
-        if not 'editing_mode' in kwargs.keys():
-            super(untitled, self).__init__(*args, static_file_path={'my_res':'./res/'})
-
-    def idle(self):
-        #idle function called every update cycle
-        pass
-    
-    def main(self):
-        return untitled.construct_ui(self)
-        
-    @staticmethod
-    def construct_ui(self):
-        #DON'T MAKE CHANGES HERE, THIS METHOD GETS OVERWRITTEN WHEN SAVING IN THE EDITOR
-        mainContainer = Widget()
-        mainContainer.attributes.update({"editor_baseclass":"Widget","editor_tag_type":"widget","editor_newclass":"False","editor_constructor":"()","class":"Widget","editor_varname":"mainContainer"})
-        mainContainer.style.update({"width":"266px","position":"absolute","top":"61px","left":"16px","margin":"0px","overflow":"auto","height":"257px"})
-        button = Button('Say Hello')
-        button.attributes.update({"editor_baseclass":"Button","editor_tag_type":"widget","editor_newclass":"False","editor_constructor":"('Say Hello')","class":"Button","editor_varname":"button"})
-        button.style.update({"width":"149px","position":"absolute","top":"80px","left":"37px","margin":"0px","overflow":"auto","height":"29px"})
-        mainContainer.append(button,'button')
-        label = Label('My label')
-        label.attributes.update({"editor_baseclass":"Label","editor_tag_type":"widget","editor_newclass":"False","editor_constructor":"('My label')","class":"Label","editor_varname":"label"})
-        label.style.update({"width":"98px","position":"absolute","top":"20px","left":"20px","margin":"0px","overflow":"auto","height":"25px"})
-        mainContainer.append(label,'label')
-        mainContainer.children['button'].onclick.do(self.onclick_button)
-        
-
-        self.mainContainer = mainContainer
-        return self.mainContainer
-    
-    def onclick_button(self, emitter):
-        self.mainContainer.children['label'].set_text('hello world')
-        pass
-
-
-
-if __name__ == "__main__":
-    
-    initcv(cvs.openwin)
-    startcv(untitled)
-
-```
-
-再次保存后，运行界面如下：
-
-![sayhello](images/sayhello.png)
-
-更多中文资料(https://www.jianshu.com/p/f6ec13ece792)
-
-![更多例子参考](images/examples.png)
-
-更多例子参考(http://code.aidlearning.net:3000/explore/repos)
-
-<p align=center>
-	<img src="images/QQqun.png" width=200px />
-
-</p>
