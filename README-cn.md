@@ -91,7 +91,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [更新日志](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
 ##  交流与反馈
-- [更多参考](http://bbs.aidlearning.net)
+- [更多参考](http://code.aidlearning.net)
 <img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
 
 - [推特-twitter](https://twitter.com/aidlearning)
