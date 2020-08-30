@@ -70,26 +70,25 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 ## 开始使用
 - [安装配置](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
-- [开发文档](https://www.yuque.com/glg1kx/aidlearning/develop)
-- [界面截图](https://www.yuque.com/glg1kx/aidlearning/qzpyt5)
-- [示例代码](https://www.yuque.com/glg1kx/aidlearning/nnkgzu)
+- [开发文档](https://www.aidlearning.net/showdoc/web/#/5?page_id=23)
+- [示例代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=40)
 
 ## 内置工具
-- [AidCode](https://www.yuque.com/glg1kx/aidlearning/include)
-- [文件管理器](https://www.yuque.com/glg1kx/aidlearning/include)
-- [云桌面icloud](https://www.yuque.com/glg1kx/aidlearning/include)
-- [例程中心](https://www.yuque.com/glg1kx/aidlearning/include)
-- [命令行终端](https://www.yuque.com/glg1kx/aidlearning/include)
-- [Apkbuild](https://www.yuque.com/glg1kx/aidlearning/include)
-- [Jupyter](https://www.yuque.com/glg1kx/aidlearning/include)
-- [内置浏览器](https://www.yuque.com/glg1kx/aidlearning/include)
-- [VSCode](https://www.yuque.com/glg1kx/aidlearning/include)
-- [XFCE4](https://www.yuque.com/glg1kx/aidlearning/include)
+- [AidCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=28)
+- [文件管理器](https://www.aidlearning.net/showdoc/web/#/5?page_id=27)
+- [云桌面icloud](https://www.aidlearning.net/showdoc/web/#/5?page_id=29)
+- [Blocky积木编程](https://www.aidlearning.net/showdoc/web/#/5?page_id=34)
+- [Service-依赖包、系统服务](https://www.aidlearning.net/showdoc/web/#/5?page_id=33)
+- [Apkbuild](hhttps://www.aidlearning.net/showdoc/web/#/5?page_id=31)
+- [Jupyter notebook](https://www.aidlearning.net/showdoc/web/#/5?page_id=30)
+- [X模式--兼容开发模式](https://www.aidlearning.net/showdoc/web/#/5?page_id=36)
+- [VSCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=32)
+- [XFce4-Linux原生桌面](https://www.aidlearning.net/showdoc/web/#/5?page_id=35)
 
 ## 贡献与参与
 - [贡献代码](https://www.yuque.com/glg1kx/aidlearning/vl7mtk)
 - [系统扩展](https://www.yuque.com/glg1kx/aidlearning/acghe9)
-- [更新日志](https://wwww.aidlearning.net/showdoc/web/#/5?page_id=24)
+- [更新日志](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
 ##  交流与反馈
 - [更多参考](http://bbs.aidlearning.net)
