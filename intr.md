@@ -13,8 +13,9 @@
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 
 </p>
-<p align="center">  
-[中文版](README-cn.md)
+<p align="center"> 
+ <a href="https://github.com/aidlearning/AidLearning-FrameWork/edit/master/README-cn.md">
+   [中文版]</a>
 </p>
 
 ## 简介
