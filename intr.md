@@ -1,4 +1,5 @@
 ![AidLearning](https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492)
+[中文版](README-cn.md)
   <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
     <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
@@ -10,7 +11,7 @@
 <img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
-[中文版](README-cn.md)
+
 </p>
   
 
@@ -22,7 +23,7 @@
 <img src="http://www.aidlearning.net/git_img/2.jpg" />
 
 
-[download the app now](http://23668748.s21d-23.faiusrd.com/0/ABUIABBKGAAggZnz_QUosomgnAQ?f=aid-0.86b2f3.apk&v=1597820033) 
+[Download the v0.86b2f3 now!](http://23668748.s21d-23.faiusrd.com/0/ABUIABBKGAAggZnz_QUosomgnAQ?f=aid-0.86b2f3.apk&v=1597820033) 
 
 ## 整体特点
 ### 创新性
