@@ -48,16 +48,16 @@
 - Support the development of pyqt5, pyGame, vortex, SDL, etc
 
 ### Safety
-- Aid在手机上虚拟了一个封闭空间，不需要root，不会破坏你的手机的内容。
-- 不会收集你的个人隐私，所有权限都可以自己设定...
+- Aid virtualizes a closed space on the mobile phone. It doesn't need root and won't destroy the content of your mobile phone.
+- Will not collect your personal privacy, all permissions can be set by yourselves
 ### Easy to use
-- 一键式安装，自动下载最新依赖包、自动配置AI开发需要的环境，降低AI开发门槛
-- 内置大量AI组件、模型、例子、教程，降低AI开发的门槛，你可以不懂AI算法，但可以用这个平台开发出AI应用。
-- 内置传感器控制包，可方便控制手机上的各种传感器：声音、陀螺仪、位置、摄像头等等
-- 一部手机，两个系统，Android和Linux共生共存，无重启自由切换；娱乐、开发、学习三不误
-- 支持手机端开发与电脑端开发代码自动同步，支持界面触摸拖拽式设计，自动生成界面的代码
-- 一键式编译和发布你开发支持AI的App
-- 可扩展支持Java、C++、Go...等语言的支持
+- One click installation, automatically download the latest dependency package, automatically configure the environment required for AI development, and reduce the threshold of AI development
+- Built in a large number of AI components, models, examples, tutorials, reduce the threshold of AI development, you can not understand AI algorithm, but you can use this platform to develop AI applications.
+- The built-in sensor control package can easily control various sensors on the mobile phone: sound, gyroscope, position, camera, etc
+- One mobile phone, two systems, Android and Linux co-exist, no restart, free switching; entertainment, development, learning three not wrong
+- It supports the automatic synchronization of mobile phone development and computer development code, supports interface touch and drag design, and automatically generates interface code
+- One click compilation and release of AI enabled apps
+- Extensible support Java, C + +, go... And other languages
 
 ### support peripherals
 - 内置传感器控制包，可方便控制手机上的各种传感器：声音、陀螺仪、位置、摄像头等等
