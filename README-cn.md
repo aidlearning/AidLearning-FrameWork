@@ -2,6 +2,7 @@
   <p align="center">
     Linux+AI+Python+GUI 4in1 Environments Running on the Android . <a href='README-cn.md'>[中文版]</a> <a href='README.md'>[English]
   </p>
+  <p align="center">
     <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
     <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
     <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
