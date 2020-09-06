@@ -37,7 +37,7 @@
 - It supports openblas, multi thread and multi process, runs smoothly without jamming, and gives full play to the computing power of ARM CPU and GPU
 
 ### Versatility
-- Support Tensorflow, Caffe, mxnet, keras, python, ncnn, opencv, SciPy
+- Support Tensorflow, Caffe, mxnet, keras, python, ncnn, opencv, Scipy
 - Supports Python 2.7 / Python 3.7.3.
 - Buildin AidCode visual programming IDE, it also supports Jupyter notebook and Microsoft's vscode programming development tool.
 - Built in complete and native cross platform desktop, no need to install third-party VNC support, support the same desktop of computer and mobile phone
