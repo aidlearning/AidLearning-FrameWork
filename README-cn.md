@@ -109,7 +109,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 
 
 ## 致谢
-AidLearning参与人员：bill，耶鲁大学gondon、中科院大学yoline777、qidiso。
+AidLearning参与人员：bill、gondon、yoline777、qidiso...
 
 AidLearning参考、借鉴了下列项目（目前是测试阶段，未来我们会逐步开源）：
 
