@@ -24,7 +24,7 @@
 <img src="http://www.aidlearning.net/git_img/2.jpg" />
 
 
-[立即下载v0.86中文版进行安装](http://23668748.s21d-23.faiusrd.com/0/ABUIABBKGAAggZnz_QUosomgnAQ?f=aid-0.86b2f3.apk&v=1597820033) 
+[立即下载v0.87中文版进行安装](https://download.s21i.faiusr.com/23668748/0/0/ABUIABBKGAAg1rWagAYogOKL0gY?f=aidv0.87F1.apk&v=1611045590) 
 
 ## 整体特点
 ### 创新性
