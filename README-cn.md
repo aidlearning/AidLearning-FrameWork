@@ -17,7 +17,8 @@
   
 
 ## 简介
-[AidLearning](http://www.aidlearning.net)是一个强大的移动端的AI开发平台，它几乎支持所有深度学习神经网络开发的框架和工具。它在移动端（Android）上构架了一个支持图形化界面的完整Linux系统，内置了最为流行的深度学习框架caffe/mxnet/keras/pytorch/tensorflow/ncnn/opencv…内置了可视化AI开发编辑器，内置了最为流行的VSCode、Jupyter等编程工具，支持触摸拖拽式界面设计，支持代码动态调试和运行。支持在移动端和PC端用python开发你的AI应用，支持把你的python源码转化为APP（Apk）发布。支持一键式安装，只需要安装一个10M左右的App即可自动引导完成安装。目前，已在各大App应用中心（华为、小米、vivo、oppo、酷安…）上线，下载和访问量已超150万，内置了大量的AI例子和教程，互联网上（知乎、简书、CSDN、百度等）也有大量中文教程，方便你学习和开发。
+[AidLearning](http://www.aidlearning.net)是一个强大的移动端的AI开发平台，它几乎支持所有深度学习神经网络开发的框架和工具。它在移动端（Android）上构架了一个支持图形化界面的完整Linux系统，内置了最为流行的深度学习框架caffe/mxnet/keras/pytorch/tensorflow/ncnn/opencv…内置了可视化AI开发编辑器，内置了最为流行的VSCode、Jupyter等编程工具，支持触摸拖拽式界面设计，支持代码动态调试和运行。支持在移动端和PC端用python开发你的AI应用，支持把你的python源码转化为APP（Apk）发布。支持一键式安装，只需要安装一个10M左右的App即可自动引导完成安装。目前，已在各大App应用中心（华为、小米、vivo、oppo、酷安…）上线，下载和访问量已超150万，内置了大量的AI例子和教程，互联网上（知乎、简书、CSDN、百度等）也有大量中文教程，方便你学习和开发。最新版v0.87中加入cpu加速和GPU加速功能，0.87版内置了tflite_gpu模块，可以把手机的GPU性能充分释放，支持cpu+gpu模式，同时加速！
+
 <img src="http://www.aidlearning.net/git_img/0.jpg" />
 <img src="https://www.aidlearning.net/git_img/1.jpg" />
 <img src="http://www.aidlearning.net/git_img/2.jpg" />
@@ -34,6 +35,7 @@
 - 一键式安装，无任何依赖，你只需在手机上要安装一个10M的引导App，就可以自动完成所有环境的安装。
 - 跨平台开发，支持云桌面（手机桌面和电脑桌面相同），既可以在手机或平版上或其他嵌入式主板上运行，也可以在电脑端基于web直接访问和开发。
 - 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU和GPU的算力
+- 最新版本一直吃用python调用手机的gpu加速，一般深度学习的tflite模型，30fps～80fps，轻松达到（在主流手机上）
 ### 通用性
 - 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
 - 支持Python2.7/Python3.7.3。
