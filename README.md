@@ -23,6 +23,7 @@
 - Built in Visual AI development IDE, built-in most popular programming tools such as VSCode and Jupyter, supporting touch-and-drop ui design, supporting dynamic debugging and running of code. Support the development of AI applications in Python on mobile and pad, and support the package your Python source code into app (APK) to release. 
 - One click installation is supported. You only need to install a 10m app to automatically boot to complete the installation. 
 - At present, it has been online in major app application centers, with more than 1.5 million downloads and visits, and a large number of AI examples and tutorials are built-in. There are also a large number of tutorials on the Internet to facilitate your learning and development.
+- Finally, on version 0.87,Aid adds CPU acceleration and GPU acceleration, and tflite is built into version 0.87. tflite GPU module can fully release the GPU performance of mobile phone, support CPU + GPU mode, and speed up at the same time! tflite.NNModel (model_ Path, inshape, outshape, 4,0) # - 4 represents 4 CPU threads, 0 represents GPU, - 1 represents CPU, and 1 represents the number of nnapi threads. I set 4 threads on aid. You can flexibly set the number of threads and use GPU + CPU mode
 <img src="http://www.aidlearning.net/git_img/0.jpg" />
 <img src="https://www.aidlearning.net/git_img/1.jpg" />
 <img src="http://www.aidlearning.net/git_img/2.jpg" />
