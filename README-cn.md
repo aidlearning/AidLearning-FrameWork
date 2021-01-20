@@ -35,7 +35,7 @@
 - 一键式安装，无任何依赖，你只需在手机上要安装一个10M的引导App，就可以自动完成所有环境的安装。
 - 跨平台开发，支持云桌面（手机桌面和电脑桌面相同），既可以在手机或平版上或其他嵌入式主板上运行，也可以在电脑端基于web直接访问和开发。
 - 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU和GPU的算力
-- 最新版本一直吃用python调用手机的gpu加速，一般深度学习的tflite模型，30fps～80fps，轻松达到（在主流手机上）
+- 最新版本支持python直接调用手机的gpu加速，一般深度学习的tflite模型，30fps～80fps，轻松达到（在主流手机上）
 ### 通用性
 - 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
 - 支持Python2.7/Python3.7.3。
