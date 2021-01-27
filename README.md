@@ -19,7 +19,7 @@
 
 ## Intro
 [AidLearning](http://www.aidlearning.net) is a powerful mobile AI development platform, which supports almost all frameworks and tools for deep learning neural network development. 
-- It has built a complete Linux OS supporting GUI desktop on Android, built-in the most popular deep learning framework Caffe / mxnet / keras / Python / tensorflow / ncnn / opencv/pytorch... 
+- It has built a complete Linux OS supporting GUI desktop on Android, built-in the most popular deep learning framework Caffe / mxnet / keras / tensorflow / ncnn / opencv/pytorch... 
 - Built in Visual AI development IDE, built-in most popular programming tools such as VSCode and Jupyter, supporting touch-and-drop ui design, supporting dynamic debugging and running of code. Support the development of AI applications in Python on mobile and pad, and support the package your Python source code into app (APK) to release. 
 - One click installation is supported. You only need to install a 10m app to automatically boot to complete the installation. 
 - At present, it has been online in major app application centers, with more than 1.5 million downloads and visits, and a large number of AI examples and tutorials are built-in. There are also a large number of tutorials on the Internet to facilitate your learning and development.
