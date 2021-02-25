@@ -34,7 +34,7 @@
 - 支持用python开发可运行在手机的App，支持python代码直接编译生成可部署的apk文件
 - 一键式安装，无任何依赖，你只需在手机上要安装一个10M的引导App，就可以自动完成所有环境的安装。
 - 跨平台开发，支持云桌面（手机桌面和电脑桌面相同），既可以在手机或平版上或其他嵌入式主板上运行，也可以在电脑端基于web直接访问和开发。
-- 支持加速库openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU和GPU的算力
+- 支持加速库OpenCL,Openblas，支持多线程和多进程，运行流畅、不卡顿，充分发挥ARM CPU和GPU的算力
 - 最新版本支持python直接调用手机的gpu加速，一般深度学习的tflite模型，30fps～80fps，轻松达到（在主流手机上）
 ### 通用性
 - 支持Tensorflow、Caffe、mxnet、keras、pytorch、ncnn、opencv、scipy....
@@ -103,7 +103,7 @@ AI编程平台由深度学习框架和Python可视化编程框架（Python IDE�
 - [更多示例](http://www.aidlearning.net)
 
 
-<img src="https://www.aidlearning.net/git_img/aid-examples.jpg" width="1024"/>
+<img src="https://www.aidlearning.net/git_img/aid-examples.jpg"/>
 <img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1588573935881-54e2a362-57f2-4afb-9312-a5ccd2355ecf.png"/>
 
 ## License
