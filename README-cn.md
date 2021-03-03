@@ -65,9 +65,9 @@
 - 可作为智能机器人的操作系统
 
 ## 架构设计
-AidLearning FrameWork可以分为Linux模拟器和AI编程平台两部分。
+AidLearning FrameWork可以分为Linux环境和AI编程平台两部分。
 
-Linux模拟器由Terminal和Desktop构成。前者基于Android底层Linux kernel和busybox命令包构建了完整Linux的环境，你可以用apt命令安装任何你需要的依赖包；后者基于web构建了图形化操作桌面，你可以用在手机上用触摸操控整个系统，同时该桌面支持云桌面，你可以在电脑端通过一个网址轻松访达。
+Linux环境由Terminal和Desktop构成。前者基于Android底层Linux kernel和busybox命令包构建了完整Linux的环境，你可以用apt命令安装任何你需要的依赖包；后者基于web构建了图形化操作桌面，你可以用在手机上用触摸操控整个系统，同时该桌面支持云桌面，你可以在电脑端通过一个网址轻松访达。
 
 AI编程平台由深度学习框架和Python可视化编程框架（Python IDE）构成。前者包含了几乎所有目前流行的深度学习框架，负责模型的加载、计算图的调度；包含各计算的内存分配、Op实现。后则构建了Python可视化快速开发平台，不仅可以在线实时运行、调试Python代码，同时支持触摸拖拽式界面设计、并且可以生成最终的可执行程序、产出apk文件。
 
