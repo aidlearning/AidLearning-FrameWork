@@ -29,7 +29,7 @@
 <img src="http://www.aidlearning.net/git_img/2.jpg" />
 
 
-[Download the v0.87F2 now!](https://download.s21i.faiusr.com/23668748/0/0/ABUIABBKGAAg5KKrgQYorcTl-AU?f=aidv0.87F2.apk&v=1613418852) 
+[Download the v0.87F3 now!](https://download.s21i.faiusr.com/23668748/0/0/ABUIABBKGAAgsdH_gQYo-PrV4wU?f=aidv0.87F3.apk&v=1614784689) 
 
 ## Features
 ### Innovation
