@@ -102,12 +102,11 @@ AI programming platform is composed of deep learning framework and python visual
 - [version](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
 ##  FeedBack
-- [bbs](http://code.aidlearning.net)
+- [bbs](http://new.aidlearning.net)
 <img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
 
-- [twitter](https://twitter.com/aidlearning)
 
-- [more](http://code.aidlearning.net)
+- [more](http://www.aidlearning.net)
 
 
 ![aid-examples-en.jpg](https://i.loli.net/2021/02/25/tdxOobRgm7TK8cv.jpg)
