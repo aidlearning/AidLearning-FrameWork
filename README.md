@@ -68,7 +68,8 @@
 - The built-in sensor control package can easily control various sensors on the mobile phone: sound, gyroscope, position, camera, etc
 - Using OTG USB can support the extension of peripherals and control aduino, which can be programmed in Python
 - Using OTG USB can also support peripheral storage device read and write operations
-- It can be used as the operating system of intelligent robot
+- Can be used as the operating system of intelligent robot,support ROS
+- can also support I/O control the plc by using otg usb.
 
 ## Architecture
 Aidlearning framework can be divided into two parts: Linux simulator and AI programming platform.
