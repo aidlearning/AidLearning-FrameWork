@@ -58,7 +58,7 @@ AI编程平台由深度学习框架和Python可视化编程框架构成。前者
 - [系统扩展](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
 - [更新日志](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
-##  交流与反馈
+## 交流与反馈
 
 - [AidLearning官网](http://www.aidlearning.net) 
 - [AidLearning官方论坛](http://new.aidlearning.net/)
@@ -84,8 +84,7 @@ AidLearning参与人员：bill、flay、gondon、willam、gugu、yoline777、qid
 * Connectbot: Android SSH client. [Source](https://github.com/connectbot/connectbot)
 * Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).
 * Termux: Android terminal and Linux environment - app repository. [Source](https://github.com/termux/termux-app).
-* remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source]
-(https://github.com/dddomodossola/remi).
+* remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source](https://github.com/dddomodossola/remi).
 * [Caffe](https://github.com/BVLC/caffe)
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
 * [Mxnet](https://github.com/apache/incubator-mxnet)
