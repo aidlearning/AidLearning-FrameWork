@@ -1,27 +1,31 @@
-![AidLearning](https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492)
-  <p align="center">
-    Linux+AI+Python+GUI 4in1 Environments Running on the Android . <a href='README-cn.md'>[中文版]</a> <a href='README.md'>[English]
-  </p>
-  <p align="center">
-    <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
-    <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
-    <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
-    <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases">
-    <img src="https://img.shields.io/github/v/tag/aidlearning/AidLearning-FrameWork" > </a>
-    <img src="https://img.shields.io/badge/repo%20size-37%20MB-blue" alt="Repo size">
-    <img src="https://img.shields.io/badge/code%20size-11.83%20MB-blue" alt="Code size">
+<p align="center">
+  <img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492" height="75" width="400">
+  <br>
+  Linux, AI, Python, GUI: 4-in-1 Environments Running on Android. [中文版] <a href='README.md'>[English]</a>
+</p>
+<p align="center">
+  <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
+  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
+  <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
+  <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases">
+  <img src="https://img.shields.io/github/v/tag/aidlearning/AidLearning-FrameWork" > </a>
 <img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 </p>
-  
 
-## 简介
-[AidLearning](http://www.aidlearning.net)是一个强大的移动端的AI(AIOT)开发平台，它几乎支持所有深度学习神经网络开发的框架和工具。它在移动端（Android）上构架了一个支持图形化界面的完整Linux系统，内置了最为流行的深度学习框架caffe/mxnet/keras/pytorch/tensorflow/ncnn/opencv…内置了可视化AI开发编辑器，内置了最为流行的VSCode、Jupyter等编程工具，支持触摸拖拽式界面设计，支持代码动态调试和运行。支持在移动端和PC端用python开发你的AI应用，支持把你的python源码转化为APP（Apk）发布。支持一键式安装，只需要安装一个10M左右的App即可自动引导完成安装。目前，已在各大App应用中心（华为、小米、vivo、oppo、酷安…）上线，下载启动次数已超200万，内置了大量的AI例子和教程，互联网上（知乎、简书、CSDN、百度等）也有大量中文教程，方便你学习和开发。最新版v0.87中加入cpu加速和GPU加速功能，0.87版内置了tflite_gpu模块，用python就可以把手机的GPU性能充分释放，支持cpu+gpu模式，同时加速！
+[AidLearning](http://www.aidlearning.net)是一个移动端的AI开发平台，支持所有主流深度学习神经网络的开发框架和工具。目前，AidLearning已在各大App应用中心上线，下载启动次数已经超过200万。
 
-<img src="http://www.aidlearning.net/git_img/0.jpg" />
-<img src="https://www.aidlearning.net/git_img/1.jpg" />
-<img src="http://www.aidlearning.net/git_img/2.jpg" />
+AidLearning采用了独特的cpu+gpu加速技术，内置的tflite_gpu模块能够赋予深度学习算法性能上的大幅度提升。
+
+
+
+
+它在移动端（Android）上构架了一个支持图形化界面的完整Linux系统，内置了目前最为流行的深度学习框架caffe/mxnet/keras/pytorch/tensorflow/ncnn/opencv…内置了可视化AI开发编辑器，内置了最为流行的VSCode、Jupyter等编程工具，支持触摸拖拽式界面设计，支持代码动态调试和运行。支持在移动端和PC端用python开发你的AI应用，支持把你的python源码转化为APP（Apk）发布。支持一键式安装，只需要安装一个10M左右的App即可自动引导完成安装。内置了大量的AI例子和教程，互联网上（知乎、简书、CSDN、百度等）也有大量中文教程，方便你学习和开发。
+
+<img src="http://www.aidlearning.net/git_img/0.jpg" width="50%" />
+<img src="https://www.aidlearning.net/git_img/1.jpg" width="30%" />
+<img src="http://www.aidlearning.net/git_img/2.jpg" width="30%" />
 
 
 [立即下载v0.87F3中文版进行安装](https://download.s21i.faiusr.com/23668748/0/0/ABUIABBKGAAgsdH_gQYo-PrV4wU?f=aidv0.87F3.apk&v=1614784689) 
@@ -123,11 +127,11 @@ AidLearning参考、借鉴了下列项目（目前是测试阶段，未来我们
 * Termux: Android terminal and Linux environment - app repository. [Source](https://github.com/termux/termux-app).
 * remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source]
 (https://github.com/dddomodossola/remi).
-* [Caffe]https://github.com/BVLC/caffe
-* [Tensorflow]https://github.com/tensorflow/tensorflow
-* [Mxnet]https://github.com/apache/incubator-mxnet
-* [Keras]https://github.com/keras-team/keras
-* [ncnn]https://github.com/Tencent/ncnn
-* [pytorch]https://github.com/pytorch/pytorch
-* [opencv]https://github.com/opencv/opencv
+* [Caffe](https://github.com/BVLC/caffe)
+* [Tensorflow](https://github.com/tensorflow/tensorflow)
+* [Mxnet](https://github.com/apache/incubator-mxnet)
+* [Keras](https://github.com/keras-team/keras)
+* [ncnn](https://github.com/Tencent/ncnn)
+* [pytorch](https://github.com/pytorch/pytorch)
+* [opencv](https://github.com/opencv/opencv)
 
