@@ -62,9 +62,11 @@ AI编程平台由深度学习框架和Python可视化编程框架构成。前者
 
 - [AidLearning官网](http://www.aidlearning.net) 
 - [AidLearning官方论坛](http://new.aidlearning.net/)
-<img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
 
-![aid-examples.jpg](https://i.loli.net/2021/02/25/Umc8VKfrtFRZCjg.jpg)
+<details>
+<summary>QQ交流群</summary>
+<img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
+</details>
 
 ## License
 - [GPL 3.0](license.md)
