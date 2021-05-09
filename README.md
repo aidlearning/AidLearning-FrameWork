@@ -54,7 +54,7 @@ The AI programming platform part consists of a deep learning framework and a Pyt
 - [System Extends](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
 - [Update Logs](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
 
-## 交流与反馈
+## Community & Feedback
 
 - [AidLearning Official Website](http://www.aidlearning.net) 
 - [AidLearning Forum](http://new.aidlearning.net/)
