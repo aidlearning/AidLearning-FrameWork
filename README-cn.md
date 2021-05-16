@@ -20,6 +20,10 @@
 
 目前，AidLearning已在各大App应用中心上线，下载启动次数超过200万。
 
+##截图
+<img src="http://www.aidlearning.net/showdoc/server/index.php?s=/api/attachment/visitFile/sign/4a72d62cec051582170e99b3584da67c&showdoc=.jpg#align=left&display=inline&height=480&margin=%5Bobject%20Object%5D&name=image.png&originHeight=960&originWidth=470&size=281243&status=done&style=none&width=235" alt="screen1" >
+
+
 ## 开始使用
 点击以下链接即可下载最新的安装包（约20M）：
 
