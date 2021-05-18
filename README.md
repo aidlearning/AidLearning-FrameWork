@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492" height="75" width="400">
+  <img src="https://cdn.nlark.com/yuque/0/2020/png/726405/1578322228096-7dba507c-67f2-463b-a280-791bebed0418.png?x-oss-process=image%2Fresize%2Cw_1492"  width="900">
   <br>
   Linux, AI, Python, GUI: 4-in-1 Environments Running on Android. <a href='README-cn.md'>[中文版]</a> [English]
 </p>
