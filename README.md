@@ -42,21 +42,21 @@ AidLearning also provides a cloud desktop function, which means the mobile devic
 The AI programming platform part consists of a deep learning framework and a Python visual programming framework. AidLearning contains all the current mainstream deep learning frameworks, which are responsible for model loading, scheduling of computational graphs, memory allocation for each computation, and Op implementation. Mean while, a python visualization development platform, which can run and debug Python code in real time, is created for developers. They can design the app's interface, compile and package it with one click, and quickly develop AI applications through AidLearning's built-in [apk dev-tools](https://www.aidlearning.net/showdoc/web/#/5?page_id=31).
 
 ## Built-in Tools
-- [AidCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=28)
-- [File Manager](https://www.aidlearning.net/showdoc/web/#/5?page_id=27)
-- [icloud](https://www.aidlearning.net/showdoc/web/#/5?page_id=29)
-- [Blocky](https://www.aidlearning.net/showdoc/web/#/5?page_id=34)
-- [Service](https://www.aidlearning.net/showdoc/web/#/5?page_id=33)
-- [Apkbuild](https://www.aidlearning.net/showdoc/web/#/5?page_id=31)
-- [Jupyter notebook](https://www.aidlearning.net/showdoc/web/#/5?page_id=30)
-- [X Mode](https://www.aidlearning.net/showdoc/web/#/5?page_id=36)
-- [VSCode](https://www.aidlearning.net/showdoc/web/#/5?page_id=32)
-- [XFce4](https://www.aidlearning.net/showdoc/web/#/5?page_id=35)
+- [AidCode](https://docs.aidlux.com/)
+- [File Manager](https://docs.aidlux.com/)
+- [icloud](https://docs.aidlux.com/)
+- [Blocky](https://docs.aidlux.com/)
+- [Service](https://docs.aidlux.com/)
+- [Apkbuild](https://docs.aidlux.com/)
+- [Jupyter notebook](https://docs.aidlux.com/)
+- [X Mode](https://docs.aidlux.com/)
+- [VSCode](https://docs.aidlux.com/)
+- [XFce4](https://docs.aidlux.com/)
 
 ## Contribution to AidLearning
-- [Code Contributions](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
-- [System Extends](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
-- [Update Logs](https://www.aidlearning.net/showdoc/web/#/5?page_id=24)
+- [Code Contributions](https://docs.aidlux.com/)
+- [System Extends](https://docs.aidlux.com/)
+- [Update Logs](https://docs.aidlux.com/)
 
 ## Community & Feedback
 
