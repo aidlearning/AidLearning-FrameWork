@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="images/readme/logo_1.png" width="100%" height="380">
+  <img src="https://aidlux.com/github//logo_1.png" width="100%" >
   <br>
-  AI，Android，Linux，ARM：基于Android+Linux融合生态的AIoT开发平台。 <a href='README.md'>[English]</a>
+  AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README.md'>[English]</a>
 </p>
 <p align="center">
   <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
@@ -13,13 +13,12 @@
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 </p>
-
-[AidLux](https://www.aidlux.com)是一个基于ARM的多生态融合(Android+Linux) 智能物联网(AIoT)应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
+[AidLux](https://www.aidlux.com)是一个基于ARM构建，支持多生态融合（Android+Linux）环境的AI应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
 <img src="https://docs.aidlux.com/static/AidLux.png" alt="AidLux" width="100%">
 
 ## AidLux融合架构，实现多生态超级叠加 
 
-<img src="images/readme/arch.png" alt="AidLux融合架构" width="100%"> 
+<img src="https://aidlux.com/github/arch.png" alt="AidLux融合架构" width="100%"> 
 
 基于Android底层Linux kernel和Busybox命令包构建了完整Linux的环境，并且与Android环境同时提供用户访问。在为用户提供和原生Linux系统类似的命令行使用体验（如通过 `apt` 命令进行包管理）的同时，基于Web构建了图形化桌面环境，用户可以直接通过触摸屏或浏览器访问。 
 
@@ -31,7 +30,7 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 * 一部设备同时运行两个系统环境，既是一部Android设备，同时也是一部Linux设备。两个生态的资源优势可同时被加以利用。 
 
-<img src="images/readme/appcenter_all.png" alt="应用中心" width="100%"> 
+<img src="https://aidlux.com/github/appcenter_all.png" alt="应用中心" width="100%"> 
 
 * 跨系统无缝交互，高效，安全，稳定。Android应用与Linux应用实现本地高效直接访问，无需外部接口（如网络），充分释放硬件效能。 Android负责用户交互，Linux负责服务支持的新型应用形态等待你的奇思妙想。
 
@@ -39,7 +38,7 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 * 一键安装、自动部署、App式启动，过程快速、简单。 
 
-<img src="images/readme/deploy_start_desk.png" alt="应用中心" width="100%"> 
+<img src="https://aidlux.com/github/deploy_start_desk.png" alt="应用中心" width="100%"> 
 
 ---
 
@@ -52,11 +51,11 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
   
 * 内置创新性的CPU+GPU+NPU智能加速技术，通过“硬件+框架+Op"多层优化，赋予深度学习运算性能的大幅度提升。并且提供统一API接口，在方便开发者调用的同时，还支持不同AI框架模型自动转换。以下测试为基于相同ARM设备，在Linux、AidLux上测试获得。单项测试进行20次取耗时（纵轴）平均值。
 
-<img src="images/readme/pete_result.png" alt="性能对比图" width="100%"> 
+<img src="https://aidlux.com/github/pete_result.png" alt="性能对比图" width="100%"> 
 
 * 在Wizard中进行拖拽式AI应用开发，AI组件快速赋能，1分钟生成你的第一个AI应用！ 
 
-<img src="images/readme/wizard_ai.jpg" alt="Wizard" width="100%"> 
+<img src="https://aidlux.com/github/wizard_ai.jpg" alt="Wizard" width="100%"> 
 
 * 内置丰富AI应用案例及对应代码，方便开发者能快速入门。通过AidLux桌面应用中心或以下命令安装例子： 
   
@@ -69,34 +68,35 @@ cd /home/examples-gpu
 <table>
 <div style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/facemesh.gif" alt="人脸关键点识别">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/facemesh.gif" title="人脸关键点识别" alt="人脸关键点识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/pose_1.gif" alt="肢体识别">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/pose_1.gif" title="肢体识别" alt="肢体识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/objectron.gif" alt="3D检测">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/objectron.gif" title="3D检测" alt="3D检测">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-<img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_hair_recoloring.gif" alt="头发识别">
+<img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_hair_recoloring.gif" title="头发识别" alt="头发识别">
     </div>
 <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-<img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_hand_tracking.gif" alt="手势识别">
+<img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_hand_tracking.gif" title="手势识别" alt="手势识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_face_detector.gif" alt="人脸识别">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_face_detector.gif" title="人脸识别" alt="人脸识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/faceswap.png" alt="换脸">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/faceswap.png" title="换脸" alt="换脸">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_object_detector.jpg" alt="物体识别跟踪">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_object_detector.jpg" title="物体识别跟踪" alt="物体识别跟踪">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/persionseg.gif" alt="人体抠图">
+      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/persionseg.gif" title="人体抠图" alt="人体抠图">
     </div>
   </div>
 </table> 
+
 
 更多案例，请访问 [AI应用案例中心](https://docs.aidlux.com/#/examples) 
 
@@ -107,8 +107,8 @@ cd /home/examples-gpu
 
 <table>
 <div style="width: 100%; display: flex; justify-content: space-around; align-items: center;">
-<img style="width: 26%;height: 500px;" src="images/readme/desktop_mob.png" alt="Desktop 手机">
-<img style="width: 74%;" src="images/readme/desktop_pc.png" alt="Desktop PC">
+<img style="width: 26%;height: 500px;" src="https://aidlux.com/github/desktop_mob.png" alt="Desktop 手机">
+<img style="width: 74%;" src="https://aidlux.com/github/desktop_pc.png" alt="Desktop PC">
 </div>
 </table> 
 
@@ -116,15 +116,15 @@ cd /home/examples-gpu
 
 <table>
 <div style="width: 100%; display: flex; align-items: center;">
-<img style="width: 350px;margin: 0 10px;" src="images/readme/aid_arduino.png" alt="AidLux+Arduino">
-      <img style="width: 350px; margin: 0 20px;" src="images/readme/toy.png" alt="小车">
-      <img style="width: 350px;margin: 0 20px;" src="images/readme/car_follow.gif" alt="跟随">
+<img style="width: 350px;margin: 0 10px;" src="https://aidlux.com/github/aid_arduino.png" alt="AidLux+Arduino">
+      <img style="width: 350px; margin: 0 20px;" src="https://aidlux.com/github/toy.png" alt="小车">
+      <img style="width: 350px;margin: 0 20px;" src="https://aidlux.com/github/car_follow.gif" alt="跟随">
   </div>
 </table> 
 
 * 支持VSCode, Jupyter notebook 等多种开源开发工具及Python, C/C++, Java, JavaScript等开发语言。 
 
-<img src="images/readme/aidcode.jpg" alt="AidCode" width="100%"> 
+<img src="https://aidlux.com/github/aidcode.jpg" alt="AidCode" width="100%"> 
 
 * 一站式开发、测试、部署全流程支持，AidLux关注效率，您关注创意！ `ApkBuild`应用，可以快速将基于Python开发的项目打包成APK进行发布，方便用户在其它Android系统进行部署。
 
