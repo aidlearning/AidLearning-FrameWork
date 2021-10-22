@@ -13,12 +13,12 @@
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 </p>
-[AidLux](https://www.aidlux.com) 是一个基于ARM构建，支持多生态融合（Android+Linux）环境的AI应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
+[AidLux](https://www.aidlux.com)是一个基于ARM构建，支持多生态融合（Android+Linux）环境的AI应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
 <img src="https://docs.aidlux.com/static/AidLux.png" alt="AidLux" width="100%">
 
 ## AidLux融合架构，实现多生态超级叠加 
 
-<img src="https://aidlux.com/github/arch.png" alt="AidLux融合架构" width="70%"> 
+<img src="https://aidlux.com/github/arch.png" alt="AidLux融合架构" width="100%"> 
 
 基于Android底层Linux kernel和Busybox命令包构建了完整Linux的环境，并且与Android环境同时提供用户访问。在为用户提供和原生Linux系统类似的命令行使用体验（如通过 `apt` 命令进行包管理）的同时，基于Web构建了图形化桌面环境，用户可以直接通过触摸屏或浏览器访问。 
 
@@ -68,22 +68,22 @@ cd /home/examples-gpu
 <table>
 <div style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/facemesh.gif" title="人脸关键点识别" alt="人脸关键点识别">
+      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_facemesh_c.gif" title="人脸关键点识别" alt="人脸关键点识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/pose_1.gif" title="肢体识别" alt="肢体识别">
+      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_pose_c.gif" title="肢体识别" alt="肢体识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/objectron.gif" title="3D检测" alt="3D检测">
+      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_objectron_c.gif" title="3D检测" alt="3D检测">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-<img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_hair_recoloring.gif" title="头发识别" alt="头发识别">
+<img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_hair_recoloring_c.gif" title="头发识别" alt="头发识别">
     </div>
 <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-<img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_hand_tracking.gif" title="手势识别" alt="手势识别">
+<img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_hand_tracking_c.gif" title="手势识别" alt="手势识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_face_detector.gif" title="人脸识别" alt="人脸识别">
+      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_face_detector_c.gif" title="人脸识别" alt="人脸识别">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
       <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/faceswap.png" title="换脸" alt="换脸">
@@ -92,10 +92,11 @@ cd /home/examples-gpu
       <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_object_detector.jpg" title="物体识别跟踪" alt="物体识别跟踪">
     </div>
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/persionseg.gif" title="人体抠图" alt="人体抠图">
+      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_persionseg_c.gif" title="人体抠图" alt="人体抠图">
     </div>
   </div>
 </table> 
+
 
 
 更多案例，请访问 [AI应用案例中心](https://docs.aidlux.com/#/examples) 
@@ -118,7 +119,7 @@ cd /home/examples-gpu
 <div style="width: 100%; display: flex; align-items: center;">
 <img style="width: 350px;margin: 0 10px;" src="https://aidlux.com/github/aid_arduino.png" alt="AidLux+Arduino">
       <img style="width: 350px; margin: 0 20px;" src="https://aidlux.com/github/toy.png" alt="小车">
-      <img style="width: 350px;margin: 0 20px;" src="https://aidlux.com/github/car_follow.gif" alt="跟随">
+      <img style="width: 350px;margin: 0 20px;" src="https://aidlux.com/github/demo_car_follow_c.gif" alt="跟随">
   </div>
 </table> 
 
