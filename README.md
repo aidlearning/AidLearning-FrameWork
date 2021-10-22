@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://aidlux.com/github//logo_1.png" width="100%" >
   <br>
-  AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README.md'>[English]</a>
+  AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
 </p>
 <p align="center">
   <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
