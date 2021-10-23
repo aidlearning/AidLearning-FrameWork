@@ -66,7 +66,7 @@ cd /home/examples-gpu
 ```
 
 <table>
-<div style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+
     <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
       <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_facemesh_c.gif" title="人脸关键点识别" alt="人脸关键点识别">
     </div>
