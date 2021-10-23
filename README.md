@@ -108,7 +108,7 @@ cd /home/examples-gpu
 
 <table>
 <div style="width: 100%; display: flex; justify-content: space-around; align-items: center;">
-<img style="width: 26%;height: 500px;" src="https://aidlux.com/github/desktop_mob.png" alt="Desktop 手机">
+<img style="width: 26%;height: 300px;" src="https://aidlux.com/github/desktop_mob.png" alt="Desktop 手机">
 <img style="width: 74%;" src="https://aidlux.com/github/desktop_pc.png" alt="Desktop PC">
 </div>
 </table> 
