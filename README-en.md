@@ -23,9 +23,9 @@ It has a unique cpu+gpu acceleration technology, that brings a significant boost
 <img src="http://www.aidlearning.net/showdoc/server/index.php?s=/api/attachment/visitFile/sign/846b7bfbf009ef144372943dc251c848&showdoc=.jpg"  width="960" />
 
 ## Usage
-The lastest version of release is in the link below (About 20MB):
+The lastest version of release is in the link below (About 388MB):
 
-[【AidLearning v0.87F3】](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/v0.87F3/aidv0.87F3.apk)
+[【AidLearning v0.90PRE】](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/0.90PRE/AidLux0.90PRE.apk)
 
 - [Install and Config](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
 - [Dev Docs](https://www.aidlearning.net/showdoc/web/#/5?page_id=23)
