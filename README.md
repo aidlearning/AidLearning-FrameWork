@@ -137,7 +137,7 @@ cd /home/examples-gpu
 ## 开始使用
 点击以下链接即可下载最新的安装包（约65M）：
 
-[【AidLux v0.88F0】](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/0.88F0/AidLux0.88F0.apk) [【国内镜像】](https://download.s21i.faiusr.com/23668748/0/0/ABUIABBKGAAgsdH_gQYo-PrV4wU?f=aidv0.87F3.apk&v=1614784689) 
+[【AidLux v0.90PRE】](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/0.90PRE/AidLux0.90PRE.apk) 
 
 - [安装配置](https://docs.aidlux.com/#/quickstart)
 - [开发文档](https://docs.aidlux.com/#/devdocs)
