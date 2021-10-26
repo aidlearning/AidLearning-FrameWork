@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://docs.aidlux.com/github//logo_1.png" width="100%" >
+  <img src="https://www.aidlux.com/github//logo_1.png" width="100%" >
   <br>
   AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
 </p>
@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 </p>
-[AidLux](https://www.aidlux.com) 是一个基于ARM构建，支持多生态融合（Android+Linux）环境的AI应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
+[AidLux](https://docs.aidlux.com) 是一个基于ARM构建，支持多生态融合（Android+Linux）环境的AI应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
 <img src="https://docs.aidlux.com/static/AidLux.png" alt="AidLux" width="100%">
 
 ## AidLux融合架构，实现多生态超级叠加 
