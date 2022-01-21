@@ -18,9 +18,8 @@
 
 It has a unique cpu+gpu acceleration technology, that brings a significant boost on performance of deep-learning algorithm by the built-in tflite_gpu module. At the same time, AidLearning also provides developers with popular development tools, such as VSCode and Jupyter Notebook.
 
-<img src="http://www.aidlearning.net/showdoc/server/index.php?s=/api/attachment/visitFile/sign/4a72d62cec051582170e99b3584da67c&showdoc=.jpg" width="960" />
-
-<img src="http://www.aidlearning.net/showdoc/server/index.php?s=/api/attachment/visitFile/sign/846b7bfbf009ef144372943dc251c848&showdoc=.jpg"  width="960" />
+<a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank"><img src="https://www.aidlux.com/github//aidlux.png" width="100%" ></a>
+<p align="center"><a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank">AidLux 1.0 is officially released! (Click to watch video ⬆️ 📺)</a></p>
 
 ## Usage
 The lastest version of release is in the link below (About 388MB):
