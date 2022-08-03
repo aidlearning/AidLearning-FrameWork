@@ -71,7 +71,7 @@ The AI programming platform part consists of a deep learning framework and a Pyt
 - [GPL 3.0](license.md)
 
 ## Acknowledgements
-Contributors：bill、flay、gondon、willam、gugu、yoline777、qidiso、yuge等。
+Contributors：bill、flay、gondon、willam、gugu、yoline777、qidiso、yuge、muzi_ys
 
 Repos list below：
 
@@ -91,3 +91,4 @@ Repos list below：
 * [ncnn](https://github.com/Tencent/ncnn)
 * [pytorch](https://github.com/pytorch/pytorch)
 * [opencv](https://github.com/opencv/opencv)
+* [macUI](https://github.com/1099438829/macUI)

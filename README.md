@@ -173,7 +173,7 @@ cd /home/examples-gpu
 - [GPL 3.0](license.md)
 
 ## 致谢
-AidLux参与人员：bill、flay、gondon、willam、gugu、yoline777、qidiso、yuge等。
+AidLux参与人员：bill、flay、gondon、willam、gugu、yoline777、qidiso、yuge、muzi_ys等。
 
 下列项目：
 
@@ -193,3 +193,4 @@ AidLux参与人员：bill、flay、gondon、willam、gugu、yoline777、qidiso�
 * [ncnn](https://github.com/Tencent/ncnn)
 * [pytorch](https://github.com/pytorch/pytorch)
 * [opencv](https://github.com/opencv/opencv)
+* [macUI](https://github.com/1099438829/macUI)
