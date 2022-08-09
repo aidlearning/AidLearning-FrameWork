@@ -18,7 +18,7 @@
 
 It has a unique cpu+gpu+npu(dsp) acceleration technology, that brings a significant boost on performance of deep-learning algorithm by the built-in aidlite module. At the same time, AidLearning also provides developers with popular development tools, such as VSCode and Jupyter Notebook.
 
-<a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank"><img src="https://www.aidlux.com/github//aidlux.png" width="100%" ></a>
+<a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank"><img src="https://docs.aidlux.com/intro/images/linux应用01.png" width="100%" ></a>
 <p align="center"><a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank">AidLux 1.0 is officially released! (Click to watch video ⬆️ 📺)</a></p>
 
 ## Usage
