@@ -30,32 +30,25 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 * 一部设备同时运行两个系统环境，既是一部Android设备，同时也是一部Linux设备。两个生态的资源优势可同时被加以利用。 
 
-<img src="https://aidlux.com/github/appcenter_all.png" alt="应用中心" width="100%"> 
-
 * 跨系统无缝交互，高效，安全，稳定。Android应用与Linux应用实现本地高效直接访问，无需外部接口（如网络），充分释放硬件效能。 Android负责用户交互，Linux负责服务支持的新型应用形态等待你的奇思妙想。
 
 * 针对已有应用（Android或Linux），可轻松获得跨系统功能支持，使应用功能更加强大，充分保护已有开发投入。 
 
 * 一键安装、自动部署、App式启动，过程快速、简单。 
 
-<img src="https://aidlux.com/github/deploy_start_desk.png" alt="应用中心" width="100%"> 
 
 ---
 
 ### 低AI开发门槛, 快速、简单、极致性能
 
 * 集成业界主流AI深度学习框架，无需配置，安装即用，极大的降低了AI开发和应用部署的环境配置复杂度，大幅减少了相关的时间投入。 框架支持如下：
-  |TensorFlow|PyTorch|Caffe|MXNet|Keras|MindSpore|PandlePandle|TNN|MNN|OpenCV|
+  |TensorFlow|PyTorch|Caffe|MXNet|Keras|MindSpore|PandlePandle|TNN|MNN|SNPE|
   |:---:|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
   |√|√|√|√|√|√|√|√|√|√| 
   
 * 内置创新性的CPU+GPU+NPU智能加速技术，通过“硬件+框架+Op"多层优化，赋予深度学习运算性能的大幅度提升。并且提供统一API接口，在方便开发者调用的同时，还支持不同AI框架模型自动转换。以下测试为基于相同ARM设备，在Linux、AidLux上测试获得。单项测试进行20次取耗时（纵轴）平均值。
 
-<img src="https://aidlux.com/github/pete_result.png" alt="性能对比图" width="100%"> 
-
 * 在Wizard中进行拖拽式AI应用开发，AI组件快速赋能，1分钟生成你的第一个AI应用！ 
-
-<img src="https://aidlux.com/github/wizard_ai.jpg" alt="Wizard" width="100%"> 
 
 * 内置丰富AI应用案例及对应代码，方便开发者能快速入门。通过AidLux桌面应用中心或以下命令安装例子： 
   
