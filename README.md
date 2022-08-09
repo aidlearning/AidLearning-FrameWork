@@ -73,31 +73,17 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 点击以下链接即可下载最新的安装包（约390M）：
 
 [【AidLux v1.2.1】](https://aidlux.com/apk/AidLux.apk) 
+- [双系统融合](https://aidlux.com/platform)
+- [AI工具链](https://aidlux.com/platform/core-technology)
+- [开发文档](https://docs.aidlux.com/)
+- [开发社区](https://community.aidlux.com)
+- [AI示例代码](https://aidlux.com/examples/#/)
 
-- [安装配置](https://docs.aidlux.com/#/intro/download)
-- [开发文档](https://docs.aidlux.com/#/intro/ai/ai-aidlite)
-- [AI应用案例中心](https://docs.aidlux.com/#/intro/ai/ai-examples-deploy)
-
-## 内置工具
-- [AidCode](https://docs.aidlux.com/#/tools?id=aidcode)
-- [Wizard](https://docs.aidlux.com/#/tools?id=wizard)
-- [文件管理器](https://docs.aidlux.com/#/tools?id=%e6%96%87%e4%bb%b6%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7-filebrowser)
-- [云桌面Cloud_ip](https://docs.aidlux.com/#/tools?id=%e4%ba%91%e6%a1%8c%e9%9d%a2cloud_ip)
-- [Blocky积木编程](https://docs.aidlux.com/#/tools?id=%e7%a7%af%e6%9c%a8%e7%bc%96%e7%a8%8b)
-- [Apkbuild](https://docs.aidlux.com/#/tools?id=apkbuildapk%e7%94%9f%e6%88%90%e5%b7%a5%e5%85%b7)
-- [Jupyter notebook](https://docs.aidlux.com/#/tools?id=jupyter)
-- [VSCode](https://docs.aidlux.com/#/tools?id=vscode)
-- [XFce4-Linux原生桌面](https://docs.aidlux.com/#/tools?id=xfce)
 
 ## 贡献与参与
 - [贡献代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
 - [系统扩展](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
 - [更新日志](https://docs.aidlux.com/#/changelog)
-
-## 交流与反馈
-
-- [AidLux官网](https://www.aidlux.com/) 
-- [AidLux官方论坛](https://community.aidlux.com/)
 
 <details>
 <summary>QQ交流群</summary>
