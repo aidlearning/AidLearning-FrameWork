@@ -50,8 +50,7 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 * 在Wizard中进行拖拽式AI应用开发，AI组件快速赋能，1分钟生成你的第一个AI应用！ 
 
-* 内置丰富AI应用案例及对应代码，方便开发者能快速入门。通过AidLux桌面应用中心可以安装例子： 
- 更多案例，请访问 [AI应用案例中心](https://docs.aidlux.com/#/examples) 
+* 内置丰富AI应用案例及对应代码，方便开发者能快速入门。
 
 ----
 
@@ -70,9 +69,9 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 
 ## 开始使用
-点击以下链接即可下载最新的安装包（约390M）：
-
+点击以下链接即可下载最新的安装包
 [【AidLux v1.2.1】](https://aidlux.com/apk/AidLux.apk) 
+
 - [双系统融合](https://aidlux.com/platform)
 - [AI工具链](https://aidlux.com/platform/core-technology)
 - [开发文档](https://docs.aidlux.com/)
@@ -81,6 +80,7 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 
 ## 贡献与参与
+
 - [贡献代码](https://www.aidlearning.net/showdoc/web/#/5?page_id=39)
 - [系统扩展](https://www.aidlearning.net/showdoc/web/#/5?page_id=38)
 - [更新日志](https://docs.aidlux.com/#/changelog)
