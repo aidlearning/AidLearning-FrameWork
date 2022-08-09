@@ -50,75 +50,17 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 * 在Wizard中进行拖拽式AI应用开发，AI组件快速赋能，1分钟生成你的第一个AI应用！ 
 
-* 内置丰富AI应用案例及对应代码，方便开发者能快速入门。通过AidLux桌面应用中心或以下命令安装例子： 
-  
-```
-aid install examples-gpu 
-#进入案例目录 
-cd /home/examples-gpu 
-```
-
-<table>
-<div style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_facemesh_c.gif" title="人脸关键点识别" alt="人脸关键点识别">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_pose_c.gif" title="肢体识别" alt="肢体识别">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_objectron_c.gif" title="3D检测" alt="3D检测">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-<img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_hair_recoloring_c.gif" title="头发识别" alt="头发识别">
-    </div>
-<div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-<img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_hand_tracking_c.gif" title="手势识别" alt="手势识别">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_face_detector_c.gif" title="人脸识别" alt="人脸识别">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/faceswap.png" title="换脸" alt="换脸">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://docs.aidlux.com/static/demo_object_detector.jpg" title="物体识别跟踪" alt="物体识别跟踪">
-    </div>
-    <div style="margin: 20px 0; flex: 1 1 33.33%; display: flex; justify-content: center; align-items: center;">
-      <img style="width: 330px;height: 410px;" src="https://aidlux.com/github/demo_persionseg_c.gif" title="人体抠图" alt="人体抠图">
-    </div>
-  </div>
-</table> 
-
-
-
-更多案例，请访问 [AI应用案例中心](https://docs.aidlux.com/#/examples) 
+* 内置丰富AI应用案例及对应代码，方便开发者能快速入门。通过AidLux桌面应用中心可以安装例子： 
+ 更多案例，请访问 [AI应用案例中心](https://docs.aidlux.com/#/examples) 
 
 ----
 
 ### 便携、开放、一站式
 * AidLux 云桌面系统，支持从PC, 平板, 手机等多种屏幕随时随地同时访问，实现你的超级移动开发平台。 快通过PC上的浏览器，输入云桌面地址，访问你手机上的AidLux桌面吧！
 
-<table>
-<div style="width: 100%; display: flex; justify-content: space-around; align-items: center;">
-<img style="width: 74%;" src="https://aidlux.com/github/desktop_mob.png" alt="Desktop 手机">
-<img style="width: 74%;" src="https://aidlux.com/github/desktop_pc.png" alt="Desktop PC">
-</div>
-</table> 
-
 * 海量外设轻松支持(网络、USB、串口、...)，创意空间无限扩展。 
 
-<table>
-<div style="width: 100%; display: flex; align-items: center;">
-<img style="width: 350px;margin: 0 10px;" src="https://aidlux.com/github/aid_arduino.png" alt="AidLux+Arduino">
-      <img style="width: 350px; margin: 0 20px;" src="https://aidlux.com/github/toy.png" alt="小车">
-      <img style="width: 350px;margin: 0 20px;" src="https://aidlux.com/github/demo_car_follow_c.gif" alt="跟随">
-  </div>
-</table> 
-
 * 支持VSCode, Jupyter notebook 等多种开源开发工具及Python, C/C++, Java, JavaScript等开发语言。 
-
-<img src="https://aidlux.com/github/aidcode.jpg" alt="AidCode" width="100%"> 
 
 * 一站式开发、测试、部署全流程支持，AidLux关注效率，您关注创意！ `ApkBuild`应用，可以快速将基于Python开发的项目打包成APK进行发布，方便用户在其它Android系统进行部署。
 
