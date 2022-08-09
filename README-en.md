@@ -16,7 +16,7 @@
 
 [AidLearning](http://www.aidlearning.net) is a mobile AI development platform that supports all mainstream development frameworks and tools for deep learning and neural networks.
 
-It has a unique cpu+gpu acceleration technology, that brings a significant boost on performance of deep-learning algorithm by the built-in tflite_gpu module. At the same time, AidLearning also provides developers with popular development tools, such as VSCode and Jupyter Notebook.
+It has a unique cpu+gpu+npu(dsp) acceleration technology, that brings a significant boost on performance of deep-learning algorithm by the built-in aidlite module. At the same time, AidLearning also provides developers with popular development tools, such as VSCode and Jupyter Notebook.
 
 <a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank"><img src="https://www.aidlux.com/github//aidlux.png" width="100%" ></a>
 <p align="center"><a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank">AidLux 1.0 is officially released! (Click to watch video ⬆️ 📺)</a></p>
