@@ -72,11 +72,11 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 ## 开始使用
 点击以下链接即可下载最新的安装包（约390M）：
 
-[【AidLux v0.90PRE】](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/0.90PRE/AidLux0.90PRE.apk) 
+[【AidLux v1.2.1】](https://aidlux.com/apk/AidLux.apk) 
 
-- [安装配置](https://docs.aidlux.com/#/quickstart)
-- [开发文档](https://docs.aidlux.com/#/devdocs)
-- [AI应用案例中心](https://docs.aidlux.com/#/examples)
+- [安装配置](https://docs.aidlux.com/#/intro/download)
+- [开发文档](https://docs.aidlux.com/#/intro/ai/ai-aidlite)
+- [AI应用案例中心](https://docs.aidlux.com/#/intro/ai/ai-examples-deploy)
 
 ## 内置工具
 - [AidCode](https://docs.aidlux.com/#/tools?id=aidcode)
