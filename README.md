@@ -18,7 +18,7 @@
 
 ## AidLux融合架构，实现多生态超级叠加 
 
-<img src="https://aidlux.com/github/arch.png" alt="AidLux融合架构" width="70%"> 
+<img src="https://aidlux.com/platform/double-system.png" alt="AidLux融合架构" width="70%"> 
 
 通过共享Android Linux kernel构建了完整的Linux系统环境，并且与Android系统环境同时提供用户访问。在为用户提供和原生Linux系统类似的命令行使用体验（如通过 `apt` 命令进行包管理）的同时，基于Web构建了图形化桌面环境，用户可以直接通过触摸屏或浏览器访问。 
 
