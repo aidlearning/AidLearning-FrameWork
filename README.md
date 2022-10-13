@@ -1,5 +1,5 @@
 <a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank"><img src="https://community.aidlux.com/_nuxt/img/logo1.9883420.svg" width="100%" ></a>
-<p align="center"><a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank">AidLux 1.0 正式发布！(观看视频⬆️📺)</a></p>
+<p align="center"><a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank">AidLux 1.3 正式发布！(观看视频⬆️📺)</a></p>
 <p align="center">
   AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
 </p>
@@ -70,7 +70,7 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 
 ## 开始使用
 点击以下链接即可下载最新的安装包
-[【AidLux v1.2.1】](https://aidlux.com/apk/AidLux.apk) 
+[【AidLux v1.3.0】](https://aidlux.com/apk/AidLux.apk) 
 
 - [双系统融合](https://aidlux.com/platform)
 - [AI工具链](https://aidlux.com/platform/core-technology)
