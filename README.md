@@ -1,4 +1,4 @@
-<a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank"><img src="https://docs.aidlux.com/intro/ai/desktop_1.png" width="100%" ></a>
+<a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank"><img src="https://aidlux.com/logo.svg" width="100%" ></a>
 <p align="center"><a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank">AidLux 1.3 正式发布！(观看视频⬆️📺)</a></p>
 <p align="center">
   AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
