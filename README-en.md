@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://community.aidlux.com/_nuxt/img/logo1.9883420.svg"  width="900">
+  <img src="https://aidlux.com/logo.svg"  width="900">
   <br>
   Linux, AI, Python, GUI: 4-in-1 Environments Running on Android. <a href='README.md'>[中文版]</a> [English]
 </p>
