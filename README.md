@@ -1,4 +1,4 @@
-<a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank"><img src="https://aidlux.com/logo.svg" width="100%" ></a>
+<p align="center"><a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank"><img src="https://aidlux.com/logo.svg" width="50%" height="50%"></a></p>
 <p align="center"><a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank">AidLux 1.3 正式发布！(观看视频⬆️📺)</a></p>
 <p align="center">
   AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
@@ -14,11 +14,11 @@
 <img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
 </p>
 [AidLux](https://docs.aidlux.com) 是一个基于ARM构建，同时支持多生态融合（Android+Linux）环境的AI应用开发和部署平台，为开发者带来强大、简单、无限创意可能的奇妙体验！ 
-<img src="https://docs.aidlux.com/intro/images/linux应用01.png" alt="AidLux" width="100%">
+<p align="center"><img src="https://docs.aidlux.com/intro/images/linux应用01.png" alt="AidLux" width="75%" height="75%"></p>
 
 ## AidLux融合架构，实现多生态超级叠加 
 
-<img src="https://aidlux.com/platform/double-system.png" alt="AidLux融合架构" width="70%"> 
+<p align="center"><img src="https://aidlux.com/platform/double-system.png" alt="AidLux融合架构" width="50%" height="50%"></p>
 
 通过共享Android Linux kernel构建了完整的Linux系统环境，并且与Android系统环境同时提供用户访问。在为用户提供和原生Linux系统类似的命令行使用体验（如通过 `apt` 命令进行包管理）的同时，基于Web构建了图形化桌面环境，用户可以直接通过触摸屏或浏览器访问。 
 
