@@ -42,7 +42,7 @@ AidLux补全了AI运行所需的所有基础科学计算包/库，支持了业�
 ### 低AI开发门槛, 快速、简单、极致性能
 
 * 集成业界主流AI深度学习框架，无需配置，安装即用，极大的降低了AI开发和应用部署的环境配置复杂度，大幅减少了相关的时间投入。 框架支持如下：
-  |TensorFlow|PyTorch|Caffe|MXNet|Keras|MindSpore|PandlePandle|TNN|MNN|SNPE|
+  |TensorFlow|PyTorch|Caffe|MXNet|Keras|MindSpore|PaddlePaddle|TNN|MNN|SNPE|
   |:---:|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
   |√|√|√|√|√|√|√|√|√|√| 
   
