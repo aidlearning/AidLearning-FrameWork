@@ -132,7 +132,7 @@ Compiled from community feedback to help you avoid pitfalls:
 *   **Official Forum**: [AidLux Developer Community (Latest Tutorials & Q&A)](https://forum.aidlux.com)
 *   **Technical Docs**: [AidLux Documentation Center (Includes Rhino Pi guides)](https://rhinopi.docs.aidlux.com)
 *   **Model Farm**: [ModelFarm (400+ Optimized Models)](https://aiot.aidlux.com/en/models)
-*   **Case Center**: Includes实战 tutorials for YOLOv12 deployment, MobileClip2-S3, and SAM2 、qwen3-vl deployment.
+*   **Case Center**: Includes tutorials for YOLOv12 deployment, MobileClip2-S3, and SAM2 、qwen3-vl deployment.
 
 ---
 
