@@ -1,177 +1,116 @@
-# AidLux - ARM架构跨生态AIoT开发与部署平台
+# 🚀 AidLux - ARM 架构端侧 AIoT 融合开发平台
 
-[
+[![Release](https://img.shields.io/badge/Version-2.1.0-green)](https://github.com/aidlux/AidLux)
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20HarmonyOS%20%7C%20HyperOS-orange)]()
 
+**AidLux** 是一个基于 ARM 架构的跨生态（Android/HarmonyOS + Linux）一站式 AIoT 应用开发和部署平台。它打破了 Android 与 Linux 的生态壁垒，让你可以在 Android 手机、平板或边缘计算设备上，同时获得原生的 Linux 桌面环境和 AI 开发能力。
 
+> **核心理念**：持续降低 AI 应用开发门槛，实现端侧 AI 算力的一键释放。
 
-](LICENSE)
-[
+## 📢 最新动态 (AidLux 2.1.0)
 
+**发布日期**：2026年3月20日
+**Build ID**：2.1.0.1968
 
-
-](https://www.aidlux.com)
-
-**AidLux** 是一个创新的融合操作系统，旨在解决Android与Linux生态割裂问题，为开发者提供在ARM设备（如高通芯片）上同时运行Android应用和LinuxAI算法的原生环境。
-
-## 🚀 核心优势
-
-### 1. 独创融合架构
-
-- **原生体验**：在一台设备上同时获得Android和Linux的原生开发体验，无需虚拟机或双系统切换
-- **生态互补**：打通Android丰富的应用生态（摄像头、传感器、UI框架）与Linux强大的AI生态（Python, OpenCV, ROS）
-
-### 2. 极致性能调度
-
-- **异构计算**：通过极致性能AI工具链，一键释放SoC的AI算力
-- **全栈调度**：综合调度CPU + GPU + NPU，支持高通等ARM架构芯片，实现高性能低功耗的端侧推理
-
-### 3. 开箱即用
-
-- **软硬一体**：提供从操作系统到底层驱动的完整解决方案，支持"开箱即用"的工业级部署
-- **模型支持**：支持多种主流框架模型的优化和转换，解决芯片及算法异构问题
-
-## 🛠️ 工具链介绍
-
-### AidLux OS
-
-融合操作系统，集成极致性能AI工具链，作为基础运行环境，释放SoC算力
-
-### AI Model Optimizer
-
-**模型优化平台**
-
-- 支持多种主流框架模型优化与转换
-- 菜单式一键操作，零代码实现模型迁移
-- 精度损失小
-
-### AI Creator
-
-**可视化训练平台**
-
-- 集标注、训练、部署于一体
-- 基于行业领先正样本算法
-- 快速完成模型训练与更新
-
-### 端侧AI生态门户
-
-全球首个高通物联网平台端侧AI生态门户，包含解决方案中心 + 模型广场
-
-## 💡 适用领域
-
-- 🤖 **智能机器人**：具身智能、服务机器人
-- 🏭 **工业AI检测**：缺陷检测、自动化质检
-- 🏙️ **智慧城市**：安防、停车管理
-- 📱 **边缘计算与AI教育**
-
-## 📦 安装与使用
-
-### 系统要求
-
-- Android 7.0及以上版本
-- ARM架构处理器（推荐高通芯片）
-- 至少2GB RAM
-
-### 安装步骤
-
-1. **下载AidLux APK**
-
-```
-# 从官网下载最新版本
-wget https://www.aidlux.com/download/aidlux-latest.apk
-```
-
-2. **安装应用**
-
-```
-adb install aidlux-latest.apk
-```
-
-3. **启动服务**
-
-```
-# 通过Android Intent启动
-am start -n com.aplux.aidlux/.MainActivity
-```
-
-4. **访问Linux环境**
-    - 本地访问：直接在手机上使用
-    - 远程访问：通过浏览器访问 `http://<device-ip>:8080`
-
-### 基本使用
-
-```
-# 进入Linux终端
-aidlux terminal
-
-# 安装AI框架
-sudo apt update
-sudo apt install python3-pip
-pip3 install tensorflow pytorch
-
-# 运行Python程序
-python3 your_ai_app.py
-```
-
-## 🧪 开发示例
-
-### 运行AI模型
-
-```
-import cv2
-import tensorflow as tf
-
-# 直接调用手机硬件资源
-cap = cv2.VideoCapture(0)  # 使用手机摄像头
-model = tf.keras.models.load_model('your_model.h5')
-
-while True:
-    ret, frame = cap.read()
-    prediction = model.predict(frame)
-    # 处理预测结果
-```
-
-### 多语言开发支持
-
-- **Python**：`python3`, `pip3`
-- **C/C++**：`gcc`, `g++`, `make`
-- **Java**：`openjdk-11-jdk`
-- **Go**：`golang`
-- **Shell**：`bash`, `zsh`
-
-## 🧰 开发工具
-
-- **VSCode**：集成开发环境
-- **Jupyter Notebook**：交互式编程
-- **Terminal**：完整的Linux命令行
-- **File Manager**：图形化文件管理
-
-## 📚 学习资源
-
-- **官方文档**：https://www.aidlux.com/docs
-- **开发者社区**：https://forum.aidlux.com
-- **示例项目**：https://github.com/aidlux/examples
-
-## 🤝 贡献指南
-
-欢迎开发者贡献代码和文档！
-
-1. Fork本仓库
-2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交你的更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开Pull Request
-
-## 📄 许可证
-
-本项目采用Apache License 2.0，详情请查看LICENSE文件。
-
-## 📬 联系方式
-
-- **官网**：https://www.aidlux.com
-- **邮箱**：support@aidlux.com
-- **GitHub**：https://github.com/aidlux
+*   **全新桌面环境**：默认桌面环境由 Xfce 升级为 **Ubuntu-desktop**，提供更现代、更完整的 Linux 桌面体验。
+*   **硬件支持扩展**：**AidLite SDK** 现已正式支持 **Snapdragon 8 Gen 3** 及以上最新芯片组。
+*   **AI 引擎升级**：集成更新的 **QNN (Qualcomm Neural Network)** 版本，并优化了底层推理逻辑 (AidQNN)。
+*   **功能增强**：
+    *   重构并扩展了 WiFi 管理功能。
+    *   优化了 Linux 环境的安装与更新逻辑，修复了部分更新问题。
+    *   应用中心安装 APK 的初始目录指定为 AidLux 内部空间，提升安全性。
+    *   **Aid-Desktop** 界面交互与易用性全面优化。
 
 ---
 
-**AidLux** - 让AI开发更简单，让边缘计算更强大！
+## 🌟 核心优势
 
+### 1. 独创的融合架构 (Fusion Architecture)
+*   **原生共存**：共享 Linux 内核，实现 Android (HarmonyOS) 与 Linux 的原生融合，无需虚拟机或双系统重启。
+*   **生态互补**：无缝调用 Android 的硬件驱动（摄像头、传感器、GPS）与 Linux 的 AI 软件栈（Python, ROS, OpenCV）。
+
+### 2. 极致的端侧算力调度
+*   **异构计算**：通过 AidLite SDK 一键调度 CPU + GPU + NPU。
+*   **高性能低功耗**：针对高通 (Qualcomm) 系列芯片进行了深度优化，支持 INT8/FP16 量化加速。
+
+### 3. 全场景 AI 开发支持
+*   **大模型端侧部署**：支持端侧大模型（LLM/VLM）的量化与推理，如 Qwen3、Stable Diffusion 等。
+*   **机器人开发**：原生集成 ROS/ROS2，支持 MoveIt2 和 Gazebo，是具身智能开发的理想平台。
+
+---
+
+## 🛠️ 核心工具链与开发环境
+
+AidLux 提供了一站式的开发工具，覆盖从代码编写到模型部署的全流程。
+
+### 🧪 AidCode - 交互式 Python IDE
+*   **功能**：专为端侧 AI 开发设计的代码编辑器。
+*   **特性**：
+    *   支持 Python 语法高亮、代码补全。
+    *   内置交互式终端，支持一键运行 (`Run Now`) 和停止代码。
+    *   支持直接调用 Android API（如语音播报 `droid.ttsSpeak`）。
+
+### 🐍 完整的 Linux 终端 (AidTerminal)
+*   **功能**：提供与原生 Ubuntu 系统一致的命令行体验。
+*   **特性**：
+    *   **Touch Bar**：底部定制化触控栏，包含 `Ctrl`, `Alt`, `Tab` 等组合键，完美适配手机/平板触屏。
+    *   **多终端**：支持同时开启多个终端标签页，互不干扰。
+    *   **键盘映射**：支持外接键盘和触屏软键盘切换。
+
+### 📦 应用中心 (App Center)
+*   **功能**：管理 AidLux 生态下的应用。
+*   **特性**：
+    *   **双生态应用**：既可安装 Linux 原生应用（如 VSCode, Firefox），也可将 Android 应用添加到桌面使用。
+    *   **一键安装**：简化了复杂软件的依赖安装过程。
+
+### 🤖 AI 与机器人工具
+*   **AidGen / AidGenSE**：生成式 AI 推理工具与 HTTP 服务，支持 RAG 服务部署。
+*   **AidStream**：高性能音视频流处理框架，支持 USB 摄像头推拉流。
+*   **ROS2 Humble**：预装机器人操作系统，支持激光雷达、机械臂等外设开发。
+
+---
+
+## 📂 文件系统结构
+
+AidLux 对 Android 存储进行了标准化映射，方便开发者进行文件管理：
+
+| 目录路径 | 描述 | 说明 |
+| :--- | :--- | :--- |
+| `/home/aidlux` | **工作目录** | 默认的代码和项目存放位置，**唯一支持文件上传的目录**。 |
+| `/sdcard` | **设备存储** | 对应 Android 的内部存储，存放图片 (`DCIM`)、下载文件等。 |
+| `/media/sdi1` | **外接存储** | 识别并挂载的 U 盘或移动硬盘目录。 |
+| `/opt` | **系统应用** | 存放预装的 SDK 和核心系统库。 |
+
+---
+
+## 🚀 快速开始
+
+### 1. 安装环境
+*   **支持系统**：Android, HarmonyOS, Xiaomi HyperOS
+*   **硬件架构**：ARM64 位设备 (支持 Snapdragon 8 Gen 3, 865, 6490 等)
+
+### 2. 安装方式
+*   **应用商店**：华为、联想设备可直接在应用商店搜索 "AidLux" 下载。
+*   **手动安装**：
+    1.  下载 APK：[aidlux_2.1.0_latest_release.apk](https://file.aidlux.com/repo/apk/aidlux_2.1.0_latest_release.apk)
+    2.  安装后首次启动需联网配置 Linux 环境（约 1-3 分钟）。
+
+### 3. 开发流程
+1.  **连接**：通过浏览器 Web 端或本地桌面进入 AidLux。
+2.  **编码**：使用 `AidCode` 编写 Python 脚本。
+3.  **运行**：直接调用 `AidStream` 捕获摄像头画面，或使用 `AidLite` 加载 ONNX/TensorFlow 模型进行推理。
+4.  **部署**：将应用打包或直接在端侧运行。
+
+---
+
+## 📚 学习资源
+
+*   **官方论坛**：[AidLux 开发者社区](https://forum.aidlux.com)
+*   **技术文档**：[AidLux 文档中心](https://rhinopi.docs.aidlux.com)
+*   **案例中心**：包含 YOLOv5 部署、MobileClip2-S3、SAM2 部署等实战教程。
+
+---
+
+## 🏷️ 标签
+#端侧AI #AIoT #AndroidLinux #高通AI #大模型部署 #ROS #Python #开源
