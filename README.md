@@ -4,7 +4,6 @@
   AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
 </p>
 <p align="center">
-  <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
   <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
   <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
   <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases">
