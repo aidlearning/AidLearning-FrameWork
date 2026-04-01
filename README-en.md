@@ -1,94 +1,157 @@
-<p align="center">
-  <img src="https://aidlux.com/logo.svg"  width="900">
-  <br>
-  Linux, AI, Python, GUI: 4-in-1 Environments Running on Android. <a href='README.md'>[中文版]</a> [English]
-</p>
-<p align="center">
-  <a href="https://travis-ci.org/lc-soft/LCUI"><img src="https://travis-ci.org/lc-soft/LCUI.png?branch=master" alt="Build Status"></a>
-  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage Status">
-  <a href="http://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/lc-soft/LCUI.svg" alt="License"></a>
-  <a href="https://github.com/aidlearning/AidLearning-FrameWork/releases">
-  <img src="https://img.shields.io/github/v/tag/aidlearning/AidLearning-FrameWork" > </a>
-<img src="https://img.shields.io/github/forks/aidlearning/AidLearning-FrameWork?style=flat" alt="Fork">
-<img src="https://img.shields.io/github/stars/aidlearning/AidLearning-FrameWork?style=flat" alt="star">
-<img src="https://img.shields.io/github/last-commit/aidlearning/AidLearning-FrameWork?style=plastic" alt="commit">
-</p>
+# 🚀 AidLux - ARM Architecture Edge AIoT Fusion Development Platform
 
-[AidLearning](http://www.aidlearning.net) is a mobile AI development platform that supports all mainstream development frameworks and tools for deep learning and neural networks.
+**AidLux** is a cross-ecosystem (Android/HarmonyOS + Linux) one-stop AIoT application development and deployment platform based on ARM architecture. It breaks the ecological barriers between Android and Linux, allowing you to simultaneously obtain native Linux desktop environment and AI development capabilities on Android phones, tablets, or edge computing devices.
 
-It has a unique cpu+gpu+npu(dsp) acceleration technology, that brings a significant boost on performance of deep-learning algorithm by the built-in aidlite module. At the same time, AidLearning also provides developers with popular development tools, such as VSCode and Jupyter Notebook.
+**Core Concept**: Continuously lower the threshold of AI application development and achieve one-click release of edge AI computing power.
 
-<a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank"><img src="https://docs.aidlux.com/intro/ai/desktop_1.png" width="100%" ></a>
-<p align="center"><a href="https://www.youtube.com/watch?v=VaG12AsujNE&t=5s" target="_blank">AidLux 1.0 is officially released! (Click to watch video ⬆️ 📺)</a></p>
+## 📢 Latest Updates (AidLux 2.1.0)
 
-## Usage
-The lastest version of release is in the link below (About 388MB):
+**Release Date**: March 20, 2026
+**Build ID**: 2.1.0.1968
 
-[【AidLearning v0.90PRE】](https://github.com/aidlearning/AidLearning-FrameWork/releases/download/0.90PRE/AidLux0.90PRE.apk)
+- **New Desktop Environment**: Default desktop environment upgraded from Xfce to **Ubuntu-desktop**, providing a more modern and complete Linux desktop experience.
+- **Hardware Support Expansion**: **AidLite SDK** now officially supports **Snapdragon 8 Gen 3** and above latest chipsets.
+- **AI Engine Upgrade**: Integrated updated **QNN (Qualcomm Neural Network)** version with optimized底层推理 logic (AidQNN).
+- **Feature Enhancements**:
+    - Reconstructed and expanded WiFi management functions.
+    - Optimized Linux environment installation and update logic, fixing some update issues.
+    - Specified internal storage of AidLux as the initial directory for APK installation in the application center, enhancing security.
+    - **Aid-Desktop** interface interaction and usability comprehensively optimized.
 
-- [Install and Config](https://www.aidlearning.net/showdoc/web/#/5?page_id=26)
-- [Dev Docs](https://www.aidlearning.net/showdoc/web/#/5?page_id=23)
-- [Sample Code](https://www.aidlearning.net/showdoc/web/#/5?page_id=40)
+---
 
-## Architecture
+## 🌟 Core Advantages
 
-There're two parts of the AidLearning framework: the Linux environment and the AI programming platform.
+### 1. Innovative Fusion Architecture
 
-The Linux environment is composed of Terminal and Desktop. A complete Linux environment on Android is built underlying Linux kernel and busybox command package. Similar to the original Linux system, users can install any dependency package through `apt` command. Also, a graphical operating desktop based on web is provided for users, which can help them operate directly through touching screen.
+- **Native Coexistence**: Shares Linux kernel to achieve native fusion of Android (HarmonyOS) and Linux, without virtual machines or dual system restart.
+- **Ecosystem Complementarity**: Seamlessly calls Android hardware drivers (camera, sensors, GPS) and Linux AI software stack (Python, ROS, OpenCV).
 
-AidLearning also provides a cloud desktop function, which means the mobile device is accessable via LAN for computers with Aidlearning Framework.
+### 2. Ultimate Edge Computing Power Scheduling
 
-The AI programming platform part consists of a deep learning framework and a Python visual programming framework. AidLearning contains all the current mainstream deep learning frameworks, which are responsible for model loading, scheduling of computational graphs, memory allocation for each computation, and Op implementation. Mean while, a python visualization development platform, which can run and debug Python code in real time, is created for developers. They can design the app's interface, compile and package it with one click, and quickly develop AI applications through AidLearning's built-in [apk dev-tools](https://www.aidlearning.net/showdoc/web/#/5?page_id=31).
+- **Heterogeneous Computing**: One-click scheduling of CPU + GPU + NPU through AidLite SDK.
+- **High Performance & Low Power**: Deeply optimized for Qualcomm series chips, supporting INT8/FP16 quantization acceleration.
 
-## Built-in Tools
-- [AidCode](https://docs.aidlux.com/)
-- [File Manager](https://docs.aidlux.com/)
-- [icloud](https://docs.aidlux.com/)
-- [Blocky](https://docs.aidlux.com/)
-- [Service](https://docs.aidlux.com/)
-- [Apkbuild](https://docs.aidlux.com/)
-- [Jupyter notebook](https://docs.aidlux.com/)
-- [X Mode](https://docs.aidlux.com/)
-- [VSCode](https://docs.aidlux.com/)
-- [XFce4](https://docs.aidlux.com/)
+### 3. Full-Scenario AI Development Support
 
-## Contribution to AidLearning
-- [Code Contributions](https://docs.aidlux.com/)
-- [System Extends](https://docs.aidlux.com/)
-- [Update Logs](https://docs.aidlux.com/)
+- **Edge Large Model Deployment**: Supports quantization and inference of edge large models (LLM/VLM) such as Qwen3, Stable Diffusion.
+- **Robotics Development**: Natively integrated ROS/ROS2, supporting MoveIt2 and Gazebo, ideal platform for embodied intelligence development.
 
-## Community & Feedback
+---
 
-- [AidLearning Official Website](http://www.aidlearning.net) 
-- [AidLearning Forum](http://new.aidlearning.net/)
+## 🛠️ Core Toolchain & Development Environment
 
-<details>
-<summary>Groupchat in QQ</summary>
-<img src="https://i.loli.net/2020/04/11/TtfxFj2rnkB7ZVM.png" height="256"/>
-</details>
+AidLux provides an all-in-one development tool covering the entire process from code writing to model deployment.
 
-## License
-- [GPL 3.0](license.md)
+### 🧪 AidCode - Interactive Python IDE
 
-## Acknowledgements
-Contributors：bill、flay、gondon、willam、gugu、yoline777、qidiso、yuge、muzi_ys
+- **Function**: Code editor designed specifically for edge AI development.
+- **Features**:
+    - Supports Python syntax highlighting and code completion.
+    - Built-in interactive terminal with one-click run (`Run Now`) and stop functions.
+    - Supports direct calling of Android APIs (such as voice broadcast `droid.ttsSpeak`).
 
-Repos list below：
+### 🐍 Complete Linux Terminal (AidTerminal)
 
-* VTE (libvte): Terminal emulator widget for GTK+, mainly used in gnome-terminal. [Source](https://github.com/GNOME/vte), [Open Issues](https://bugzilla.gnome.org/buglist.cgi?quicksearch=product%3A%22vte%22+), and [All (including closed) issues](https://bugzilla.gnome.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&chfield=resolution&chfieldfrom=-2000d&chfieldvalue=FIXED&product=vte&resolution=FIXED).
-* iTerm 2: OS X terminal application. [Source](https://github.com/gnachman/iTerm2), [Issues](https://gitlab.com/gnachman/iterm2/issues) and [Documentation](http://www.iterm2.com/documentation.html) (which includes [iTerm2 proprietary escape codes](http://www.iterm2.com/documentation-escape-codes.html)).
-* Konsole: KDE terminal application. [Source](https://projects.kde.org/projects/kde/applications/konsole/repository), in particular [tests](https://projects.kde.org/projects/kde/applications/konsole/repository/revisions/master/show/tests), [Bugs](https://bugs.kde.org/buglist.cgi?bug_severity=critical&bug_severity=grave&bug_severity=major&bug_severity=crash&bug_severity=normal&bug_severity=minor&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=konsole) and [Wishes](https://bugs.kde.org/buglist.cgi?bug_severity=wishlist&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=konsole).
-* hterm: JavaScript terminal implementation from Chromium. [Source](https://github.com/chromium/hterm), including [tests](https://github.com/chromium/hterm/blob/master/js/hterm_vt_tests.js), and [Google group](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-hterm).
-* xterm: The grandfather of terminal emulators. [Source](http://invisible-island.net/datafiles/release/xterm.tar.gz).
-* Connectbot: Android SSH client. [Source](https://github.com/connectbot/connectbot)
-* Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).
-* Termux: Android terminal and Linux environment - app repository. [Source](https://github.com/termux/termux-app).
-* remi:Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.[Source](https://github.com/dddomodossola/remi).
-* [Caffe](https://github.com/BVLC/caffe)
-* [Tensorflow](https://github.com/tensorflow/tensorflow)
-* [Mxnet](https://github.com/apache/incubator-mxnet)
-* [Keras](https://github.com/keras-team/keras)
-* [ncnn](https://github.com/Tencent/ncnn)
-* [pytorch](https://github.com/pytorch/pytorch)
-* [opencv](https://github.com/opencv/opencv)
-* [macUI](https://github.com/1099438829/macUI)
+- **Function**: Provides command-line experience consistent with native Ubuntu systems.
+- **Features**:
+    - **Touch Bar**: Bottom customized touch bar with `Ctrl`, `Alt`, `Tab` and other combination keys, perfectly adapted to mobile/tablet touch screens.
+    - **Multi-terminal**: Supports opening multiple terminal tabs simultaneously without interference.
+    - **Keyboard Mapping**: Supports switching between external keyboards and on-screen soft keyboards.
+
+### 📦 Application Center
+
+- **Function**: Manages applications in the AidLux ecosystem.
+- **Features**:
+    - **Dual-ecosystem Applications**: Can install both native Linux applications (like VSCode, Firefox) and add Android applications to the desktop.
+    - **One-click Installation**: Simplifies dependency installation process for complex software.
+
+### 🤖 AI & Robotics Tools
+
+- **AidGen / AidGenSE**: Generative AI inference tools and HTTP services, supporting RAG service deployment.
+- **AidStream**: High-performance audio/video streaming framework supporting USB camera push/pull streaming.
+- **ROS2 Humble**: Pre-installed robotics operating system supporting peripherals like LiDAR and robotic arms.
+
+---
+
+## 🏷️ Model Zoo & Ecosystem Resources
+
+AidLux is not just a development environment, but also the world's first **Qualcomm IoT Platform Edge AI Ecosystem Portal**. We provide abundant ready-made resources to help you seamlessly transition from "idea" to "deployment".
+
+### 🏷️ Model Zoo
+
+We offer over **400+** mainstream AI models covering computer vision, speech audio, natural language processing, and multimodal fields.
+
+- **Plug-and-Play**: All models are deeply optimized, supporting one-click download and deployment.
+- **Real-device Benchmark Data**: Provides detailed performance metrics, allowing you to clearly understand model performance on different Qualcomm platforms (like QCS8550, QCS6490).
+- **Popular Models**:
+    - **Object Detection**: YOLOv8 (s/m/n), YOLOv5
+    - **Segmentation & Tracking**: SAM2, MobileSAM
+    - **Classification & Recognition**: MobileNet, ResNet, MobileClip
+    - **Generative AI**: Stable Diffusion, Qwen-VL (multimodal large models)
+
+### ⚡ Rapid Deployment Tools
+
+Through the built-in **MMS (Model Management System)** tool, developers can directly pull models from the command line:
+
+```
+# Login to Model Zoo
+mms login -u <username> -p <password>
+
+# Search models
+mms list yolov8
+
+# One-click download models optimized for specific chips (e.g., QCS8550, INT8 precision)
+mms get -m yolov8m -p int8 -c qcs8550 -b qnn2.36
+```
+
+---
+
+## 📂 File System Structure
+
+AidLux standardizes Android storage mapping for convenient file management:
+
+| Directory Path | Description | Notes |
+| ------ |------ |------ |
+| `/home/aidlux` | **Working Directory** | Default location for code and projects, **the only directory supporting file upload**. |
+| `/sdcard` | **Device Storage** | Corresponds to Android internal storage, storing images (`DCIM`), downloads, etc. |
+| `/media/sdi1` | **External Storage** | Recognized and mounted USB drives or external hard disk directories. |
+| `/opt` | **System Applications** | Stores pre-installed SDKs and core system libraries. |
+
+---
+
+## 🚀 Quick Start
+
+### Environment Requirements
+
+- **Supported Systems**: Android, HarmonyOS, Xiaomi HyperOS
+- **Hardware Architecture**: ARM64 devices (supports Snapdragon 8 Gen 3, 865, 6490, etc.)
+
+### Installation Methods
+
+1. **App Store**: Huawei, Lenovo devices can directly search "AidLux" in the app store.
+2. **Manual Installation**:
+    - Download APK: AidLux 2.1.0 Latest Release
+    - First launch after installation requires network configuration of Linux environment (about 1-3 minutes).
+
+### Development Workflow
+
+1. **Connect**: Access AidLux through browser web interface or local desktop.
+2. **Code**: Use `AidCode` to write Python scripts.
+3. **Run**: Directly call `AidStream` to capture camera footage, or use `AidLite` to load ONNX/TensorFlow models for inference.
+4. **Deploy**: Package applications or run directly on edge devices.
+
+---
+
+## 📚 Learning Resources
+
+- **Official Forum**: AidLux Developer Community
+- **Technical Documentation**: AidLux Documentation Center
+- **Case Center**: Practical tutorials including YOLOv5 deployment, MobileClip2-S3, SAM2 deployment, etc.
+
+---
+
+## 🏷️ Tags
+
+#EdgeAI #AIoT #AndroidLinux #QualcommAI #LargeModelDeployment #ROS #Python #OpenSource
+
