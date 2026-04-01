@@ -1,5 +1,5 @@
 <a href="https://www.bilibili.com/video/BV1p3411x7iX" target="_blank"><img src="https://aidlux.com/logo.svg" width="100%" ></a>
-<p align="center"><a href="https://file.aidlux.com/repo/apk/aidlux_2.1.0_latest_release.apk" target="_blank">AidLux 2.1 正式发布！</a></p>
+<p align="center"><a href="https://file.aidlux.com/repo/apk/aidlux_2.1.0_latest_release.apk" target="_blank">AidLux 2.1 正式发布！（https://file.aidlux.com/repo/apk/aidlux_2.1.0_latest_release.apk）</a></p>
 <p align="center">
   AI，Android，Linux，ARM：基于Android+Linux融合生态的AI应用开发平台。 <a href='README-en.md'>[English]</a>
 </p>
