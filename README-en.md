@@ -1,5 +1,7 @@
 # 🚀 AidLux - Edge AIoT Fusion Development Platform <a href='README.md'>[中文版]</a>
 
+AidLux: The AI Swiss Army Knife for your phone. Run native Ubuntu and deploy LLMs, VLMs, VLAs, and OpenClaw locally—all in one device.
+
 [![Release](https://img.shields.io/badge/Version-2.1.0-green)](https://github.com/aidlux/AidLux)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20HarmonyOS%20%7C%20HyperOS-orange)]()
