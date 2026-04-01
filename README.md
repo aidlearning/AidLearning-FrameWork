@@ -1,4 +1,4 @@
-# 🚀 AidLux（原aidlearning） - 端侧 AIoT 融合开发平台
+# 🚀 AidLux（原aidlearning） - 端侧 AIoT 融合开发平台 英文（README-en.md）
 
 [![Release](https://img.shields.io/badge/Version-2.1.0-green)](https://github.com/aidlux/AidLux)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
