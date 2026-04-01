@@ -6,7 +6,7 @@
 
 **AidLux** is a one-stop AIoT application development and deployment platform based on the ARM architecture, bridging the Android/HarmonyOS and Linux ecosystems. It breaks the ecological barrier between Android and Linux, allowing you to simultaneously access a native Linux desktop environment and powerful AI development capabilities on Android phones, tablets, or edge computing devices.
 
-> **Core Philosophy**: Continuously lower the门槛 for AI application development and achieve one-click release of edge AI computing power.
+> **Core Philosophy**: Continuously lower the barrier for AI application development and achieve one-click release of edge AI computing power.
 
 ---
 
