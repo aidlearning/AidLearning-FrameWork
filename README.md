@@ -1,5 +1,7 @@
 # 🚀 AidLux（原aidlearning） - 端侧 AIoT 融合开发平台 <a href='README-en.md'>[English]</a>
 
+AidLux：掌上的 AI 瑞士军刀。在手机上运行原生 Ubuntu，本地部署 LLM、VLM、VLA 与 OpenClaw，全能开发一机搞定。
+
 [![Release](https://img.shields.io/badge/Version-2.1.0-green)](https://github.com/aidlux/AidLux)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20HarmonyOS%20%7C%20HyperOS-orange)]()
