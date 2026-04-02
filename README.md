@@ -1,4 +1,4 @@
-# 🚀 AidLux（ori：AidLearning） - 端侧 AIoT 融合开发平台 <a href='README-en.md'>[English]</a>
+# 🚀 AidLux（ori：AidLearning） - 手机上跑大模型的瑞士军刀 <a href='README-en.md'>[English]</a>
 
 AidLux：掌上的 AI 瑞士军刀。在手机上运行原生 Ubuntu，本地部署 LLM、VLM、VLA 与 OpenClaw，全能开发一机搞定。
 
