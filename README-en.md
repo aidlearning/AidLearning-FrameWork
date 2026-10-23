@@ -3,7 +3,7 @@
 AidLux: The AI Swiss Army Knife for your phone. Run native Ubuntu and deploy LLMs, VLMs, VLAs, and OpenClaw locally—all in one device.
 
 [![Release](https://img.shields.io/badge/Version-2.1.0-green)](https://github.com/aidlux/AidLux)
-[![License](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](license.md)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20HarmonyOS%20%7C%20HyperOS-orange)]()
 
 **AidLux** is a one-stop AIoT application development and deployment platform based on the ARM architecture, bridging the Android/HarmonyOS and Linux ecosystems. It breaks the ecological barrier between Android and Linux, allowing you to simultaneously access a native Linux desktop environment and powerful AI development capabilities on Android phones, tablets, or edge computing devices.
