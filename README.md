@@ -3,7 +3,7 @@
 AidLux：掌上的 AI 瑞士军刀。在手机上运行原生 Ubuntu，本地部署 LLM、VLM、VLA 与 OpenClaw，全能开发一机搞定。
 
 [![Release](https://img.shields.io/badge/Version-2.1.0-green)](https://github.com/aidlux/AidLux)
-[![License](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](license.md)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20HarmonyOS%20%7C%20HyperOS-orange)]()
 
 **AidLux** 是一个基于 ARM 架构的跨生态（Android/HarmonyOS + Linux）一站式 AIoT 应用开发和部署平台。它打破了 Android 与 Linux 的生态壁垒，让你可以在 Android 手机、平板或边缘计算设备上，同时获得原生的 Linux 桌面环境和 AI 开发能力。
